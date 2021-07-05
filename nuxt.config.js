@@ -462,7 +462,7 @@ module.exports = {
     '@nuxtjs/google-gtag',
   ],
   'google-gtag': {
-    id: 'G-NFP9ZFRP31',
+    id: 'G-LBXM4V8FLL',
     debug: true, // Enable to track in dev mode.
   },
   i18n: {
