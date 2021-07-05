@@ -10,21 +10,24 @@
       </v-container>
     </v-sheet>
     <v-container class="my-5">
-      <div class="text-center">
+      <v-tabs class="mb-10" show-arrows>
         <template v-for="(aggList, aggField) in aggs">
-          <v-btn
+          <v-tab
             v-if="!aggList.hide"
             :key="aggField"
             class="ma-1"
             depressed
             color="primary"
             :to="
-              localePath({ name: 'category-slug', params: { slug: aggField } })
+              localePath({
+                name: 'category-slug',
+                params: { slug: aggField },
+              })
             "
-            >{{ aggList.label }}</v-btn
+            >{{ aggList.label }}</v-tab
           >
         </template>
-      </div>
+      </v-tabs>
 
       <h2 class="my-5">{{ $route.params.slug }}</h2>
 
@@ -77,7 +80,7 @@
                 :items="itemsAggs"
                 :search="searchAgg"
               >
-                <template v-slot:item.label="{ item }">
+                <template #[`item.label`]="{ item }">
                   <nuxt-link
                     :to="
                       localePath({
@@ -86,7 +89,7 @@
                       })
                     "
                   >
-                    {{ item.label }}
+                    <c-render :value="item.label"></c-render>
                   </nuxt-link>
                 </template>
               </v-data-table>
@@ -109,17 +112,18 @@
 <script>
 import axios from 'axios'
 import BarChart from '~/components/BarChart'
+import CRender from '~/components/common/view/CRender.vue'
 const _ = require('lodash')
 
 export default {
   components: {
     BarChart,
+    CRender,
   },
   data() {
     return {
       tabs: null,
-      text:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 
       headersAggs: [
         {
@@ -187,6 +191,12 @@ export default {
       metadataList: process.env.list,
 
       sortList: process.env.sort,
+    }
+  },
+
+  head() {
+    return {
+      title: this.$t('search'),
     }
   },
 
@@ -966,12 +976,6 @@ export default {
       }
       return labels
     },
-  },
-
-  head() {
-    return {
-      title: this.$t('search'),
-    }
   },
 }
 </script>
