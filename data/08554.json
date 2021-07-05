@@ -1,5 +1,5 @@
 {
-    "@context": "https://taishozo.github.io/db/context.json",
+    "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:08554.json",
     "ex:sat": [
         {
@@ -38,7 +38,7 @@
             "ex:kmID": "km1984",
             "ex:toページ": 500,
             "ex:to段": "a",
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=348",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=348",
             "ex:ページ": "500",
             "ex:段": "a"
         }
@@ -94,7 +94,7 @@
         {
             "@id": "data:08554.json#酉目1",
             "ex:to枝番": 3,
-            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=1526",
+            "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1526",
             "ex:枝番": 1,
             "ex:經典番號": "U1512",
             "ex:通番": "1526"
@@ -105,7 +105,7 @@
             "@id": "data:08554.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 18,
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/0c9f8485475943ff387dc521a2585417/manifest.json",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/0c9f8485475943ff387dc521a2585417/manifest.json",
             "ex:画像フォルダ": "u-renja1526",
             "ex:経典名": "熾盛光道場念誦儀1卷"
         }
