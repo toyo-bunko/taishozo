@@ -1,5 +1,5 @@
 {
-    "@context": "https://taishozo.github.io/db/context.json",
+    "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:05520.json",
     "ex:sat": [
         {
@@ -38,7 +38,7 @@
             "ex:kmID": "km1208",
             "ex:toページ": 358,
             "ex:to段": "b",
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=206",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=206",
             "ex:ページ": "358",
             "ex:段": "b"
         }

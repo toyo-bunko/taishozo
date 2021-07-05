@@ -136,28 +136,6 @@
                 option.icon
               }}</v-icon></v-btn
             >
-            <!--
-            <v-btn icon @click="changeLayout('list')"
-              ><v-icon :color="layout_ === 'list' ? 'primary' : ''"
-                >mdi-view-list</v-icon
-              ></v-btn
-            >
-            <v-btn icon @click="changeLayout('grid')"
-              ><v-icon :color="layout_ === 'grid' ? 'primary' : ''"
-                >mdi-view-grid</v-icon
-              ></v-btn
-            >
-            <v-btn icon @click="changeLayout('table')"
-              ><v-icon :color="layout_ === 'table' ? 'primary' : ''"
-                >mdi-table</v-icon
-              ></v-btn
-            >
-            <v-btn v-if="false" icon @click="changeLayout('image')"
-              ><v-icon :color="layout_ === 'image' ? 'primary' : ''"
-                >mdi-image</v-icon
-              ></v-btn
-            >
-            -->
           </v-col>
         </v-row>
 
@@ -332,8 +310,8 @@
           <v-data-table
             v-model="selected"
             :headers="[
-              { text: this.$t('name'), value: 'label' },
-              { text: this.$t('results'), value: 'value' },
+              { text: $t('name'), value: 'label' },
+              { text: $t('results'), value: 'value' },
             ]"
             :items="selectedAggValues"
             item-key="label"
@@ -344,7 +322,7 @@
             }"
             show-select
           >
-            <template v-slot:top>
+            <template #top>
               <v-text-field
                 v-model="facetSearch"
                 background-color="grey lighten-3"
@@ -361,7 +339,7 @@
               ></v-text-field>
             </template>
 
-            <template v-slot:[`item.label`]="{ item }">
+            <template #[`item.label`]="{ item }">
               <template v-if="item.label === ''">
                 <span style="color: #4caf50">{{ $t('none') }}</span>
               </template>
@@ -459,6 +437,12 @@ export default {
       metadataList: process.env.list,
 
       sortList: process.env.sort,
+    }
+  },
+
+  head() {
+    return {
+      title: this.$t('search'),
     }
   },
 
@@ -618,8 +602,8 @@ export default {
     let layout = ''
     if (query.layout) {
       layout = query.layout
-    } else if (localStorage.getItem('layout')) {
-      layout = localStorage.getItem('layout')
+    } else if (sessionStorage.getItem('layout_' + this.baseUrl)) {
+      layout = sessionStorage.getItem('layout_' + this.baseUrl)
     } else {
       layout = this.layout_
     }
@@ -1160,7 +1144,7 @@ export default {
         })
       )
 
-      localStorage.setItem('layout', value)
+      sessionStorage.setItem('layout_' + this.baseUrl, value)
     },
 
     getMinusValues(field) {
@@ -1260,12 +1244,6 @@ export default {
 
       sessionStorage.setItem(key, JSON.stringify(map))
     },
-  },
-
-  head() {
-    return {
-      title: this.$t('search'),
-    }
   },
 }
 </script>

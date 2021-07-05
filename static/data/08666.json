@@ -1,5 +1,5 @@
 {
-    "@context": "https://taishozo.github.io/db/context.json",
+    "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:08666.json",
     "ex:sat": [
         {
@@ -39,7 +39,7 @@
             "ex:kmID": "km2032",
             "ex:toページ": 513,
             "ex:to段": "b",
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=361",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=361",
             "ex:ページ": "513",
             "ex:段": "b"
         }
@@ -96,7 +96,7 @@
         {
             "@id": "data:08666.json#酉目1",
             "ex:to枝番": 22,
-            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=1673",
+            "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1673",
             "ex:枝番": 20,
             "ex:經典番號": "U1653",
             "ex:通番": "1673"
@@ -107,7 +107,7 @@
             "@id": "data:08666.json#酉蓮社本IIIFコレクション1",
             "ex:from": 144,
             "ex:to": 225,
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/7ebf96111e4c22363ef9dc9b591ac1cd/manifest.json",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/7ebf96111e4c22363ef9dc9b591ac1cd/manifest.json",
             "ex:画像フォルダ": "u-renja1673(15-22)",
             "ex:経典名": "古尊宿語録48卷　(卷20-22)"
         }

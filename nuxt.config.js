@@ -83,7 +83,7 @@ const env = {
   SHORT_NAME,
   SIMILAR_IMAGES_FLAG,
 }
-env['u-renja'] = 'https://taishozo.github.io/u-renja'
+env['u-renja'] = 'https://static.toyobunko-lab.jp/u-renja'
 
 ///
 

@@ -1,5 +1,5 @@
 {
-    "@context": "https://taishozo.github.io/db/context.json",
+    "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:08458.json",
     "ex:sat": [
         {
@@ -38,7 +38,7 @@
             "ex:kmID": "km1938",
             "ex:toページ": 491,
             "ex:to段": "a",
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=339",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=339",
             "ex:ページ": "491",
             "ex:段": "a"
         }
@@ -95,7 +95,7 @@
         {
             "@id": "data:08458.json#酉目1",
             "ex:to枝番": 3,
-            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=1143",
+            "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1143",
             "ex:枝番": 3,
             "ex:經典番號": "U1132",
             "ex:通番": "1143"
@@ -106,7 +106,7 @@
             "@id": "data:08458.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 14,
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/0db3f6fe6edaca236f91de30198c8b8e/manifest.json",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/0db3f6fe6edaca236f91de30198c8b8e/manifest.json",
             "ex:画像フォルダ": "u-renja1143b",
             "ex:経典名": "根本説一切有部苾芻習學畧法1卷"
         }

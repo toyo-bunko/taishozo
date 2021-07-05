@@ -1,5 +1,5 @@
 {
-    "@context": "https://taishozo.github.io/db/context.json",
+    "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:05513.json",
     "ex:sat": [
         {
@@ -31,7 +31,7 @@
             "ex:kmID": "km1205",
             "ex:toページ": 358,
             "ex:to段": "a",
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=206",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=206",
             "ex:ページ": "358",
             "ex:段": "a"
         }
@@ -82,7 +82,7 @@
         {
             "@id": "data:05513.json#酉目1",
             "ex:to枝番": 1,
-            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=1403",
+            "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1403",
             "ex:枝番": 1,
             "ex:經典番號": "U1390",
             "ex:通番": "1403"

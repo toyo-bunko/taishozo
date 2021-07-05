@@ -1,9 +1,9 @@
 {
     "@context": [
         {
-            "data": "https://taishozo.github.io/db/data",
+            "data": "https://static.toyobunko-lab.jp/taishozo/data",
             "ex": "http://example.org/",
-            "keiten": "https://taishozo.github.io/db/経典番号/"
+            "keiten": "https://static.toyobunko-lab.jp/taishozo/経典番号/"
         }
     ]
 }

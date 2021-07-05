@@ -1,5 +1,5 @@
 {
-    "@context": "https://taishozo.github.io/db/context.json",
+    "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:08724.json",
     "ex:sat": [
         {
@@ -38,7 +38,7 @@
             "ex:kmID": "km2058",
             "ex:toページ": 518,
             "ex:to段": "b",
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/db/iiif/kandomokuroku/manifest.json&pos=366",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=366",
             "ex:ページ": "518",
             "ex:段": "a"
         }
@@ -95,7 +95,7 @@
         {
             "@id": "data:08724.json#酉目1",
             "ex:to枝番": 1,
-            "ex:url": "https://taishozo.github.io/u-renja/search/?main[refinementList][通番]=1663",
+            "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1663",
             "ex:枝番": 1,
             "ex:經典番號": "U1646",
             "ex:通番": "1663"
@@ -106,7 +106,7 @@
             "@id": "data:08724.json#酉蓮社本IIIFコレクション1",
             "ex:from": 1,
             "ex:to": 15,
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/1c13ac369691cffa545abf67d991a2f2/manifest.json",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/1c13ac369691cffa545abf67d991a2f2/manifest.json",
             "ex:画像フォルダ": "u-renja1663-1668",
             "ex:経典名": "永明智覺禪師唯心訣1卷"
         },
@@ -114,7 +114,7 @@
             "@id": "data:08724.json#酉蓮社本IIIFコレクション2",
             "ex:from": 15,
             "ex:to": 17,
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/6bd5ea07e5141a211ff648a9a21686e6/manifest.json",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/6bd5ea07e5141a211ff648a9a21686e6/manifest.json",
             "ex:画像フォルダ": "u-renja1663-1668",
             "ex:経典名": "定慧相資歌1卷"
         },
@@ -122,7 +122,7 @@
             "@id": "data:08724.json#酉蓮社本IIIFコレクション3",
             "ex:from": 17,
             "ex:to": 19,
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://taishozo.github.io/u-renja/iiif2/a91ff816b7aac769059e6f828c645f95/manifest.json",
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/a91ff816b7aac769059e6f828c645f95/manifest.json",
             "ex:画像フォルダ": "u-renja1663-1668",
             "ex:経典名": "警世1卷"
         }
