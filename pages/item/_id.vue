@@ -6,7 +6,7 @@
       </h2>
       <table
         border="1"
-        style="border-collapse: collapse;"
+        style="border-collapse: collapse"
         width="100%"
         class="my-2"
       >
@@ -59,7 +59,7 @@
         <v-col sm="12">
           <table
             border="1"
-            style="border-collapse: collapse;"
+            style="border-collapse: collapse"
             width="100%"
             class="my-2"
           >
@@ -117,7 +117,7 @@
                     :key="index2"
                     bottom
                   >
-                    <template v-slot:activator="{ on, attrs }">
+                    <template #activator="{ on, attrs }">
                       <a
                         v-bind="attrs"
                         :href="
@@ -338,7 +338,7 @@
       <v-sheet class="py-10 px-3 text-center">
         <v-btn depressed icon :href="uri" target="_blank">
           <v-tooltip bottom>
-            <template v-slot:activator="{ on }">
+            <template #activator="{ on }">
               <img
                 height="24px"
                 src="https://json-ld.org/images/json-ld-logo.png"
@@ -397,6 +397,12 @@ export default class Search extends Vue {
     '関与形態',
   ]
 
+  head() {
+    return {
+      title: this.$t('詳細情報') + ': ' + this.title,
+    }
+  }
+
   kando: any = process.env.BASE_URL + '/iiif/kandomokuroku/manifest.json'
 
   hFields: string[] = ['国', '所蔵者']
@@ -422,8 +428,6 @@ export default class Search extends Vue {
         // eslint-disable-next-line
         console.error(error)
       })
-
-    console.log({ apiResult })
 
     return {
       id: itemId,

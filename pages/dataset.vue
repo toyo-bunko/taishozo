@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container class="my-5">
-      <h2 class="my-5">{{ $t('dataset') }}</h2>
+      <h2 class="my-5">{{ title }}</h2>
 
       <v-simple-table>
         <template #default>
@@ -32,8 +32,14 @@ import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class Page extends Vue {
+  get title() {
+    return this.$t('dataset')
+  }
+
   head() {
-    return {}
+    return {
+      title: this.title,
+    }
   }
 
   items: any[] = [

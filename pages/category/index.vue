@@ -13,7 +13,7 @@
       <h2 class="mb-5">{{ $t('category') }}</h2>
 
       <v-simple-table>
-        <template v-slot:default>
+        <template #default>
           <thead>
             <tr>
               <th>{{ $t('name') }}</th>

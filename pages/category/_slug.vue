@@ -196,7 +196,7 @@ export default {
 
   head() {
     return {
-      title: this.$t('search'),
+      title: this.$t('category') + ': ' + this.$route.params.slug,
     }
   },
 
