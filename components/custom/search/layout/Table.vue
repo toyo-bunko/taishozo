@@ -125,7 +125,7 @@
             <template
               v-for="(item2, index2) in item['酉蓮社本IIIFコレクション']"
             >
-              <v-tooltip v-if="item2" :key="index2" bottom>
+              <v-tooltip v-if="item2" :key="'t_' + index2" bottom>
                 <template #activator="{ on, attrs }">
                   <a v-bind="attrs" :href="item2.url" target="_blank" v-on="on">
                     <img

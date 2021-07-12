@@ -232,7 +232,7 @@
                             <c-render :value="e[0]"></c-render>
                           </v-col>
                           <v-col cols="3">
-                            {{ e[1] }}
+                            {{ Number(e[1]).toLocaleString() }}
                             <!-- <v-chip small>
                             {{ e[1] }}
                           </v-chip> -->
@@ -391,6 +391,7 @@ export default {
   },
   data() {
     return {
+      baseUrl: process.env.BASE_URL,
       page: 1,
       sort: process.env.defaultSort,
       layout_: process.env.defaultLayout,

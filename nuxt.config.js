@@ -156,6 +156,15 @@ env.aggs = {
     more: false,
     open: true,
   },
+  objectID: {
+    // sort: 'name:asc',
+    label: 'objectID',
+    key: 'objectID',
+    value: {},
+    more: false,
+    open: true,
+    hide: true,
+  },
 }
 
 env.hide = []
@@ -164,11 +173,11 @@ env.list = []
 
 env.sort = [
   { label: '適合度', value: '_score' },
-  // { label: '基-経典番号', value: 'objectID' },
+  { label: '基-経典番号', value: 'objectID' },
   { label: '基本情報-配本', value: '基-配本' },
 ]
 
-env.defaultSort = '_score:desc'
+env.defaultSort = 'objectID:asc'
 
 env.layout = [
   {
