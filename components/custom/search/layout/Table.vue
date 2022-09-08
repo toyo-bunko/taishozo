@@ -46,7 +46,9 @@
         </td>
         <td width="10%" class="pl-1 text-left">
           <a :href="item.sat_uri" target="_blank"
-            >{{ $utils.formatArrayValue(item['基-経典名']) }}
+            ><span
+              v-html="highlight($utils.formatArrayValue(item['基-経典名']))"
+            />
             <v-icon small color="primary">mdi-exit-to-app</v-icon></a
           >
         </td>
@@ -54,9 +56,11 @@
         <td width="2%">
           {{ $utils.formatArrayValue(item['基-収録巻次']) }}
         </td>
-        <td width="5%" class="pl-1 text-left">
-          {{ $utils.formatArrayValue(item['基-部門']) }}
-        </td>
+        <td
+          width="5%"
+          class="pl-1 text-left"
+          v-html="highlight($utils.formatArrayValue(item['基-部門']))"
+        ></td>
         <td width="2%">
           {{ $utils.formatArrayValue(item['基-配本']) }}
         </td>
@@ -75,12 +79,16 @@
         >
           {{ $utils.formatArrayValue(item['勘-底本/校本']) }}
         </td>
-        <td width="10%" class="pl-1 text-left">
-          {{ $utils.formatArrayValue(item['勘-❹']) }}
-        </td>
-        <td width="10%" class="pl-1 text-left">
-          {{ $utils.formatArrayValue(item['勘-❼']) }}
-        </td>
+        <td
+          width="10%"
+          class="pl-1 text-left"
+          v-html="highlight($utils.formatArrayValue(item['勘-❹']))"
+        ></td>
+        <td
+          width="10%"
+          class="pl-1 text-left"
+          v-html="highlight($utils.formatArrayValue(item['勘-❼']))"
+        ></td>
         <td width="10%" class="pl-1 text-left">
           {{ $utils.formatArrayValue(item['勘-❼備考']) }}
         </td>
@@ -102,7 +110,9 @@
         </td>
 
         <td>
-          {{ $utils.formatArrayValue(item['脚-テキスト']) }}
+          <span
+            v-html="highlight($utils.formatArrayValue(item['脚-テキスト']))"
+          ></span>
 
           <template v-if="item['酉目'].length > 0">
             <template v-for="(value, key2) in item['酉目']">
@@ -142,9 +152,11 @@
           </template>
         </td>
 
-        <td width="10%" class="pl-1 text-left">
-          {{ $utils.formatArrayValue(item['脚-備考']) }}
-        </td>
+        <td
+          width="10%"
+          class="pl-1 text-left"
+          v-html="highlight($utils.formatArrayValue(item['脚-備考']))"
+        ></td>
 
         <td width="5%">
           <nuxt-link
@@ -179,5 +191,57 @@ export default class FullTextSearch extends Vue {
   baseUrl: any = process.env.BASE_URL
   @Prop({})
   items!: any[]
+
+  highlight(text: string) {
+    const keyword: any = this.$route.query['main[query]']
+    if (!keyword) {
+      return text
+    }
+
+    let keywords = keyword
+    if (typeof keyword !== 'object') {
+      keywords = [keyword]
+    }
+
+    const keywordsWithItaiji = []
+
+    const synonym: any = process.env.both
+
+    for (let keyword of keywords) {
+      const words = keyword.split('')
+      for (const word of words) {
+        if (synonym[word]) {
+          keyword = keyword.split(word).join(`(${synonym[word].join('|')})`)
+        }
+      }
+      keywordsWithItaiji.push(keyword)
+    }
+
+    const uuidMap: any = {}
+
+    let result = text
+
+    for (const keyword of keywordsWithItaiji) {
+      const regexp = new RegExp(keyword, 'g')
+      result = result.replace(regexp, function (match) {
+        const uuid = getUniqueStr()
+        uuidMap[uuid] = '<em>' + match + '</em>'
+        return uuid
+      })
+    }
+
+    for (const uuid in uuidMap) {
+      result = result.replace(uuid, uuidMap[uuid])
+    }
+    return result
+  }
+}
+
+function getUniqueStr() {
+  const strong: number = 1000
+  return (
+    new Date().getTime().toString(16) +
+    Math.floor(strong * Math.random()).toString(16)
+  )
 }
 </script>

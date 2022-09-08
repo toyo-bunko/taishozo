@@ -52,6 +52,77 @@ const env = {
   SHORT_NAME,
   SIMILAR_IMAGES_FLAG,
 }
+
+env.menu = [
+  {
+    label: 'legend',
+    href: 'http://localhost:8089/%E5%BA%95%E6%9C%AC%E3%83%BB%E6%A0%A1%E6%9C%ACDB%E5%87%A1%E4%BE%8B.pdf',
+
+    type: 'about_',
+    weight: 0,
+  },
+  {
+    label: 'update',
+    to: {
+      name: 'page-slug',
+      params: {
+        slug: 'update',
+      },
+    },
+    icon: 'mdi-information',
+    top: true,
+    type: 'about_',
+    weight: 1,
+    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
+  },
+  {
+    label: 'inquiry',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSd1gYA3qgLN2qQKn4o5vuzbma3Dgtoj_u555SVNuIgM4CSc-g/viewform?usp=sf_link',
+
+    icon: 'mdi-information',
+    top: true,
+    type: 'about_',
+    weight: 2,
+    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
+  },
+  {
+    label: 'search',
+    to: {
+      name: 'search',
+    },
+    icon: 'mdi-information',
+    top: true,
+    type: 'tools',
+    weight: 0,
+    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
+  },
+  {
+    label: 'category',
+    to: {
+      name: 'category',
+    },
+    icon: 'mdi-information',
+    top: true,
+    type: 'tools',
+    weight: 1,
+    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
+  },
+  {
+    label: '東洋文庫',
+    href: 'http://www.toyo-bunko.or.jp/',
+    target: '_blank',
+    type: 'links',
+    weight: 0,
+  },
+  {
+    label: '酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経目録データベース',
+    href: 'https://static.toyobunko-lab.jp/u-renja/',
+    target: '_blank',
+    type: 'links',
+    weight: 1,
+  },
+]
+
 env['u-renja'] = 'https://static.toyobunko-lab.jp/u-renja'
 
 const environment = process.env.NODE_ENV || 'development'
@@ -207,6 +278,14 @@ env.advanced = []
 const norm = JSON.parse(fs.readFileSync('static/norm.json'))
 env.itaiji = norm
 
+const both = {}
+for (const key in norm) {
+  const value = norm[key]
+  both[key] = [key, value]
+  both[value] = [key, value]
+}
+env.both = both
+
 ///
 
 module.exports = {
@@ -249,6 +328,7 @@ module.exports = {
   },
   // mode: 'universal',
   ssr: false,
+  target: 'static',
   /*
    ** Headers of the page
    */
@@ -466,6 +546,7 @@ module.exports = {
     '@nuxtjs/vuetify',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxt/content',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
@@ -479,6 +560,9 @@ module.exports = {
   'google-gtag': {
     id: 'G-LBXM4V8FLL',
     debug: true, // Enable to track in dev mode.
+  },
+  content: {
+    // Options
   },
   i18n: {
     locales: [

@@ -77,4 +77,8 @@ th {
 .v-pagination__item {
   box-shadow: none !important;
 }
+
+em {
+  background-color: #ffff00;
+}
 </style>
