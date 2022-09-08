@@ -53,10 +53,20 @@ const env = {
   SIMILAR_IMAGES_FLAG,
 }
 
+env['u-renja'] = 'https://static.toyobunko-lab.jp/u-renja'
+
+const environment = process.env.NODE_ENV || 'development'
+const envSettings = require(`./env/${environment}.js`)
+for (const key in envSettings) {
+  env[key] = envSettings[key]
+}
+
 env.menu = [
   {
     label: 'legend',
-    href: 'http://localhost:8089/%E5%BA%95%E6%9C%AC%E3%83%BB%E6%A0%A1%E6%9C%ACDB%E5%87%A1%E4%BE%8B.pdf',
+    href:
+      env.BASE_URL +
+      '/%E5%BA%95%E6%9C%AC%E3%83%BB%E6%A0%A1%E6%9C%ACDB%E5%87%A1%E4%BE%8B.pdf',
 
     type: 'about_',
     weight: 0,
@@ -122,14 +132,6 @@ env.menu = [
     weight: 1,
   },
 ]
-
-env['u-renja'] = 'https://static.toyobunko-lab.jp/u-renja'
-
-const environment = process.env.NODE_ENV || 'development'
-const envSettings = require(`./env/${environment}.js`)
-for (const key in envSettings) {
-  env[key] = envSettings[key]
-}
 
 /* nuxt.config.js */
 // `DEPLOY_ENV` が `GH_PAGES` の場合のみ `router.base = '/<repository-name>/'` を追加する
