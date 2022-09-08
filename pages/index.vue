@@ -22,7 +22,9 @@
         <v-btn
           class="ma-1"
           dark
-          color="primary"
+          rounded
+          depressed
+          color="error"
           :to="
             localePath({
               name: 'search',

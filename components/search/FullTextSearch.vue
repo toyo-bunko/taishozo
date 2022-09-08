@@ -8,6 +8,7 @@
     filled
     rounded
     dense
+    outlined
     hide-details
     :label="$t('search')"
     clearable

@@ -7,7 +7,7 @@
         <v-chip
           v-for="(value, index) in query.keyword"
           :key="index"
-          style="white-space: normal; word-wrap: break-word;"
+          style="white-space: normal; word-wrap: break-word"
           class="ma-1"
           close
           color="primary"
@@ -24,7 +24,7 @@
           <v-chip
             v-for="(value, index2) in agg[key]"
             :key="label + '-' + index2"
-            style="white-space: normal; word-wrap: break-word;"
+            style="white-space: normal; word-wrap: break-word"
             class="ma-1"
             close
             color="primary"
@@ -42,7 +42,7 @@
         <v-chip
           v-for="(value, index) in query.after"
           :key="index"
-          style="white-space: normal; word-wrap: break-word;"
+          style="white-space: normal; word-wrap: break-word"
           class="ma-1"
           close
           color="primary"
@@ -58,7 +58,7 @@
         <v-chip
           v-for="(value, index) in query.before"
           :key="index"
-          style="white-space: normal; word-wrap: break-word;"
+          style="white-space: normal; word-wrap: break-word"
           class="ma-1"
           close
           color="primary"

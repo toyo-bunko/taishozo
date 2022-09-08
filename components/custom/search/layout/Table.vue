@@ -45,9 +45,10 @@
           {{ $utils.formatArrayValue(item['基-枝番']) }}
         </td>
         <td width="10%" class="pl-1 text-left">
-          <a :href="item.sat_uri" target="_blank">{{
-            $utils.formatArrayValue(item['基-経典名'])
-          }}</a>
+          <a :href="item.sat_uri" target="_blank"
+            >{{ $utils.formatArrayValue(item['基-経典名']) }}
+            <v-icon small color="primary">mdi-exit-to-app</v-icon></a
+          >
         </td>
 
         <td width="2%">

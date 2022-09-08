@@ -3,7 +3,7 @@ const fs = require('fs')
 require('dotenv').config()
 const {
   API_BASE_URL,
-  BASE_URL,
+  // BASE_URL,
   // CDN_URL,
   projectNameJa,
   projectNameEn,
@@ -27,40 +27,9 @@ const {
   SIMILAR_IMAGES_FLAG,
 } = process.env
 
-/* nuxt.config.js */
-// `DEPLOY_ENV` が `GH_PAGES` の場合のみ `router.base = '/<repository-name>/'` を追加する
-const routerBase =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-        router: {
-          base: '/taishozo/',
-        },
-      }
-    : {}
-
-// path
-const baseUrl = process.env.BASE_URL
-const baseDir = process.env.BASE_DIR || '/'
-const basePath = baseUrl + baseDir
-
-// meta
-const lang = 'ja'
-const siteName = process.env.projectNameJa
-const siteDesc = process.env.projectDescriptionJa
-const siteKeywords = process.env.projectKeywords
-
-// images
-const iconImages = basePath + 'img/icons/'
-const ogpImages = basePath + 'img/ogp/' // cdnPath + 'img/ogp/'
-
-// pwa
-const shortName = process.env.SHORT_NAME
-const manifestIcon = 'img/icons/icon-512.png'
-// const splashscreens = cdnPath + 'img/splashscreens/'
-
 const env = {
   API_BASE_URL,
-  BASE_URL,
+  // BASE_URL,
   // CDN_URL,
   projectNameJa,
   projectNameEn,
@@ -84,6 +53,43 @@ const env = {
   SIMILAR_IMAGES_FLAG,
 }
 env['u-renja'] = 'https://static.toyobunko-lab.jp/u-renja'
+
+const environment = process.env.NODE_ENV || 'development'
+const envSettings = require(`./env/${environment}.js`)
+for (const key in envSettings) {
+  env[key] = envSettings[key]
+}
+
+/* nuxt.config.js */
+// `DEPLOY_ENV` が `GH_PAGES` の場合のみ `router.base = '/<repository-name>/'` を追加する
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/taishozo/',
+        },
+      }
+    : {}
+
+// path
+const baseUrl = env.BASE_URL
+const baseDir = env.BASE_DIR || '/'
+const basePath = baseUrl + baseDir
+
+// meta
+const lang = 'ja'
+const siteName = process.env.projectNameJa
+const siteDesc = process.env.projectDescriptionJa
+const siteKeywords = process.env.projectKeywords
+
+// images
+const iconImages = basePath + 'img/icons/'
+const ogpImages = basePath + 'img/ogp/' // cdnPath + 'img/ogp/'
+
+// pwa
+const shortName = process.env.SHORT_NAME
+const manifestIcon = 'img/icons/icon-512.png'
+// const splashscreens = cdnPath + 'img/splashscreens/'
 
 ///
 
@@ -206,7 +212,7 @@ env.itaiji = norm
 module.exports = {
   server: {
     port: 8089, // デフォルト: 3000
-    host: '0.0.0.0', // デフォルト: localhost
+    // host: '0.0.0.0', // デフォルト: localhost
   },
   ...routerBase,
   env,
@@ -242,7 +248,7 @@ module.exports = {
     ignoreNotFoundWarnings: true,
   },
   // mode: 'universal',
-  mode: 'spa',
+  ssr: false,
   /*
    ** Headers of the page
    */

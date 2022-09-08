@@ -30,9 +30,10 @@
           </td>
           <td>{{ apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:枝番'] }}</td>
           <td class="pl-1 text-left">
-            <a :href="apiResult['ex:sat'][0]['ex:url']" target="_blank">{{
-              apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:経典名']
-            }}</a>
+            <a :href="apiResult['ex:sat'][0]['ex:url']" target="_blank"
+              >{{ apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:経典名'] }}
+              <v-icon color="primary" small>mdi-exit-to-app</v-icon></a
+            >
           </td>
           <td>
             {{ apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:収録巻次'] }}
@@ -101,9 +102,10 @@
                 <template
                   v-if="apiResult['ex:酉目'] && apiResult['ex:酉目'].length > 0"
                 >
-                  <a :href="getUrl(apiResult['ex:酉目'])" target="_blank">{{
-                    apiResult['ex:脚注'][0]['ex:テキスト']
-                  }}</a>
+                  <a :href="getUrl(apiResult['ex:酉目'])" target="_blank"
+                    >{{ apiResult['ex:脚注'][0]['ex:テキスト'] }}
+                    <v-icon color="primary" small>mdi-exit-to-app</v-icon></a
+                  >
                 </template>
                 <template v-else>
                   {{ apiResult['ex:脚注'][0]['ex:テキスト'] }}
@@ -208,6 +210,7 @@
                           ] +
                           apiResult['ex:勘同目録IIIFコレクション'][0]['ex:to段']
                         }}
+                        <v-icon color="primary" small>mdi-exit-to-app</v-icon>
                       </a>
                     </td>
                   </template>

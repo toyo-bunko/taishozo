@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <Header />
-    <v-content>
+    <v-main>
       <nuxt />
-    </v-content>
+    </v-main>
 
     <v-btn
       v-show="fab"
@@ -69,5 +69,12 @@ td {
 }
 th {
   padding: 4px;
+}
+.v-pagination__navigation {
+  box-shadow: none !important;
+}
+
+.v-pagination__item {
+  box-shadow: none !important;
 }
 </style>

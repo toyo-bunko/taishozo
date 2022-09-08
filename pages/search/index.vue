@@ -29,7 +29,7 @@
       <template v-else>
         <v-row class="mt-2" dense>
           <v-col cols="12" sm="10">
-            <FullTextSearch background-color="grey lighten-3"></FullTextSearch>
+            <FullTextSearch background-color="white lighten-3"></FullTextSearch>
           </v-col>
 
           <v-col
@@ -65,20 +65,25 @@
             :key="key"
             class="mr-2 my-2"
             close
-            label
+            dark
+            :color="
+              filter.value.substring(0, 1) === '-' ? `error darken-1` : ''
+            "
             @click:close="faceted(filter.label, filter.value)"
           >
             {{ aggs[filter.label].label }}: <c-render :value="filter.value" />
           </v-chip>
 
-          <v-chip
+          <v-btn
             v-if="filters.length > 0"
-            label
+            text
+            label2
+            color="primary"
             class="mr-2 my-2"
             @click="init()"
           >
             {{ $t('Clear all') }}
-          </v-chip>
+          </v-btn>
         </div>
 
         <v-row class="mt-5" dense>
