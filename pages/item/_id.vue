@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <Content :items="bh">
     <v-container v-if="apiResult">
       <h2 class="text-center my-5">
         {{ $t('詳細情報') }}
@@ -280,9 +280,11 @@
                 <td class="pl-1 text-left" colspan="2">
                   {{
                     apiResult['ex:勘同目録'][0]['ex:texts'][n - 1]
-                      ? apiResult['ex:勘同目録'][0]['ex:texts'][n - 1][
-                          'ex:' + field
-                        ]
+                      ? format(
+                          apiResult['ex:勘同目録'][0]['ex:texts'][n - 1][
+                            'ex:' + field
+                          ]
+                        )
                       : ''
                   }}
                   {{
@@ -290,9 +292,11 @@
                     apiResult['ex:勘同目録'][0]['ex:texts'][n - 1] &&
                     apiResult['ex:勘同目録'][0]['ex:texts'][n - 1]['ex:～年']
                       ? ' - ' +
-                        apiResult['ex:勘同目録'][0]['ex:texts'][n - 1][
-                          'ex:～年'
-                        ]
+                        format(
+                          apiResult['ex:勘同目録'][0]['ex:texts'][n - 1][
+                            'ex:～年'
+                          ]
+                        )
                       : ''
                   }}
                 </td>
@@ -316,9 +320,11 @@
                 >
                   {{
                     apiResult['ex:脚注'][0]['ex:texts'][n - 1]
-                      ? apiResult['ex:脚注'][0]['ex:texts'][n - 1][
-                          'ex:' + field
-                        ]
+                      ? format(
+                          apiResult['ex:脚注'][0]['ex:texts'][n - 1][
+                            'ex:' + field
+                          ]
+                        )
                       : ''
                   }}
                 </td>
@@ -338,9 +344,11 @@
                 <td class="pl-1 text-left" colspan="2">
                   {{
                     apiResult['ex:勘同目録'][0]['ex:所蔵者'][n - 1]
-                      ? apiResult['ex:勘同目録'][0]['ex:所蔵者'][n - 1][
-                          'ex:' + field
-                        ]
+                      ? format(
+                          apiResult['ex:勘同目録'][0]['ex:所蔵者'][n - 1][
+                            'ex:' + field
+                          ]
+                        )
                       : ''
                   }}
                 </td>
@@ -352,9 +360,11 @@
                 <td class="pl-1 text-left" colspan="2">
                   {{
                     apiResult['ex:脚注'][0]['ex:所蔵者'][n - 1]
-                      ? apiResult['ex:脚注'][0]['ex:所蔵者'][n - 1][
-                          'ex:' + field
-                        ]
+                      ? format(
+                          apiResult['ex:脚注'][0]['ex:所蔵者'][n - 1][
+                            'ex:' + field
+                          ]
+                        )
                       : ''
                   }}
                 </td>
@@ -398,11 +408,12 @@
         />
       </v-sheet>
     </v-container>
-  </div>
+  </Content>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
+import Content from '~/components/layouts/Content.vue'
 // import ShareButtons from '~/components/common/ShareButtons.vue'
 import ResultOption from '~/components/display/ResultOption.vue'
 
@@ -410,6 +421,7 @@ import ResultOption from '~/components/display/ResultOption.vue'
   components: {
     ResultOption,
     // ShareButtons,
+    Content,
   },
 })
 export default class Search extends Vue {
@@ -507,6 +519,26 @@ export default class Search extends Vue {
     const uRenja = this.uRenja
 
     return uRenja + '/search/?' + params.substring(1)
+  }
+
+  get bh(): any[] {
+    return [
+      {
+        text: this.$t('top'),
+        disabled: false,
+        to: this.localePath({ name: 'index' }),
+        exact: true,
+      },
+      {
+        text: this.$t('search'),
+        disabled: false,
+        to: this.localePath({ name: 'search' }),
+        exact: true,
+      },
+      {
+        text: this.title,
+      },
+    ]
   }
 
   format(data: any) {

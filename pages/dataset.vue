@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <Content :items="bh">
     <v-container class="my-5">
       <h2 class="my-5">{{ title }}</h2>
 
@@ -24,13 +24,17 @@
         </template>
       </v-simple-table>
     </v-container>
-  </div>
+  </Content>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-
-@Component
+import Content from '~/components/layouts/Content.vue'
+@Component({
+  components: {
+    Content,
+  },
+})
 export default class Page extends Vue {
   get title() {
     return this.$t('dataset')
@@ -40,6 +44,20 @@ export default class Page extends Vue {
     return {
       title: this.title,
     }
+  }
+
+  get bh() {
+    return [
+      {
+        text: this.$t('top'),
+        disabled: false,
+        to: this.localePath({ name: 'index' }),
+        exact: true,
+      },
+      {
+        text: this.title,
+      },
+    ]
   }
 
   items: any[] = [

@@ -83,7 +83,7 @@ em {
 }
 
 th {
-  background-color: gray;
-  color: white;
+  background-color: lightgray;
+  /*color: white;*/
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <Content :items="bh">
     <v-sheet v-if="isBc" color="grey lighten-2">
       <v-container fluid class="py-4">
         <v-breadcrumbs class="py-0" :items="bh">
@@ -372,11 +372,12 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
-  </div>
+  </Content>
 </template>
 
 <script>
 import axios from 'axios'
+import Content from '~/components/layouts/Content.vue'
 import FullTextSearch from '~/components/search/FullTextSearch.vue'
 import SearchAdvanced from '~/components/search/Advanced.vue'
 import SearchLayoutGraph from '~/components/search/layout/Graph.vue'
@@ -393,6 +394,7 @@ export default {
     SearchLayoutGraph,
     CustomSearchLayoutTable,
     CRender,
+    Content,
   },
   data() {
     return {

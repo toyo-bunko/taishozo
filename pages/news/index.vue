@@ -1,45 +1,44 @@
 <template>
-  <Content :items="bh">
+  <div>
+    <Breadcrumbs :items="bh" />
     <v-container class="my-5">
-      <h1 class="my-5">{{ title }}</h1>
+      <h2 class="mb-5">{{ title }}</h2>
 
-      <nuxt-content :document="page" />
+      <News />
     </v-container>
-  </Content>
+  </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import Content from '~/components/layouts/Content.vue'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
+import News from '~/components/news/News.vue'
+
 @Component({
   components: {
-    Content,
+    Breadcrumbs,
+    News,
   },
 })
 export default class Item extends Vue {
   baseUrl: any = process.env.BASE_URL
 
+  /*
   async asyncData({ app, $content, params }: any): Promise<any> {
     let lang = app.i18n.locale
-    if (lang === 'ja') {
-      lang = ''
-    } else {
-      lang = lang + '/'
-    }
+    lang = lang + '/'
+    const items = await $content(lang + 'news').fetch()
 
-    try {
-      const page = await $content(lang + 'page/' + params.slug).fetch()
-      return {
-        page,
-      }
-    } catch (e) {
-      const page = await $content('page/' + params.slug).fetch()
-      return { page }
+    console.log({ items })
+
+    return {
+      items,
     }
   }
+  */
 
   get title() {
-    return (this as any).page.title
+    return this.$t('news')
   }
 
   head() {

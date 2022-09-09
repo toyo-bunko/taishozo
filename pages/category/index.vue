@@ -1,14 +1,5 @@
 <template>
-  <div>
-    <v-sheet v-if="isBc" color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+  <Content :items="bh">
     <v-container class="my-5">
       <h2 class="mb-5">{{ $t('category') }}</h2>
 
@@ -47,12 +38,15 @@
         </template>
       </v-simple-table>
     </v-container>
-  </div>
+  </Content>
 </template>
 
 <script>
+import Content from '~/components/layouts/Content.vue'
 export default {
-  components: {},
+  components: {
+    Content,
+  },
   data() {
     return {
       aggs: process.env.aggs,

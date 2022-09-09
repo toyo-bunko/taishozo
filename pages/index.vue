@@ -35,13 +35,47 @@
         </v-btn>
       </div>
     </v-container>
+    <v-sheet color="grey lighten-3" class="">
+      <v-container class="py-10">
+        <div>
+          <span class="text-h5 mr-2">{{ $t('news') }}</span>
+          <nuxt-link :to="localePath({ name: 'news' })">{{
+            $t('all')
+          }}</nuxt-link>
+
+          <News class="mt-4" />
+
+          <!--
+          <ul class="text--primary">
+            <li class="mt-2">2021年12月3日: システムを公開しました。</li>
+            <li class="mt-2">2021年12月3日: システムを公開しました。</li>
+          </ul>
+          -->
+        </div>
+        <!--
+        <v-card-title>
+          
+        </v-card-title>
+        <v-card-text>
+          <ul class="text--primary">
+            <li>2021年12月3日: システムを公開しました。</li>
+          </ul>
+        </v-card-text>
+        -->
+      </v-container>
+    </v-sheet>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
+import News from '~/components/news/News.vue'
 
-@Component
+@Component({
+  components: {
+    News,
+  },
+})
 export default class Page extends Vue {
   head() {
     return {

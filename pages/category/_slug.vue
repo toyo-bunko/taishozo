@@ -1,14 +1,5 @@
 <template>
-  <div>
-    <v-sheet v-if="isBc" color="grey lighten-2">
-      <v-container fluid class="py-4">
-        <v-breadcrumbs class="py-0" :items="bh">
-          <template #divider>
-            <v-icon>mdi-chevron-right</v-icon>
-          </template>
-        </v-breadcrumbs>
-      </v-container>
-    </v-sheet>
+  <Content :items="bh">
     <v-container class="my-5">
       <v-tabs class="mb-10" show-arrows>
         <template v-for="(aggList, aggField) in aggs">
@@ -63,7 +54,8 @@
               <v-card-title>
                 <v-text-field
                   v-model="searchAgg"
-                  filled
+                  class="mb-5"
+                  outlined
                   rounded
                   append-icon="mdi-magnify"
                   dense
@@ -106,11 +98,12 @@
         </v-tabs-items>
       </template>
     </v-container>
-  </div>
+  </Content>
 </template>
 
 <script>
 import axios from 'axios'
+import Content from '~/components/layouts/Content.vue'
 import BarChart from '~/components/BarChart'
 import CRender from '~/components/common/view/CRender.vue'
 const _ = require('lodash')
@@ -119,6 +112,7 @@ export default {
   components: {
     BarChart,
     CRender,
+    Content,
   },
   data() {
     return {

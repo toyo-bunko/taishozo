@@ -1,19 +1,20 @@
 <template>
-  <Content :items="bh">
+  <div>
+    <Breadcrumbs :items="bh" />
     <v-container class="my-5">
-      <h1 class="my-5">{{ title }}</h1>
-
+      <h2 class="mb-5">{{ page.date.split('T')[0] }}<br />{{ page.title }}</h2>
       <nuxt-content :document="page" />
     </v-container>
-  </Content>
+  </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import Content from '~/components/layouts/Content.vue'
+import Breadcrumbs from '~/components/common/Breadcrumbs.vue'
+
 @Component({
   components: {
-    Content,
+    Breadcrumbs,
   },
 })
 export default class Item extends Vue {
@@ -26,15 +27,10 @@ export default class Item extends Vue {
     } else {
       lang = lang + '/'
     }
+    const page = await $content(lang + 'news/' + params.slug).fetch()
 
-    try {
-      const page = await $content(lang + 'page/' + params.slug).fetch()
-      return {
-        page,
-      }
-    } catch (e) {
-      const page = await $content('page/' + params.slug).fetch()
-      return { page }
+    return {
+      page,
     }
   }
 
@@ -58,25 +54,15 @@ export default class Item extends Vue {
         exact: true,
       },
       {
+        text: this.$t('news'),
+        disabled: false,
+        to: this.localePath({ name: 'news' }),
+        exact: true,
+      },
+      {
         text: this.title,
       },
     ]
   }
 }
 </script>
-<style>
-.nuxt-content h2 {
-  margin-top: 12px;
-  margin-bottom: 8px;
-}
-
-.nuxt-content h3 {
-  margin-top: 12px;
-  margin-bottom: 8px;
-}
-
-.nuxt-content h4 {
-  margin-top: 12px;
-  margin-bottom: 8px;
-}
-</style>

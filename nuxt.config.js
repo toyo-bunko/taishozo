@@ -96,6 +96,17 @@ env.menu = [
     // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
   },
   {
+    label: 'news',
+    to: {
+      name: 'news',
+    },
+    icon: 'mdi-information',
+    top: true,
+    type: 'about_',
+    weight: 3,
+    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
+  },
+  {
     label: 'search',
     to: {
       name: 'search',
