@@ -81,4 +81,9 @@ th {
 em {
   background-color: #ffff00;
 }
+
+th {
+  background-color: gray;
+  color: white;
+}
 </style>

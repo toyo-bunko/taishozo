@@ -168,7 +168,7 @@ const manifestIcon = 'img/icons/icon-512.png'
 
 env.bc = false
 
-env.index = 'index.json'
+env.index = 'index2.json'
 
 env.aggs = {
   '基-経典番号': {
@@ -176,6 +176,20 @@ env.aggs = {
     label: '基本情報-経典番号',
     value: {},
     key: '基-経典番号',
+    more: false,
+  },
+  '基-巻数': {
+    sort: '',
+    label: '基本情報-巻数',
+    value: {},
+    key: '基-巻数',
+    more: false,
+  },
+  '基-訳著者1-4': {
+    sort: '',
+    label: '基本情報-訳著者',
+    value: {},
+    key: '基-訳著者1-4',
     more: false,
   },
   '基-収録巻次': {

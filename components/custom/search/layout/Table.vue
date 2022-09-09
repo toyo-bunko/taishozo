@@ -21,7 +21,13 @@
       <tr>
         <th>{{ '経典番号' }}</th>
         <th>{{ '枝番' }}</th>
-        <th>{{ '経典名' }}</th>
+        <th>
+          {{ '経典名' }}
+          <a style="color: inherit" @click="isAlt = !isAlt">{{
+            isAlt ? '◀︎' : '▶'
+          }}</a>
+        </th>
+        <th v-show="isAlt">{{ '経典別名' }}</th>
         <th>{{ '収録巻次' }}</th>
         <th>{{ '部門' }}</th>
         <th>{{ '配本' }}</th>
@@ -51,6 +57,10 @@
             />
             <v-icon small color="primary">mdi-exit-to-app</v-icon></a
           >
+        </td>
+
+        <td v-show="isAlt" width="10%">
+          {{ $utils.formatArrayValue(item['基-経典別名']) }}
         </td>
 
         <td width="2%">
@@ -163,10 +173,13 @@
             :to="
               localePath({
                 name: 'item-id',
-                params: {
+                params2: {
                   id: ('00000' + $utils.formatArrayValue(item['No.'])).slice(
                     -5
                   ),
+                },
+                params: {
+                  id: $utils.formatArrayValue(item['objectID']),
                 },
               })
             "
@@ -191,6 +204,8 @@ export default class FullTextSearch extends Vue {
   baseUrl: any = process.env.BASE_URL
   @Prop({})
   items!: any[]
+
+  isAlt: boolean = false
 
   highlight(text: string) {
     const keyword: any = this.$route.query['main[query]']

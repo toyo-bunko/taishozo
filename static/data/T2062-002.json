@@ -1,0 +1,84 @@
+{
+    "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
+    "@id": "data:T2062-002.json",
+    "ex:sat": [
+        {
+            "@id": "data:T2062-002.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T2062_.50.0901a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:T2062-002.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": [
+                "校本無"
+            ],
+            "ex:❼": [],
+            "ex:❼備考": [],
+            "ex:底本/校本": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:T2062.json#勘同目録IIIFコレクション",
+            "ex:kmID": [
+                "km2103"
+            ],
+            "ex:toページ": 549,
+            "ex:to段": [
+                "a"
+            ],
+            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
+            "ex:ページ": 548,
+            "ex:段": [
+                "a"
+            ]
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:T2062-002.json#基本情報",
+            "ex:No.": "T2062-002",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T2062.json",
+                    "ex:出版年月日": 19270115,
+                    "ex:収録巻次": 50,
+                    "ex:巻数": 8,
+                    "ex:枝番": 1,
+                    "ex:経典別名": [
+                        "明高僧傳四集,高僧傳四集,明傳,明高僧傳"
+                    ],
+                    "ex:経典名": [
+                        "大明高僧傳"
+                    ],
+                    "ex:経典番号": [
+                        "T2062"
+                    ],
+                    "ex:訳著者": [
+                        "明釋如惺撰"
+                    ],
+                    "ex:訳著者1-4": [
+                        "釋如惺"
+                    ],
+                    "ex:部門": [
+                        "史伝部2"
+                    ],
+                    "ex:配本": 33
+                }
+            ]
+        }
+    ],
+    "ex:底本校本URL": [],
+    "ex:脚注": [
+        {
+            "@id": "data:T2062-002.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}
