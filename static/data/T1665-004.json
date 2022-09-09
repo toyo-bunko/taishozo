@@ -20,12 +20,16 @@
             "ex:kmID": [
                 "km1696"
             ],
-            "ex:toページ": 445,
+            "ex:toページ": [
+                445
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 445,
+            "ex:ページ": [
+                445
+            ],
             "ex:段": [
                 "b"
             ]
@@ -38,10 +42,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1665.json",
-                    "ex:出版年月日": 19251115,
-                    "ex:収録巻次": 32,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19251115
+                    ],
+                    "ex:収録巻次": [
+                        32
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "金剛頂瑜伽中發阿耨多羅三藐三菩提心論"
@@ -58,7 +70,9 @@
                     "ex:部門": [
                         "論集部全"
                     ],
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }

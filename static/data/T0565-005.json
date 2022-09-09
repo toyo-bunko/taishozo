@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km0566"
             ],
-            "ex:toページ": 272,
+            "ex:toページ": [
+                272
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 272,
+            "ex:ページ": [
+                272
+            ],
             "ex:段": [
                 "a"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0565.json",
-                    "ex:出版年月日": 19250120,
-                    "ex:収録巻次": 14,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250120
+                    ],
+                    "ex:収録巻次": [
+                        14
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "轉女身菩薩經,順權方便品經,轉女菩薩所問授決經"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "経集部1"
                     ],
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

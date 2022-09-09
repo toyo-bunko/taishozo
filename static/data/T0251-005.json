@@ -43,12 +43,16 @@
             "ex:kmID": [
                 "km0252"
             ],
-            "ex:toページ": 218,
+            "ex:toページ": [
+                218
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 217,
+            "ex:ページ": [
+                217
+            ],
             "ex:段": [
                 "b"
             ]
@@ -61,10 +65,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0251.json",
-                    "ex:出版年月日": 19240815,
-                    "ex:収録巻次": 8,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19240815
+                    ],
+                    "ex:収録巻次": [
+                        8
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "般若心經,心經"
                     ],
@@ -83,7 +95,9 @@
                     "ex:部門": [
                         "般若部4"
                     ],
-                    "ex:配本": 4
+                    "ex:配本": [
+                        4
+                    ]
                 }
             ]
         }

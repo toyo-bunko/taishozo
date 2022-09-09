@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1630"
             ],
-            "ex:toページ": 432,
+            "ex:toページ": [
+                432
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 432,
+            "ex:ページ": [
+                432
+            ],
             "ex:段": [
                 "b"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1599.json",
-                    "ex:出版年月日": 19251215,
-                    "ex:収録巻次": 31,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19251215
+                    ],
+                    "ex:収録巻次": [
+                        31
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "中邊分別論"
@@ -98,7 +110,9 @@
                     "ex:部門": [
                         "瑜伽部下"
                     ],
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }

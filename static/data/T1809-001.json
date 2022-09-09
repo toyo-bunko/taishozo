@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1841"
             ],
-            "ex:toページ": 468,
+            "ex:toページ": [
+                468
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 468,
+            "ex:ページ": [
+                468
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1809.json",
-                    "ex:出版年月日": 19270615,
-                    "ex:収録巻次": 40,
-                    "ex:巻数": 3,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270615
+                    ],
+                    "ex:収録巻次": [
+                        40
+                    ],
+                    "ex:巻数": [
+                        3
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "四分僧羯磨"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "律疏部全/論疏部1"
                     ],
-                    "ex:配本": 38
+                    "ex:配本": [
+                        38
+                    ]
                 }
             ]
         }

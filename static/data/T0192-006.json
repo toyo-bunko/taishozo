@@ -20,12 +20,16 @@
             "ex:kmID": [
                 "km0193"
             ],
-            "ex:toページ": 196,
+            "ex:toページ": [
+                196
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 195,
+            "ex:ページ": [
+                195
+            ],
             "ex:段": [
                 "b"
             ]
@@ -38,10 +42,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0192.json",
-                    "ex:出版年月日": 19240715,
-                    "ex:収録巻次": 4,
-                    "ex:巻数": 5,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19240715
+                    ],
+                    "ex:収録巻次": [
+                        4
+                    ],
+                    "ex:巻数": [
+                        5
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "佛所行讃"
@@ -59,7 +71,9 @@
                     "ex:部門": [
                         "本縁部下"
                     ],
-                    "ex:配本": 3
+                    "ex:配本": [
+                        3
+                    ]
                 }
             ]
         }
@@ -94,7 +108,9 @@
                         "中国"
                     ],
                     "ex:巻": [],
-                    "ex:年": 1148,
+                    "ex:年": [
+                        1148
+                    ],
                     "ex:底本推定": [],
                     "ex:時代": [
                         "宋"

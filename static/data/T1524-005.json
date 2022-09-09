@@ -20,12 +20,16 @@
             "ex:kmID": [
                 "km1555"
             ],
-            "ex:toページ": 411,
+            "ex:toページ": [
+                411
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 410,
+            "ex:ページ": [
+                410
+            ],
             "ex:段": [
                 "c"
             ]
@@ -38,10 +42,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1524.json",
-                    "ex:出版年月日": 19260315,
-                    "ex:収録巻次": 26,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260315
+                    ],
+                    "ex:収録巻次": [
+                        26
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "無量壽經優波提舍經論,無量壽經優波提舍,無量壽經論,淨土往生論,淨土論,往生論,願生偈"
                     ],
@@ -61,7 +73,9 @@
                     "ex:部門": [
                         "釈経論部下/毘曇部1"
                     ],
-                    "ex:配本": 23
+                    "ex:配本": [
+                        23
+                    ]
                 }
             ]
         }

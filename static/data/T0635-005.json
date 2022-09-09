@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km0636"
             ],
-            "ex:toページ": 280,
+            "ex:toページ": [
+                280
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 280,
+            "ex:ページ": [
+                280
+            ],
             "ex:段": [
                 "a"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0635.json",
-                    "ex:出版年月日": 19250320,
-                    "ex:収録巻次": 15,
-                    "ex:巻数": 4,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250320
+                    ],
+                    "ex:収録巻次": [
+                        15
+                    ],
+                    "ex:巻数": [
+                        4
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "弘道廣顯三昧經,三昧弘道廣顯定意經,入金剛問定意經,阿耨達龍王經,阿耨達請佛經"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "経集部2"
                     ],
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

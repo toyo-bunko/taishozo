@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1768"
             ],
-            "ex:toページ": 457,
+            "ex:toページ": [
+                457
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 457,
+            "ex:ページ": [
+                457
+            ],
             "ex:段": [
                 "a"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1736.json",
-                    "ex:出版年月日": 19270315,
-                    "ex:収録巻次": 36,
-                    "ex:巻数": 90,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270315
+                    ],
+                    "ex:収録巻次": [
+                        36
+                    ],
+                    "ex:巻数": [
+                        90
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "華嚴經隨疏演義鈔,華嚴大疏鈔,演義鈔"
                     ],
@@ -99,7 +111,9 @@
                     "ex:部門": [
                         "経疏部4"
                     ],
-                    "ex:配本": 35
+                    "ex:配本": [
+                        35
+                    ]
                 }
             ]
         }

@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0679"
             ],
-            "ex:toページ": 288,
+            "ex:toページ": [
+                288
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 288,
+            "ex:ページ": [
+                288
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0678.json",
-                    "ex:出版年月日": 19250515,
-                    "ex:収録巻次": 16,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250515
+                    ],
+                    "ex:収録巻次": [
+                        16
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "相續解脱地波羅蜜了義經"
@@ -85,7 +97,9 @@
                     "ex:部門": [
                         "経集部3"
                     ],
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }

@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1575"
             ],
-            "ex:toページ": 415,
+            "ex:toページ": [
+                415
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 414,
+            "ex:ページ": [
+                414
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1544.json",
-                    "ex:出版年月日": 19260315,
-                    "ex:収録巻次": 26,
-                    "ex:巻数": 20,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260315
+                    ],
+                    "ex:収録巻次": [
+                        26
+                    ],
+                    "ex:巻数": [
+                        20
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "發智論"
                     ],
@@ -88,7 +100,9 @@
                     "ex:部門": [
                         "釈経論部下/毘曇部1"
                     ],
-                    "ex:配本": 23
+                    "ex:配本": [
+                        23
+                    ]
                 }
             ]
         }

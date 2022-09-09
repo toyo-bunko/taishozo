@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km0822"
             ],
-            "ex:toページ": 301,
+            "ex:toページ": [
+                301
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 301,
+            "ex:ページ": [
+                301
+            ],
             "ex:段": [
                 "a"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0821.json",
-                    "ex:出版年月日": 19250915,
-                    "ex:収録巻次": 17,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250915
+                    ],
+                    "ex:収録巻次": [
+                        17
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "祕藏經,如來祕密藏經,祕密藏經"
                     ],
@@ -95,7 +107,9 @@
                     "ex:部門": [
                         "経集部4"
                     ],
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }

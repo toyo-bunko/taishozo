@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0112"
             ],
-            "ex:toページ": 181,
+            "ex:toページ": [
+                181
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 180,
+            "ex:ページ": [
+                180
+            ],
             "ex:段": [
                 "c"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0112.json",
-                    "ex:出版年月日": 19240915,
-                    "ex:収録巻次": 2,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19240915
+                    ],
+                    "ex:収録巻次": [
+                        2
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "八正道經"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "阿含部下"
                     ],
-                    "ex:配本": 5
+                    "ex:配本": [
+                        5
+                    ]
                 }
             ]
         }

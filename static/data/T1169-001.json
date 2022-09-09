@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1198"
             ],
-            "ex:toページ": 357,
+            "ex:toページ": [
+                357
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 357,
+            "ex:ページ": [
+                357
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1169.json",
-                    "ex:出版年月日": 19280615,
-                    "ex:収録巻次": 20,
-                    "ex:巻数": 4,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280615
+                    ],
+                    "ex:収録巻次": [
+                        20
+                    ],
+                    "ex:巻数": [
+                        4
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "持明藏瑜伽大教尊那菩薩大明成就儀軌經,持明藏尊那菩薩儀軌經"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "密教部3"
                     ],
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

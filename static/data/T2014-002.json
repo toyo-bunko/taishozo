@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km2054"
             ],
-            "ex:toページ": 518,
+            "ex:toページ": [
+                518
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 517,
+            "ex:ページ": [
+                517
+            ],
             "ex:段": [
                 "c"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2014.json",
-                    "ex:出版年月日": 19280515,
-                    "ex:収録巻次": 48,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280515
+                    ],
+                    "ex:収録巻次": [
+                        48
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "永嘉眞覺大師證道歌,證道歌,震旦聖者大乘決疑經"
                     ],
@@ -99,7 +111,9 @@
                     "ex:部門": [
                         "諸宗部5"
                     ],
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }

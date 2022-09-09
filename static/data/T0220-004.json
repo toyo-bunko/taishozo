@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0221"
             ],
-            "ex:toページ": 207,
+            "ex:toページ": [
+                207
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 203,
+            "ex:ページ": [
+                203
+            ],
             "ex:段": [
                 "c"
             ]
@@ -71,8 +75,12 @@
                     "ex:収録巻次": [
                         "5-7"
                     ],
-                    "ex:巻数": 600,
-                    "ex:枝番": 1,
+                    "ex:巻数": [
+                        600
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "大般若經"
                     ],
@@ -148,13 +156,19 @@
     "ex:酉目": [
         {
             "@id": "data:T0220-004-1.json#酉目",
-            "ex:to枝番": 618,
+            "ex:to枝番": [
+                618
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 1,
+            "ex:枝番": [
+                1
+            ],
             "ex:經典番號": [
                 "U0001"
             ],
-            "ex:通番": 1
+            "ex:通番": [
+                1
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": [

@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1308"
             ],
-            "ex:toページ": 370,
+            "ex:toページ": [
+                370
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 370,
+            "ex:ページ": [
+                370
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1277.json",
-                    "ex:出版年月日": 19280815,
-                    "ex:収録巻次": 21,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280815
+                    ],
+                    "ex:収録巻次": [
+                        21
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "速疾立驗魔醯首羅天説迦樓羅阿尾奢法,魔醯首羅天説阿尾奢法,迦樓羅阿尾奢法,阿尾奢法經"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "密教部4"
                     ],
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

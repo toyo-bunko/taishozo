@@ -43,12 +43,16 @@
             "ex:kmID": [
                 "km1621"
             ],
-            "ex:toページ": 429,
+            "ex:toページ": [
+                429
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 429,
+            "ex:ページ": [
+                429
+            ],
             "ex:段": [
                 "b"
             ]
@@ -61,10 +65,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1590.json",
-                    "ex:出版年月日": 19251215,
-                    "ex:収録巻次": 31,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19251215
+                    ],
+                    "ex:収録巻次": [
+                        31
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "摧破邪山論"
                     ],
@@ -84,7 +96,9 @@
                     "ex:部門": [
                         "瑜伽部下"
                     ],
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }

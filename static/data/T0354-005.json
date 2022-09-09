@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km0355"
             ],
-            "ex:toページ": 242,
+            "ex:toページ": [
+                242
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 242,
+            "ex:ページ": [
+                242
+            ],
             "ex:段": [
                 "b"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0354.json",
-                    "ex:出版年月日": 19250615,
-                    "ex:収録巻次": 12,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250615
+                    ],
+                    "ex:収録巻次": [
+                        12
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "毘耶娑問經"
@@ -95,7 +107,9 @@
                     "ex:部門": [
                         "宝積部下/涅槃部全"
                     ],
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km1945"
             ],
-            "ex:toページ": 492,
+            "ex:toページ": [
+                492
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 492,
+            "ex:ページ": [
+                492
+            ],
             "ex:段": [
                 "a"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1912.json",
-                    "ex:出版年月日": 19271215,
-                    "ex:収録巻次": 46,
-                    "ex:巻数": 10,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19271215
+                    ],
+                    "ex:収録巻次": [
+                        46
+                    ],
+                    "ex:巻数": [
+                        10
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "摩訶止觀輔行傳弘決,止觀輔行,止觀記"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "諸宗部3"
                     ],
-                    "ex:配本": 44
+                    "ex:配本": [
+                        44
+                    ]
                 }
             ]
         }

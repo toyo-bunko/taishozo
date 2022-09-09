@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1597"
             ],
-            "ex:toページ": 422,
+            "ex:toページ": [
+                422
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 422,
+            "ex:ページ": [
+                422
+            ],
             "ex:段": [
                 "a"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1566.json",
-                    "ex:出版年月日": 19271015,
-                    "ex:収録巻次": 30,
-                    "ex:巻数": 15,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19271015
+                    ],
+                    "ex:収録巻次": [
+                        30
+                    ],
+                    "ex:巻数": [
+                        15
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "般若燈論"
                     ],
@@ -101,7 +113,9 @@
                     "ex:部門": [
                         "中観部全/瑜伽部上"
                     ],
-                    "ex:配本": 42
+                    "ex:配本": [
+                        42
+                    ]
                 }
             ]
         }

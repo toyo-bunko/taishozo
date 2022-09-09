@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0955"
             ],
-            "ex:toページ": 324,
+            "ex:toページ": [
+                324
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 324,
+            "ex:ページ": [
+                324
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0948.json",
-                    "ex:出版年月日": 19281015,
-                    "ex:収録巻次": 19,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19281015
+                    ],
+                    "ex:収録巻次": [
+                        19
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "一字金輪王佛頂要略念誦法,金輪王佛頂略念誦法,一字金輪念誦法"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "密教部2"
                     ],
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }
@@ -142,13 +156,19 @@
     "ex:酉目": [
         {
             "@id": "data:T0948-002-1.json#酉目",
-            "ex:to枝番": 1,
+            "ex:to枝番": [
+                1
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 1,
+            "ex:枝番": [
+                1
+            ],
             "ex:經典番號": [
                 "U1394"
             ],
-            "ex:通番": 1407
+            "ex:通番": [
+                1407
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

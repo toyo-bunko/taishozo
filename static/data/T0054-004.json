@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0054"
             ],
-            "ex:toページ": 162,
+            "ex:toページ": [
+                162
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 162,
+            "ex:ページ": [
+                162
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0054.json",
-                    "ex:出版年月日": 19240408,
-                    "ex:収録巻次": 1,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19240408
+                    ],
+                    "ex:収録巻次": [
+                        1
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "釋摩男本四子經,釋摩男本經,釋摩男經,釋摩訶男本經,五陰因事經"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "阿含部上"
                     ],
-                    "ex:配本": 1
+                    "ex:配本": [
+                        1
+                    ]
                 }
             ]
         }
@@ -142,13 +156,19 @@
     "ex:酉目": [
         {
             "@id": "data:T0054-004-1.json#酉目",
-            "ex:to枝番": 1,
+            "ex:to枝番": [
+                1
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 1,
+            "ex:枝番": [
+                1
+            ],
             "ex:經典番號": [
                 "U0576"
             ],
-            "ex:通番": 581
+            "ex:通番": [
+                581
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

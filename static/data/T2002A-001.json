@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km2040"
             ],
-            "ex:toページ": 515,
+            "ex:toページ": [
+                515
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 514,
+            "ex:ページ": [
+                514
+            ],
             "ex:段": [
                 "c"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2002A.json",
-                    "ex:出版年月日": 19280515,
-                    "ex:収録巻次": 48,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280515
+                    ],
+                    "ex:収録巻次": [
+                        48
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "天童淨和尚語録,如淨語録,如淨録"
                     ],
@@ -99,7 +111,9 @@
                     "ex:部門": [
                         "諸宗部5"
                     ],
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }

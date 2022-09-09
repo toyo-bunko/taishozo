@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1894"
             ],
-            "ex:toページ": 481,
+            "ex:toページ": [
+                481
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 481,
+            "ex:ページ": [
+                481
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1862.json",
-                    "ex:出版年月日": 19270915,
-                    "ex:収録巻次": 45,
-                    "ex:巻数": 3,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270915
+                    ],
+                    "ex:収録巻次": [
+                        45
+                    ],
+                    "ex:巻数": [
+                        3
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "勸發菩提集"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "諸宗部2"
                     ],
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }

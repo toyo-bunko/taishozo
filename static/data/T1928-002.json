@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1961"
             ],
-            "ex:toページ": 494,
+            "ex:toページ": [
+                494
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 494,
+            "ex:ページ": [
+                494
+            ],
             "ex:段": [
                 "c"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1928.json",
-                    "ex:出版年月日": 19271215,
-                    "ex:収録巻次": 46,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19271215
+                    ],
+                    "ex:収録巻次": [
+                        46
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "指要鈔"
                     ],
@@ -99,7 +111,9 @@
                     "ex:部門": [
                         "諸宗部3"
                     ],
-                    "ex:配本": 44
+                    "ex:配本": [
+                        44
+                    ]
                 }
             ]
         }

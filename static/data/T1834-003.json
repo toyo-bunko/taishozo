@@ -61,12 +61,16 @@
             "ex:kmID": [
                 "km1866"
             ],
-            "ex:toページ": 475,
+            "ex:toページ": [
+                475
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 474,
+            "ex:ページ": [
+                474
+            ],
             "ex:段": [
                 "c"
             ]
@@ -79,10 +83,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1834.json",
-                    "ex:出版年月日": 19280715,
-                    "ex:収録巻次": 43,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280715
+                    ],
+                    "ex:収録巻次": [
+                        43
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "二十唯識述記,二十唯識論述記,二十唯識論疏"
                     ],
@@ -101,7 +113,9 @@
                     "ex:部門": [
                         "論疏部4"
                     ],
-                    "ex:配本": 51
+                    "ex:配本": [
+                        51
+                    ]
                 }
             ]
         }

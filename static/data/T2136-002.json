@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km2178"
             ],
-            "ex:toページ": 648,
+            "ex:toページ": [
+                648
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 648,
+            "ex:ページ": [
+                648
+            ],
             "ex:段": [
                 "b"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2136.json",
-                    "ex:出版年月日": 19280915,
-                    "ex:収録巻次": 54,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280915
+                    ],
+                    "ex:収録巻次": [
+                        54
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "唐梵兩語雙對集"
@@ -98,7 +110,9 @@
                     "ex:部門": [
                         "事彙部下/外教部全"
                     ],
-                    "ex:配本": 53
+                    "ex:配本": [
+                        53
+                    ]
                 }
             ]
         }

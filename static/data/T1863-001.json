@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1895"
             ],
-            "ex:toページ": 482,
+            "ex:toページ": [
+                482
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 481,
+            "ex:ページ": [
+                481
+            ],
             "ex:段": [
                 "c"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1863.json",
-                    "ex:出版年月日": 19270915,
-                    "ex:収録巻次": 45,
-                    "ex:巻数": 4,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270915
+                    ],
+                    "ex:収録巻次": [
+                        45
+                    ],
+                    "ex:巻数": [
+                        4
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "能顯中邊慧日論"
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "諸宗部2"
                     ],
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }

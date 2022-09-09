@@ -43,12 +43,16 @@
             "ex:kmID": [
                 "km0367"
             ],
-            "ex:toページ": 246,
+            "ex:toページ": [
+                246
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 245,
+            "ex:ページ": [
+                245
+            ],
             "ex:段": [
                 "c"
             ]
@@ -61,10 +65,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0366.json",
-                    "ex:出版年月日": 19250615,
-                    "ex:収録巻次": 12,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250615
+                    ],
+                    "ex:収録巻次": [
+                        12
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "阿彌陀經,無量壽經,小無量壽經,四紙阿彌陀經,四紙經,小經,小本"
                     ],
@@ -83,7 +95,9 @@
                     "ex:部門": [
                         "宝積部下/涅槃部全"
                     ],
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

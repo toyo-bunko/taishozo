@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1673"
             ],
-            "ex:toページ": 440,
+            "ex:toページ": [
+                440
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 440,
+            "ex:ページ": [
+                440
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1642.json",
-                    "ex:出版年月日": 19251115,
-                    "ex:収録巻次": 32,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19251115
+                    ],
+                    "ex:収録巻次": [
+                        32
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "金剛針論"
@@ -86,7 +98,9 @@
                     "ex:部門": [
                         "論集部全"
                     ],
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }
@@ -141,13 +155,19 @@
     "ex:酉目": [
         {
             "@id": "data:T1642-004-1.json#酉目",
-            "ex:to枝番": 1,
+            "ex:to枝番": [
+                1
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 1,
+            "ex:枝番": [
+                1
+            ],
             "ex:經典番號": [
                 "U1296"
             ],
-            "ex:通番": 1309
+            "ex:通番": [
+                1309
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

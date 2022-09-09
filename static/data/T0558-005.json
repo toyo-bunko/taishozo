@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km0559"
             ],
-            "ex:toページ": 271,
+            "ex:toページ": [
+                271
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 271,
+            "ex:ページ": [
+                271
+            ],
             "ex:段": [
                 "b"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0558.json",
-                    "ex:出版年月日": 19250120,
-                    "ex:収録巻次": 14,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250120
+                    ],
+                    "ex:収録巻次": [
+                        14
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "龍施菩薩本起經,佛説龍施女經,龍施女經,龍施本起經,龍施經"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "経集部1"
                     ],
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

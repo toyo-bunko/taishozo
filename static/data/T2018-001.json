@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km2058"
             ],
-            "ex:toページ": 518,
+            "ex:toページ": [
+                518
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 518,
+            "ex:ページ": [
+                518
+            ],
             "ex:段": [
                 "a"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2018.json",
-                    "ex:出版年月日": 19280515,
-                    "ex:収録巻次": 48,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280515
+                    ],
+                    "ex:収録巻次": [
+                        48
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "禪宗唯心訣,唯心訣"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "諸宗部5"
                     ],
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }
@@ -162,20 +176,30 @@
     "ex:酉目": [
         {
             "@id": "data:T2018-001-1.json#酉目",
-            "ex:to枝番": 1,
+            "ex:to枝番": [
+                1
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 1,
+            "ex:枝番": [
+                1
+            ],
             "ex:經典番號": [
                 "U1646"
             ],
-            "ex:通番": 1663
+            "ex:通番": [
+                1663
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
             "@id": "data:T2018-001-1.json#酉蓮社本IIIFコレクション",
-            "ex:from": 1,
-            "ex:to": 15,
+            "ex:from": [
+                1
+            ],
+            "ex:to": [
+                15
+            ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/XXX/manifest.json",
             "ex:画像フォルダ": [
                 "u-renja1663-1668"
@@ -186,8 +210,12 @@
         },
         {
             "@id": "data:T2018-001-2.json#酉蓮社本IIIFコレクション",
-            "ex:from": 15,
-            "ex:to": 17,
+            "ex:from": [
+                15
+            ],
+            "ex:to": [
+                17
+            ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/XXX/manifest.json",
             "ex:画像フォルダ": [
                 "u-renja1663-1668"
@@ -198,8 +226,12 @@
         },
         {
             "@id": "data:T2018-001-3.json#酉蓮社本IIIFコレクション",
-            "ex:from": 17,
-            "ex:to": 19,
+            "ex:from": [
+                17
+            ],
+            "ex:to": [
+                19
+            ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/XXX/manifest.json",
             "ex:画像フォルダ": [
                 "u-renja1663-1668"

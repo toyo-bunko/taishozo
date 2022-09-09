@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km0917"
             ],
-            "ex:toページ": 319,
+            "ex:toページ": [
+                319
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 319,
+            "ex:ページ": [
+                319
+            ],
             "ex:段": [
                 "c"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0913.json",
-                    "ex:出版年月日": 19280415,
-                    "ex:収録巻次": 18,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280415
+                    ],
+                    "ex:収録巻次": [
+                        18
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "火吽軌"
                     ],
@@ -95,7 +107,9 @@
                     "ex:部門": [
                         "密教部1"
                     ],
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

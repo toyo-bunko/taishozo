@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1471"
             ],
-            "ex:toページ": 392,
+            "ex:toページ": [
+                392
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 391,
+            "ex:ページ": [
+                391
+            ],
             "ex:段": [
                 "b"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1440.json",
-                    "ex:出版年月日": 19251015,
-                    "ex:収録巻次": 23,
-                    "ex:巻数": 9,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19251015
+                    ],
+                    "ex:収録巻次": [
+                        23
+                    ],
+                    "ex:巻数": [
+                        9
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "薩婆多毘尼,毘尼毘婆沙,薩婆多論,多論"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "律部2"
                     ],
-                    "ex:配本": 18
+                    "ex:配本": [
+                        18
+                    ]
                 }
             ]
         }

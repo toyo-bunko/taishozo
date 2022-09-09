@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1626"
             ],
-            "ex:toページ": 431,
+            "ex:toページ": [
+                431
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 430,
+            "ex:ページ": [
+                430
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1595.json",
-                    "ex:出版年月日": 19251215,
-                    "ex:収録巻次": 31,
-                    "ex:巻数": 15,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19251215
+                    ],
+                    "ex:収録巻次": [
+                        31
+                    ],
+                    "ex:巻数": [
+                        15
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "説大乘論,攝大乘釋論,攝大乘論釋論"
                     ],
@@ -88,7 +100,9 @@
                     "ex:部門": [
                         "瑜伽部下"
                     ],
-                    "ex:配本": 20
+                    "ex:配本": [
+                        20
+                    ]
                 }
             ]
         }
@@ -143,23 +157,35 @@
     "ex:酉目": [
         {
             "@id": "data:T1595-004-1.json#酉目",
-            "ex:to枝番": 21,
+            "ex:to枝番": [
+                21
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 11,
+            "ex:枝番": [
+                11
+            ],
             "ex:經典番號": [
                 "U1165"
             ],
-            "ex:通番": 1176
+            "ex:通番": [
+                1176
+            ]
         },
         {
             "@id": "data:T1595-004-2.json#酉目",
-            "ex:to枝番": 49,
+            "ex:to枝番": [
+                49
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 42,
+            "ex:枝番": [
+                42
+            ],
             "ex:經典番號": [
                 "U1165"
             ],
-            "ex:通番": 1176
+            "ex:通番": [
+                1176
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km1660"
             ],
-            "ex:toページ": 437,
+            "ex:toページ": [
+                437
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 437,
+            "ex:ページ": [
+                437
+            ],
             "ex:段": [
                 "b"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1629.json",
-                    "ex:出版年月日": 19251115,
-                    "ex:収録巻次": 32,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19251115
+                    ],
+                    "ex:収録巻次": [
+                        32
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "因明正理門論"
@@ -96,7 +108,9 @@
                     "ex:部門": [
                         "論集部全"
                     ],
-                    "ex:配本": 19
+                    "ex:配本": [
+                        19
+                    ]
                 }
             ]
         }

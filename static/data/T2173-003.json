@@ -53,12 +53,16 @@
             "ex:kmID": [
                 "km2217"
             ],
-            "ex:toページ": 655,
+            "ex:toページ": [
+                655
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 655,
+            "ex:ページ": [
+                655
+            ],
             "ex:段": [
                 "a"
             ]
@@ -71,10 +75,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2173.json",
-                    "ex:出版年月日": 19281115,
-                    "ex:収録巻次": 55,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19281115
+                    ],
+                    "ex:収録巻次": [
+                        55
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "智證大師請來目録"
@@ -91,7 +103,9 @@
                     "ex:部門": [
                         "目録部全"
                     ],
-                    "ex:配本": 55
+                    "ex:配本": [
+                        55
+                    ]
                 }
             ]
         }

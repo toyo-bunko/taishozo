@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0388"
             ],
-            "ex:toページ": 251,
+            "ex:toページ": [
+                251
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 250,
+            "ex:ページ": [
+                250
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0387.json",
-                    "ex:出版年月日": 19250615,
-                    "ex:収録巻次": 12,
-                    "ex:巻数": 6,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250615
+                    ],
+                    "ex:収録巻次": [
+                        12
+                    ],
+                    "ex:巻数": [
+                        6
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "方等大雲經,大方等大雲經,方等無相大雲經,大雲無相經,大雲密藏經,方等大雲無想經,大方等無想大雲經,無想經,大雲經"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "宝積部下/涅槃部全"
                     ],
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }
@@ -142,13 +156,19 @@
     "ex:酉目": [
         {
             "@id": "data:T0387-004-1.json#酉目",
-            "ex:to枝番": 4,
+            "ex:to枝番": [
+                4
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 1,
+            "ex:枝番": [
+                1
+            ],
             "ex:經典番號": [
                 "U0240"
             ],
-            "ex:通番": 246
+            "ex:通番": [
+                246
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": [

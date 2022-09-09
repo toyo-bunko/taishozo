@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km0756"
             ],
-            "ex:toページ": 295,
+            "ex:toページ": [
+                295
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 295,
+            "ex:ページ": [
+                295
+            ],
             "ex:段": [
                 "b"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0755.json",
-                    "ex:出版年月日": 19250915,
-                    "ex:収録巻次": 17,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250915
+                    ],
+                    "ex:収録巻次": [
+                        17
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "淨意優婆塞所問經,淨意問經"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "経集部4"
                     ],
-                    "ex:配本": 17
+                    "ex:配本": [
+                        17
+                    ]
                 }
             ]
         }
@@ -132,7 +146,9 @@
                         "中国"
                     ],
                     "ex:巻": [],
-                    "ex:年": 1148,
+                    "ex:年": [
+                        1148
+                    ],
                     "ex:底本推定": [],
                     "ex:時代": [
                         "宋"

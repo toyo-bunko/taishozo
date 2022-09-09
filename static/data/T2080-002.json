@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km2121"
             ],
-            "ex:toページ": 594,
+            "ex:toページ": [
+                594
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 594,
+            "ex:ページ": [
+                594
+            ],
             "ex:段": [
                 "a"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2080.json",
-                    "ex:出版年月日": 19280315,
-                    "ex:収録巻次": 51,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280315
+                    ],
+                    "ex:収録巻次": [
+                        51
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "傳法正宗論"
@@ -95,7 +107,9 @@
                     "ex:部門": [
                         "史伝部3"
                     ],
-                    "ex:配本": 47
+                    "ex:配本": [
+                        47
+                    ]
                 }
             ]
         }

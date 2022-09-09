@@ -19,7 +19,9 @@
                     "ex:国": [
                         "日本"
                     ],
-                    "ex:年": 715,
+                    "ex:年": [
+                        715
+                    ],
                     "ex:時代": [
                         "奈良"
                     ],
@@ -57,12 +59,16 @@
             "ex:kmID": [
                 "km1862"
             ],
-            "ex:toページ": 474,
+            "ex:toページ": [
+                474
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 474,
+            "ex:ページ": [
+                474
+            ],
             "ex:段": [
                 "b"
             ]
@@ -75,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1830.json",
-                    "ex:出版年月日": 19280715,
-                    "ex:収録巻次": 43,
-                    "ex:巻数": 10,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280715
+                    ],
+                    "ex:収録巻次": [
+                        43
+                    ],
+                    "ex:巻数": [
+                        10
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "唯識論述記,唯識述記,述記"
                     ],
@@ -97,7 +111,9 @@
                     "ex:部門": [
                         "論疏部4"
                     ],
-                    "ex:配本": 51
+                    "ex:配本": [
+                        51
+                    ]
                 }
             ]
         }

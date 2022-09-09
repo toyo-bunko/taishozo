@@ -26,12 +26,16 @@
             "ex:kmID": [
                 "km1832"
             ],
-            "ex:toページ": 467,
+            "ex:toページ": [
+                467
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 467,
+            "ex:ページ": [
+                467
+            ],
             "ex:段": [
                 "a"
             ]
@@ -44,10 +48,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1800.json",
-                    "ex:出版年月日": 19270215,
-                    "ex:収録巻次": 39,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270215
+                    ],
+                    "ex:収録巻次": [
+                        39
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "請觀音經疏"
@@ -65,7 +77,9 @@
                     "ex:部門": [
                         "経疏部7"
                     ],
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }

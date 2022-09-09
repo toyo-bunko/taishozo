@@ -20,12 +20,16 @@
             "ex:kmID": [
                 "km0150"
             ],
-            "ex:toページ": 188,
+            "ex:toページ": [
+                188
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 188,
+            "ex:ページ": [
+                188
+            ],
             "ex:段": [
                 "b"
             ]
@@ -38,10 +42,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0150A.json",
-                    "ex:出版年月日": 19240915,
-                    "ex:収録巻次": 2,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19240915
+                    ],
+                    "ex:収録巻次": [
+                        2
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "七處三觀經"
                     ],
@@ -60,7 +72,9 @@
                     "ex:部門": [
                         "阿含部下"
                     ],
-                    "ex:配本": 5
+                    "ex:配本": [
+                        5
+                    ]
                 }
             ]
         }

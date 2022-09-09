@@ -26,12 +26,16 @@
             "ex:kmID": [
                 "km1745"
             ],
-            "ex:toページ": 452,
+            "ex:toページ": [
+                452
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 452,
+            "ex:ページ": [
+                452
+            ],
             "ex:段": [
                 "b"
             ]
@@ -44,10 +48,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1713.json",
-                    "ex:出版年月日": 19260815,
-                    "ex:収録巻次": 33,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260815
+                    ],
+                    "ex:収録巻次": [
+                        33
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "心經連珠記,心經略疏連珠記"
                     ],
@@ -66,7 +78,9 @@
                     "ex:部門": [
                         "経疏部1"
                     ],
-                    "ex:配本": 28
+                    "ex:配本": [
+                        28
+                    ]
                 }
             ]
         }

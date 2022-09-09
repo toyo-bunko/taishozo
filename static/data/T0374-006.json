@@ -45,12 +45,16 @@
             "ex:kmID": [
                 "km0375"
             ],
-            "ex:toページ": 248,
+            "ex:toページ": [
+                248
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 247,
+            "ex:ページ": [
+                247
+            ],
             "ex:段": [
                 "b"
             ]
@@ -63,10 +67,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0374.json",
-                    "ex:出版年月日": 19250615,
-                    "ex:収録巻次": 12,
-                    "ex:巻数": 40,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250615
+                    ],
+                    "ex:収録巻次": [
+                        12
+                    ],
+                    "ex:巻数": [
+                        40
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "大涅槃經,大本涅槃,北本涅槃,涅槃經,大乘涅槃經"
                     ],
@@ -85,7 +97,9 @@
                     "ex:部門": [
                         "宝積部下/涅槃部全"
                     ],
-                    "ex:配本": 14
+                    "ex:配本": [
+                        14
+                    ]
                 }
             ]
         }

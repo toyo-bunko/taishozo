@@ -26,12 +26,16 @@
             "ex:kmID": [
                 "km1592"
             ],
-            "ex:toページ": 420,
+            "ex:toページ": [
+                420
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 420,
+            "ex:ページ": [
+                420
+            ],
             "ex:段": [
                 "c"
             ]
@@ -44,10 +48,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1561.json",
-                    "ex:出版年月日": 19260215,
-                    "ex:収録巻次": 29,
-                    "ex:巻数": 5,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260215
+                    ],
+                    "ex:収録巻次": [
+                        29
+                    ],
+                    "ex:巻数": [
+                        5
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "倶舍論實義疏"
@@ -64,7 +76,9 @@
                     "ex:部門": [
                         "毘曇部4"
                     ],
-                    "ex:配本": 22
+                    "ex:配本": [
+                        22
+                    ]
                 }
             ]
         }

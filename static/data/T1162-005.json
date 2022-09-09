@@ -43,12 +43,16 @@
             "ex:kmID": [
                 "km1190"
             ],
-            "ex:toページ": 356,
+            "ex:toページ": [
+                356
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 356,
+            "ex:ページ": [
+                356
+            ],
             "ex:段": [
                 "b"
             ]
@@ -61,10 +65,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1162.json",
-                    "ex:出版年月日": 19280615,
-                    "ex:収録巻次": 20,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280615
+                    ],
+                    "ex:収録巻次": [
+                        20
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "持世經,持世呪"
                     ],
@@ -83,7 +95,9 @@
                     "ex:部門": [
                         "密教部3"
                     ],
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

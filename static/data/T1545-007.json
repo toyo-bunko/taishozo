@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1576"
             ],
-            "ex:toページ": 415,
+            "ex:toページ": [
+                415
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 415,
+            "ex:ページ": [
+                415
+            ],
             "ex:段": [
                 "a"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1545.json",
-                    "ex:出版年月日": 19260715,
-                    "ex:収録巻次": 27,
-                    "ex:巻数": 200,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260715
+                    ],
+                    "ex:収録巻次": [
+                        27
+                    ],
+                    "ex:巻数": [
+                        200
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "説一切有部發智大毘婆沙論,大毘婆沙論,婆沙論"
                     ],
@@ -100,7 +112,9 @@
                     "ex:部門": [
                         "毘曇部2"
                     ],
-                    "ex:配本": 27
+                    "ex:配本": [
+                        27
+                    ]
                 }
             ]
         }

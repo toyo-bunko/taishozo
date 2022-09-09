@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0664"
             ],
-            "ex:toページ": 284,
+            "ex:toページ": [
+                284
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 284,
+            "ex:ページ": [
+                284
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0663.json",
-                    "ex:出版年月日": 19250515,
-                    "ex:収録巻次": 16,
-                    "ex:巻数": 4,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250515
+                    ],
+                    "ex:収録巻次": [
+                        16
+                    ],
+                    "ex:巻数": [
+                        4
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "金光明經"
@@ -85,7 +97,9 @@
                     "ex:部門": [
                         "経集部3"
                     ],
-                    "ex:配本": 13
+                    "ex:配本": [
+                        13
+                    ]
                 }
             ]
         }
@@ -142,13 +156,19 @@
     "ex:酉目": [
         {
             "@id": "data:T0663-002-1.json#酉目",
-            "ex:to枝番": 5,
+            "ex:to枝番": [
+                5
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 1,
+            "ex:枝番": [
+                1
+            ],
             "ex:經典番號": [
                 "U0123"
             ],
-            "ex:通番": 128
+            "ex:通番": [
+                128
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": [

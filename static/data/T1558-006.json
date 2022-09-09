@@ -95,12 +95,16 @@
             "ex:kmID": [
                 "km1589"
             ],
-            "ex:toページ": 420,
+            "ex:toページ": [
+                420
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 419,
+            "ex:ページ": [
+                419
+            ],
             "ex:段": [
                 "a"
             ]
@@ -113,10 +117,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1558.json",
-                    "ex:出版年月日": 19260215,
-                    "ex:収録巻次": 29,
-                    "ex:巻数": 30,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260215
+                    ],
+                    "ex:収録巻次": [
+                        29
+                    ],
+                    "ex:巻数": [
+                        30
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "對法論,聰明論,倶舍論"
                     ],
@@ -136,7 +148,9 @@
                     "ex:部門": [
                         "毘曇部4"
                     ],
-                    "ex:配本": 22
+                    "ex:配本": [
+                        22
+                    ]
                 }
             ]
         }

@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1571"
             ],
-            "ex:toページ": 413,
+            "ex:toページ": [
+                413
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 413,
+            "ex:ページ": [
+                413
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1540.json",
-                    "ex:出版年月日": 19260315,
-                    "ex:収録巻次": 26,
-                    "ex:巻数": 3,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260315
+                    ],
+                    "ex:収録巻次": [
+                        26
+                    ],
+                    "ex:巻数": [
+                        3
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "界身足論,界身論"
                     ],
@@ -88,7 +100,9 @@
                     "ex:部門": [
                         "釈経論部下/毘曇部1"
                     ],
-                    "ex:配本": 23
+                    "ex:配本": [
+                        23
+                    ]
                 }
             ]
         }

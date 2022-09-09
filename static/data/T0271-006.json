@@ -77,12 +77,16 @@
             "ex:kmID": [
                 "km0272"
             ],
-            "ex:toページ": 225,
+            "ex:toページ": [
+                225
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 224,
+            "ex:ページ": [
+                224
+            ],
             "ex:段": [
                 "c"
             ]
@@ -95,10 +99,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0271.json",
-                    "ex:出版年月日": 19250715,
-                    "ex:収録巻次": 9,
-                    "ex:巻数": 3,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250715
+                    ],
+                    "ex:収録巻次": [
+                        9
+                    ],
+                    "ex:巻数": [
+                        3
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "菩薩行方便境界神通變化經,菩薩神通變化經,菩薩行方便神通變化經,菩薩行方便經"
                     ],
@@ -117,7 +129,9 @@
                     "ex:部門": [
                         "法華部全/華厳部上"
                     ],
-                    "ex:配本": 15
+                    "ex:配本": [
+                        15
+                    ]
                 }
             ]
         }

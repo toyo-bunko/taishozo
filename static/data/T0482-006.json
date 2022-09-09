@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km0483"
             ],
-            "ex:toページ": 265,
+            "ex:toページ": [
+                265
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 265,
+            "ex:ページ": [
+                265
+            ],
             "ex:段": [
                 "a"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0482.json",
-                    "ex:出版年月日": 19250120,
-                    "ex:収録巻次": 14,
-                    "ex:巻数": 4,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250120
+                    ],
+                    "ex:収録巻次": [
+                        14
+                    ],
+                    "ex:巻数": [
+                        4
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "法印經"
                     ],
@@ -99,7 +111,9 @@
                     "ex:部門": [
                         "経集部1"
                     ],
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

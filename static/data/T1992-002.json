@@ -26,12 +26,16 @@
             "ex:kmID": [
                 "km2028"
             ],
-            "ex:toページ": 513,
+            "ex:toページ": [
+                513
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 513,
+            "ex:ページ": [
+                513
+            ],
             "ex:段": [
                 "a"
             ]
@@ -44,10 +48,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1992.json",
-                    "ex:出版年月日": 19280215,
-                    "ex:収録巻次": 47,
-                    "ex:巻数": 3,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280215
+                    ],
+                    "ex:収録巻次": [
+                        47
+                    ],
+                    "ex:巻数": [
+                        3
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "汾州無德禪師語録,汾陽録"
                     ],
@@ -66,7 +78,9 @@
                     "ex:部門": [
                         "諸宗部4"
                     ],
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }

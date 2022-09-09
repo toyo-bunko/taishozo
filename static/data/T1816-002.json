@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1848"
             ],
-            "ex:toページ": 469,
+            "ex:toページ": [
+                469
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 469,
+            "ex:ページ": [
+                469
+            ],
             "ex:段": [
                 "b"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1816.json",
-                    "ex:出版年月日": 19270615,
-                    "ex:収録巻次": 40,
-                    "ex:巻数": 3,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270615
+                    ],
+                    "ex:収録巻次": [
+                        40
+                    ],
+                    "ex:巻数": [
+                        3
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "金剛般若會釋,金剛般若經會釋,五經二論會釋"
                     ],
@@ -99,7 +111,9 @@
                     "ex:部門": [
                         "律疏部全/論疏部1"
                     ],
-                    "ex:配本": 38
+                    "ex:配本": [
+                        38
+                    ]
                 }
             ]
         }

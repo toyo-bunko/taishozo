@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1004"
             ],
-            "ex:toページ": 331,
+            "ex:toページ": [
+                331
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 331,
+            "ex:ページ": [
+                331
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0990.json",
-                    "ex:出版年月日": 19281015,
-                    "ex:収録巻次": 19,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19281015
+                    ],
+                    "ex:収録巻次": [
+                        19
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "大雲經祈雨壇法"
@@ -85,7 +97,9 @@
                     "ex:部門": [
                         "密教部2"
                     ],
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

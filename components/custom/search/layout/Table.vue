@@ -7,7 +7,7 @@
       class="my-2"
     >
       <tr>
-        <th colspan="7">
+        <th :colspan="isAlt ? 8 : 7">
           {{ '基本情報' }}
         </th>
         <th colspan="4">

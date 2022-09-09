@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1735"
             ],
-            "ex:toページ": 451,
+            "ex:toページ": [
+                451
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 451,
+            "ex:ページ": [
+                451
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1703.json",
-                    "ex:出版年月日": 19260815,
-                    "ex:収録巻次": 33,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260815
+                    ],
+                    "ex:収録巻次": [
+                        33
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "金剛經註"
                     ],
@@ -88,7 +100,9 @@
                     "ex:部門": [
                         "経疏部1"
                     ],
-                    "ex:配本": 28
+                    "ex:配本": [
+                        28
+                    ]
                 }
             ]
         }
@@ -153,20 +167,30 @@
     "ex:酉目": [
         {
             "@id": "data:T1703-001-1.json#酉目",
-            "ex:to枝番": 2,
+            "ex:to枝番": [
+                2
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 1,
+            "ex:枝番": [
+                1
+            ],
             "ex:經典番號": [
                 "U1609"
             ],
-            "ex:通番": 1623
+            "ex:通番": [
+                1623
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
             "@id": "data:T1703-001-1.json#酉蓮社本IIIFコレクション",
-            "ex:from": 8,
-            "ex:to": 38,
+            "ex:from": [
+                8
+            ],
+            "ex:to": [
+                38
+            ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/XXX/manifest.json",
             "ex:画像フォルダ": [
                 "u-renja1622-1623"

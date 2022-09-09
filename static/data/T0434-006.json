@@ -77,12 +77,16 @@
             "ex:kmID": [
                 "km0435"
             ],
-            "ex:toページ": 258,
+            "ex:toページ": [
+                258
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 258,
+            "ex:ページ": [
+                258
+            ],
             "ex:段": [
                 "c"
             ]
@@ -95,10 +99,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0434.json",
-                    "ex:出版年月日": 19250120,
-                    "ex:収録巻次": 14,
-                    "ex:巻数": 3,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250120
+                    ],
+                    "ex:収録巻次": [
+                        14
+                    ],
+                    "ex:巻数": [
+                        3
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "稱揚諸佛功德經,集華經,現在佛名,諸佛華,稱揚諸佛經,集諸佛華經,稱揚百七十佛名經,百七十佛名經"
                     ],
@@ -117,7 +129,9 @@
                     "ex:部門": [
                         "経集部1"
                     ],
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }

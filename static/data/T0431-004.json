@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0432"
             ],
-            "ex:toページ": 258,
+            "ex:toページ": [
+                258
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 258,
+            "ex:ページ": [
+                258
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0431.json",
-                    "ex:出版年月日": 19250120,
-                    "ex:収録巻次": 14,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250120
+                    ],
+                    "ex:収録巻次": [
+                        14
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "八佛名號經"
@@ -85,7 +97,9 @@
                     "ex:部門": [
                         "経集部1"
                     ],
-                    "ex:配本": 9
+                    "ex:配本": [
+                        9
+                    ]
                 }
             ]
         }
@@ -140,13 +154,19 @@
     "ex:酉目": [
         {
             "@id": "data:T0431-004-1.json#酉目",
-            "ex:to枝番": 1,
+            "ex:to枝番": [
+                1
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 1,
+            "ex:枝番": [
+                1
+            ],
             "ex:經典番號": [
                 "U0298"
             ],
-            "ex:通番": 303
+            "ex:通番": [
+                303
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": [

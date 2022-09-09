@@ -45,12 +45,16 @@
             "ex:kmID": [
                 "km1414"
             ],
-            "ex:toページ": 382,
+            "ex:toページ": [
+                382
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 382,
+            "ex:ページ": [
+                382
+            ],
             "ex:段": [
                 "c"
             ]
@@ -63,10 +67,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1383.json",
-                    "ex:出版年月日": 19280815,
-                    "ex:収録巻次": 21,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280815
+                    ],
+                    "ex:収録巻次": [
+                        21
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "宿命智陀羅尼經,宿命智經"
                     ],
@@ -85,7 +97,9 @@
                     "ex:部門": [
                         "密教部4"
                     ],
-                    "ex:配本": 52
+                    "ex:配本": [
+                        52
+                    ]
                 }
             ]
         }

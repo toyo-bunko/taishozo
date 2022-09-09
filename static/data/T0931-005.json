@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0937"
             ],
-            "ex:toページ": 321,
+            "ex:toページ": [
+                321
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 321,
+            "ex:ページ": [
+                321
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0931.json",
-                    "ex:出版年月日": 19281015,
-                    "ex:収録巻次": 19,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19281015
+                    ],
+                    "ex:収録巻次": [
+                        19
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "觀自在王如來修行法,觀自在王修行法"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "密教部2"
                     ],
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

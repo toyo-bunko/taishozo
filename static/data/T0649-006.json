@@ -20,12 +20,16 @@
             "ex:kmID": [
                 "km0650"
             ],
-            "ex:toページ": 281,
+            "ex:toページ": [
+                281
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 281,
+            "ex:ページ": [
+                281
+            ],
             "ex:段": [
                 "c"
             ]
@@ -38,10 +42,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0649.json",
-                    "ex:出版年月日": 19250320,
-                    "ex:収録巻次": 15,
-                    "ex:巻数": 4,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250320
+                    ],
+                    "ex:収録巻次": [
+                        15
+                    ],
+                    "ex:巻数": [
+                        4
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "觀察諸法行經"
@@ -58,7 +70,9 @@
                     "ex:部門": [
                         "経集部2"
                     ],
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

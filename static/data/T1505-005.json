@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km1536"
             ],
-            "ex:toページ": 405,
+            "ex:toページ": [
+                405
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 405,
+            "ex:ページ": [
+                405
+            ],
             "ex:段": [
                 "c"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1505.json",
-                    "ex:出版年月日": 19260115,
-                    "ex:収録巻次": 25,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260115
+                    ],
+                    "ex:収録巻次": [
+                        25
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "四阿含暮抄,四阿含暮抄經,阿鋡暮抄解"
                     ],
@@ -98,7 +110,9 @@
                     "ex:部門": [
                         "釈経論部上"
                     ],
-                    "ex:配本": 21
+                    "ex:配本": [
+                        21
+                    ]
                 }
             ]
         }

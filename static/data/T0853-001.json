@@ -39,12 +39,16 @@
             "ex:kmID": [
                 "km0854"
             ],
-            "ex:toページ": 307,
+            "ex:toページ": [
+                307
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 307,
+            "ex:ページ": [
+                307
+            ],
             "ex:段": [
                 "b"
             ]
@@ -57,10 +61,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0853.json",
-                    "ex:出版年月日": 19280415,
-                    "ex:収録巻次": 18,
-                    "ex:巻数": 3,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280415
+                    ],
+                    "ex:収録巻次": [
+                        18
+                    ],
+                    "ex:巻数": [
+                        3
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "大毘盧遮那成佛神變加持經蓮華胎藏菩提幢標幟普通眞言藏廣大成就瑜伽"
@@ -77,7 +89,9 @@
                     "ex:部門": [
                         "密教部1"
                     ],
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

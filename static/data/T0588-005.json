@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km0589"
             ],
-            "ex:toページ": 274,
+            "ex:toページ": [
+                274
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 274,
+            "ex:ページ": [
+                274
+            ],
             "ex:段": [
                 "c"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0588.json",
-                    "ex:出版年月日": 19250320,
-                    "ex:収録巻次": 15,
-                    "ex:巻数": 4,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250320
+                    ],
+                    "ex:収録巻次": [
+                        15
+                    ],
+                    "ex:巻数": [
+                        4
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "須眞天子經,文殊師利所報法言稱經,斷諸法狐疑法經,諸佛法普入方便慧分別炤明持經,須眞天子所問經,須眞天子經,問四事經"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "経集部2"
                     ],
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

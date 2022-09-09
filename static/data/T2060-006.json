@@ -49,12 +49,16 @@
             "ex:kmID": [
                 "km2101"
             ],
-            "ex:toページ": 544,
+            "ex:toページ": [
+                544
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 541,
+            "ex:ページ": [
+                541
+            ],
             "ex:段": [
                 "b"
             ]
@@ -67,10 +71,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2060.json",
-                    "ex:出版年月日": 19270115,
-                    "ex:収録巻次": 50,
-                    "ex:巻数": 30,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270115
+                    ],
+                    "ex:収録巻次": [
+                        50
+                    ],
+                    "ex:巻数": [
+                        30
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "唐高僧傳,唐傳"
                     ],
@@ -89,7 +101,9 @@
                     "ex:部門": [
                         "史伝部2"
                     ],
-                    "ex:配本": 33
+                    "ex:配本": [
+                        33
+                    ]
                 }
             ]
         }

@@ -20,12 +20,16 @@
             "ex:kmID": [
                 "km1061"
             ],
-            "ex:toページ": 338,
+            "ex:toページ": [
+                338
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 338,
+            "ex:ページ": [
+                338
+            ],
             "ex:段": [
                 "c"
             ]
@@ -38,10 +42,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1043.json",
-                    "ex:出版年月日": 19280615,
-                    "ex:収録巻次": 20,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280615
+                    ],
+                    "ex:収録巻次": [
+                        20
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "請觀世音消伏毒害陀羅尼經,請觀世音經,消伏毒害經,消伏毒害陀羅尼呪經"
                     ],
@@ -60,7 +72,9 @@
                     "ex:部門": [
                         "密教部3"
                     ],
-                    "ex:配本": 50
+                    "ex:配本": [
+                        50
+                    ]
                 }
             ]
         }

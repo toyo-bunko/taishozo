@@ -26,12 +26,16 @@
             "ex:kmID": [
                 "km0635"
             ],
-            "ex:toページ": 280,
+            "ex:toページ": [
+                280
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 279,
+            "ex:ページ": [
+                279
+            ],
             "ex:段": [
                 "c"
             ]
@@ -44,10 +48,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0634.json",
-                    "ex:出版年月日": 19250320,
-                    "ex:収録巻次": 15,
-                    "ex:巻数": 5,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250320
+                    ],
+                    "ex:収録巻次": [
+                        15
+                    ],
+                    "ex:巻数": [
+                        5
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "大乘智印經,智印經"
                     ],
@@ -66,7 +78,9 @@
                     "ex:部門": [
                         "経集部2"
                     ],
-                    "ex:配本": 11
+                    "ex:配本": [
+                        11
+                    ]
                 }
             ]
         }

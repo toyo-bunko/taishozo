@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0285"
             ],
-            "ex:toページ": 229,
+            "ex:toページ": [
+                229
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 229,
+            "ex:ページ": [
+                229
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0284.json",
-                    "ex:出版年月日": 19250815,
-                    "ex:収録巻次": 10,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250815
+                    ],
+                    "ex:収録巻次": [
+                        10
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "華嚴十住品,十住經"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "華厳部下"
                     ],
-                    "ex:配本": 16
+                    "ex:配本": [
+                        16
+                    ]
                 }
             ]
         }

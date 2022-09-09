@@ -20,12 +20,16 @@
             "ex:kmID": [
                 "km2189"
             ],
-            "ex:toページ": 651,
+            "ex:toページ": [
+                651
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 650,
+            "ex:ページ": [
+                650
+            ],
             "ex:段": [
                 "c"
             ]
@@ -38,10 +42,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2146.json",
-                    "ex:出版年月日": 19281115,
-                    "ex:収録巻次": 55,
-                    "ex:巻数": 7,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19281115
+                    ],
+                    "ex:収録巻次": [
+                        55
+                    ],
+                    "ex:巻数": [
+                        7
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "隋衆經目錄,法經録,隋七卷錄"
                     ],
@@ -60,7 +72,9 @@
                     "ex:部門": [
                         "目録部全"
                     ],
-                    "ex:配本": 55
+                    "ex:配本": [
+                        55
+                    ]
                 }
             ]
         }
@@ -95,7 +109,9 @@
                         "中国"
                     ],
                     "ex:巻": [],
-                    "ex:年": 1148,
+                    "ex:年": [
+                        1148
+                    ],
                     "ex:底本推定": [],
                     "ex:時代": [
                         "宋"

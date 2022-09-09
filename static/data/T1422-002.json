@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1453"
             ],
-            "ex:toページ": 386,
+            "ex:toページ": [
+                386
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 386,
+            "ex:ページ": [
+                386
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1422.json",
-                    "ex:出版年月日": 19260415,
-                    "ex:収録巻次": 22,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260415
+                    ],
+                    "ex:収録巻次": [
+                        22
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "彌沙塞戒本,五分比丘戒本"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "律部1"
                     ],
-                    "ex:配本": 24
+                    "ex:配本": [
+                        24
+                    ]
                 }
             ]
         }

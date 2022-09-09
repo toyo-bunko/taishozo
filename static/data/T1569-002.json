@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1600"
             ],
-            "ex:toページ": 423,
+            "ex:toページ": [
+                423
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 423,
+            "ex:ページ": [
+                423
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1569.json",
-                    "ex:出版年月日": 19271015,
-                    "ex:収録巻次": 30,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19271015
+                    ],
+                    "ex:収録巻次": [
+                        30
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "百論"
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "中観部全/瑜伽部上"
                     ],
-                    "ex:配本": 42
+                    "ex:配本": [
+                        42
+                    ]
                 }
             ]
         }

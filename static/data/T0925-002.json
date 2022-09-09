@@ -26,12 +26,16 @@
             "ex:kmID": [
                 "km0931"
             ],
-            "ex:toページ": 321,
+            "ex:toページ": [
+                321
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 320,
+            "ex:ページ": [
+                320
+            ],
             "ex:段": [
                 "c"
             ]
@@ -44,10 +48,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0925.json",
-                    "ex:出版年月日": 19281015,
-                    "ex:収録巻次": 19,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19281015
+                    ],
+                    "ex:収録巻次": [
+                        19
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "藥師琉璃光王七佛本願功德經念誦儀軌"
@@ -64,7 +76,9 @@
                     "ex:部門": [
                         "密教部2"
                     ],
-                    "ex:配本": 54
+                    "ex:配本": [
+                        54
+                    ]
                 }
             ]
         }

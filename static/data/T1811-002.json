@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1843"
             ],
-            "ex:toページ": 469,
+            "ex:toページ": [
+                469
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 468,
+            "ex:ページ": [
+                468
+            ],
             "ex:段": [
                 "c"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1811.json",
-                    "ex:出版年月日": 19270615,
-                    "ex:収録巻次": 40,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270615
+                    ],
+                    "ex:収録巻次": [
+                        40
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "梵網菩薩戒經義疏,菩薩戒經義疏,菩薩戒經義記,菩薩戒義記,戒疏"
                     ],
@@ -100,7 +112,9 @@
                     "ex:部門": [
                         "律疏部全/論疏部1"
                     ],
-                    "ex:配本": 38
+                    "ex:配本": [
+                        38
+                    ]
                 }
             ]
         }

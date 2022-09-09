@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km0292"
             ],
-            "ex:toページ": 230,
+            "ex:toページ": [
+                230
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 230,
+            "ex:ページ": [
+                230
+            ],
             "ex:段": [
                 "c"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0291.json",
-                    "ex:出版年月日": 19250815,
-                    "ex:収録巻次": 10,
-                    "ex:巻数": 4,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250815
+                    ],
+                    "ex:収録巻次": [
+                        10
+                    ],
+                    "ex:巻数": [
+                        4
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "如來興顯經,興顯如幻經,興顯經"
                     ],
@@ -99,7 +111,9 @@
                     "ex:部門": [
                         "華厳部下"
                     ],
-                    "ex:配本": 16
+                    "ex:配本": [
+                        16
+                    ]
                 }
             ]
         }

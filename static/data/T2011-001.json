@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km2050"
             ],
-            "ex:toページ": 517,
+            "ex:toページ": [
+                517
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 517,
+            "ex:ページ": [
+                517
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2011.json",
-                    "ex:出版年月日": 19280515,
-                    "ex:収録巻次": 48,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280515
+                    ],
+                    "ex:収録巻次": [
+                        48
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "蘄州忍和上導凡趣聖悟解脫宗修心要論,修心要論"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "諸宗部5"
                     ],
-                    "ex:配本": 49
+                    "ex:配本": [
+                        49
+                    ]
                 }
             ]
         }

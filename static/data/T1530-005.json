@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km1561"
             ],
-            "ex:toページ": 411,
+            "ex:toページ": [
+                411
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 411,
+            "ex:ページ": [
+                411
+            ],
             "ex:段": [
                 "c"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1530.json",
-                    "ex:出版年月日": 19260315,
-                    "ex:収録巻次": 26,
-                    "ex:巻数": 7,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260315
+                    ],
+                    "ex:収録巻次": [
+                        26
+                    ],
+                    "ex:巻数": [
+                        7
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "佛地論"
                     ],
@@ -98,7 +110,9 @@
                     "ex:部門": [
                         "釈経論部下/毘曇部1"
                     ],
-                    "ex:配本": 23
+                    "ex:配本": [
+                        23
+                    ]
                 }
             ]
         }

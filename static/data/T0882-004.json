@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0884"
             ],
-            "ex:toページ": 311,
+            "ex:toページ": [
+                311
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 311,
+            "ex:ページ": [
+                311
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0882.json",
-                    "ex:出版年月日": 19280415,
-                    "ex:収録巻次": 18,
-                    "ex:巻数": 30,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280415
+                    ],
+                    "ex:収録巻次": [
+                        18
+                    ],
+                    "ex:巻数": [
+                        30
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "一切如來眞實攝大乘現證三昧大教王經,現證三昧大教王經,初會金剛頂經"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "密教部1"
                     ],
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }
@@ -142,13 +156,19 @@
     "ex:酉目": [
         {
             "@id": "data:T0882-004-1.json#酉目",
-            "ex:to枝番": 30,
+            "ex:to枝番": [
+                30
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 1,
+            "ex:枝番": [
+                1
+            ],
             "ex:經典番號": [
                 "U1012"
             ],
-            "ex:通番": 1018
+            "ex:通番": [
+                1018
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

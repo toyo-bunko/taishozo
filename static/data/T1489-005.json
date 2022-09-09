@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km1520"
             ],
-            "ex:toページ": 404,
+            "ex:toページ": [
+                404
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 404,
+            "ex:ページ": [
+                404
+            ],
             "ex:段": [
                 "b"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1489.json",
-                    "ex:出版年月日": 19260615,
-                    "ex:収録巻次": 24,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260615
+                    ],
+                    "ex:収録巻次": [
+                        24
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "淸淨毘尼經,毘尼方廣經,淸淨毘奈耶方廣經"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "律部3"
                     ],
-                    "ex:配本": 26
+                    "ex:配本": [
+                        26
+                    ]
                 }
             ]
         }

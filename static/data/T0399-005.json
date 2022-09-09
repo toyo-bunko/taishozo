@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km0400"
             ],
-            "ex:toページ": 253,
+            "ex:toページ": [
+                253
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 253,
+            "ex:ページ": [
+                253
+            ],
             "ex:段": [
                 "b"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0399.json",
-                    "ex:出版年月日": 19241120,
-                    "ex:収録巻次": 13,
-                    "ex:巻数": 4,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19241120
+                    ],
+                    "ex:収録巻次": [
+                        13
+                    ],
+                    "ex:巻数": [
+                        4
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "寶女所問經"
@@ -95,7 +107,9 @@
                     "ex:部門": [
                         "大集部"
                     ],
-                    "ex:配本": 7
+                    "ex:配本": [
+                        7
+                    ]
                 }
             ]
         }

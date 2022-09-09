@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km0279"
             ],
-            "ex:toページ": 228,
+            "ex:toページ": [
+                228
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 225,
+            "ex:ページ": [
+                225
+            ],
             "ex:段": [
                 "c"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0278.json",
-                    "ex:出版年月日": 19250715,
-                    "ex:収録巻次": 9,
-                    "ex:巻数": 60,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19250715
+                    ],
+                    "ex:収録巻次": [
+                        9
+                    ],
+                    "ex:巻数": [
+                        60
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "華嚴經,六十華嚴,舊譯華嚴經,晉經"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "法華部全/華厳部上"
                     ],
-                    "ex:配本": 15
+                    "ex:配本": [
+                        15
+                    ]
                 }
             ]
         }

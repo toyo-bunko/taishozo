@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km2190"
             ],
-            "ex:toページ": 651,
+            "ex:toページ": [
+                651
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 651,
+            "ex:ページ": [
+                651
+            ],
             "ex:段": [
                 "a"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2147.json",
-                    "ex:出版年月日": 19281115,
-                    "ex:収録巻次": 55,
-                    "ex:巻数": 5,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19281115
+                    ],
+                    "ex:収録巻次": [
+                        55
+                    ],
+                    "ex:巻数": [
+                        5
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "隋仁壽内典録,仁壽内典録,隋五卷録,仁壽録,彥琮録"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "目録部全"
                     ],
-                    "ex:配本": 55
+                    "ex:配本": [
+                        55
+                    ]
                 }
             ]
         }

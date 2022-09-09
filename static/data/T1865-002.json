@@ -26,12 +26,16 @@
             "ex:kmID": [
                 "km1897"
             ],
-            "ex:toページ": 482,
+            "ex:toページ": [
+                482
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 482,
+            "ex:ページ": [
+                482
+            ],
             "ex:段": [
                 "a"
             ]
@@ -44,10 +48,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1865.json",
-                    "ex:出版年月日": 19270915,
-                    "ex:収録巻次": 45,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270915
+                    ],
+                    "ex:収録巻次": [
+                        45
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "八識規矩補註"
@@ -64,7 +76,9 @@
                     "ex:部門": [
                         "諸宗部2"
                     ],
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }

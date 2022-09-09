@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km2038"
             ],
-            "ex:toページ": 514,
+            "ex:toページ": [
+                514
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 514,
+            "ex:ページ": [
+                514
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2000.json",
-                    "ex:出版年月日": 19280215,
-                    "ex:収録巻次": 47,
-                    "ex:巻数": 10,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280215
+                    ],
+                    "ex:収録巻次": [
+                        47
+                    ],
+                    "ex:巻数": [
+                        10
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "虚堂録,息耕録"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "諸宗部4"
                     ],
-                    "ex:配本": 46
+                    "ex:配本": [
+                        46
+                    ]
                 }
             ]
         }

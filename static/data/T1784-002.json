@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1816"
             ],
-            "ex:toページ": 464,
+            "ex:toページ": [
+                464
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 464,
+            "ex:ページ": [
+                464
+            ],
             "ex:段": [
                 "b"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1784.json",
-                    "ex:出版年月日": 19270215,
-                    "ex:収録巻次": 39,
-                    "ex:巻数": 6,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270215
+                    ],
+                    "ex:収録巻次": [
+                        39
+                    ],
+                    "ex:巻数": [
+                        6
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [],
                     "ex:経典名": [
                         "金光明經玄義拾遺記"
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "経疏部7"
                     ],
-                    "ex:配本": 34
+                    "ex:配本": [
+                        34
+                    ]
                 }
             ]
         }

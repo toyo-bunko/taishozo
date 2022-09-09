@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km1938"
             ],
-            "ex:toページ": 491,
+            "ex:toページ": [
+                491
+            ],
             "ex:to段": [
                 "a"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 491,
+            "ex:ページ": [
+                491
+            ],
             "ex:段": [
                 "a"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1905.json",
-                    "ex:出版年月日": 19270915,
-                    "ex:収録巻次": 45,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270915
+                    ],
+                    "ex:収録巻次": [
+                        45
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "芻習學略法"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "諸宗部2"
                     ],
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }
@@ -162,20 +176,30 @@
     "ex:酉目": [
         {
             "@id": "data:T1905-001-1.json#酉目",
-            "ex:to枝番": 3,
+            "ex:to枝番": [
+                3
+            ],
             "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
-            "ex:枝番": 3,
+            "ex:枝番": [
+                3
+            ],
             "ex:經典番號": [
                 "U1132"
             ],
-            "ex:通番": 1143
+            "ex:通番": [
+                1143
+            ]
         }
     ],
     "ex:酉蓮社本IIIコレクション": [
         {
             "@id": "data:T1905-001-1.json#酉蓮社本IIIFコレクション",
-            "ex:from": 1,
-            "ex:to": 14,
+            "ex:from": [
+                1
+            ],
+            "ex:to": [
+                14
+            ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/u-renja/iiif2/XXX/manifest.json",
             "ex:画像フォルダ": [
                 "u-renja1143b"

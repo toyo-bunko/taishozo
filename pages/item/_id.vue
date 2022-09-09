@@ -30,7 +30,9 @@
               format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:経典番号'])
             }}
           </td>
-          <td>{{ apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:枝番'] }}</td>
+          <td>
+            {{ format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:枝番']) }}
+          </td>
           <td class="pl-1 text-left">
             <a :href="apiResult['ex:sat'][0]['ex:url']" target="_blank"
               >{{
@@ -40,7 +42,9 @@
             >
           </td>
           <td>
-            {{ apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:収録巻次'] }}
+            {{
+              format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:収録巻次'])
+            }}
           </td>
           <td class="pl-1 text-left">
             {{ format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:部門']) }}
@@ -74,7 +78,9 @@
               format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:経典別名'])
             }}
           </td>
-          <td>{{ apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:巻数'] }}</td>
+          <td>
+            {{ format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:巻数']) }}
+          </td>
           <td colspan="2">
             {{ format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:訳著者']) }}
           </td>

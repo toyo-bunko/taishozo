@@ -47,12 +47,16 @@
             "ex:kmID": [
                 "km1922"
             ],
-            "ex:toページ": 488,
+            "ex:toページ": [
+                488
+            ],
             "ex:to段": [
                 "c"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 488,
+            "ex:ページ": [
+                488
+            ],
             "ex:段": [
                 "b"
             ]
@@ -65,10 +69,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1889.json",
-                    "ex:出版年月日": 19270915,
-                    "ex:収録巻次": 45,
-                    "ex:巻数": 1,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19270915
+                    ],
+                    "ex:収録巻次": [
+                        45
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "華嚴海印三昧論"
                     ],
@@ -87,7 +99,9 @@
                     "ex:部門": [
                         "諸宗部2"
                     ],
-                    "ex:配本": 41
+                    "ex:配本": [
+                        41
+                    ]
                 }
             ]
         }

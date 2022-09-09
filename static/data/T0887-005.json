@@ -57,12 +57,16 @@
             "ex:kmID": [
                 "km0889"
             ],
-            "ex:toページ": 312,
+            "ex:toページ": [
+                312
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 312,
+            "ex:ページ": [
+                312
+            ],
             "ex:段": [
                 "b"
             ]
@@ -75,10 +79,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0887.json",
-                    "ex:出版年月日": 19280415,
-                    "ex:収録巻次": 18,
-                    "ex:巻数": 6,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19280415
+                    ],
+                    "ex:収録巻次": [
+                        18
+                    ],
+                    "ex:巻数": [
+                        6
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "無二平等最上瑜伽大教王經,無二平等經,瑜伽大教王經,無二平等大教王經"
                     ],
@@ -97,7 +109,9 @@
                     "ex:部門": [
                         "密教部1"
                     ],
-                    "ex:配本": 48
+                    "ex:配本": [
+                        48
+                    ]
                 }
             ]
         }

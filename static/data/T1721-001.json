@@ -59,12 +59,16 @@
             "ex:kmID": [
                 "km1753"
             ],
-            "ex:toページ": 454,
+            "ex:toページ": [
+                454
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 454,
+            "ex:ページ": [
+                454
+            ],
             "ex:段": [
                 "a"
             ]
@@ -77,10 +81,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1721.json",
-                    "ex:出版年月日": 19260915,
-                    "ex:収録巻次": 34,
-                    "ex:巻数": 12,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19260915
+                    ],
+                    "ex:収録巻次": [
+                        34
+                    ],
+                    "ex:巻数": [
+                        12
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "妙法蓮華經義疏,法華經義疏"
                     ],
@@ -99,7 +111,9 @@
                     "ex:部門": [
                         "経疏部2"
                     ],
-                    "ex:配本": 29
+                    "ex:配本": [
+                        29
+                    ]
                 }
             ]
         }

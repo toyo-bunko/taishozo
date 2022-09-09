@@ -26,12 +26,16 @@
             "ex:kmID": [
                 "km0413"
             ],
-            "ex:toページ": 255,
+            "ex:toページ": [
+                255
+            ],
             "ex:to段": [
                 "b"
             ],
             "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
-            "ex:ページ": 255,
+            "ex:ページ": [
+                255
+            ],
             "ex:段": [
                 "b"
             ]
@@ -44,10 +48,18 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T0412.json",
-                    "ex:出版年月日": 19241120,
-                    "ex:収録巻次": 13,
-                    "ex:巻数": 2,
-                    "ex:枝番": 1,
+                    "ex:出版年月日": [
+                        19241120
+                    ],
+                    "ex:収録巻次": [
+                        13
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
                     "ex:経典別名": [
                         "地藏本願,地藏本行,地藏本誓力"
                     ],
@@ -66,7 +78,9 @@
                     "ex:部門": [
                         "大集部"
                     ],
-                    "ex:配本": 7
+                    "ex:配本": [
+                        7
+                    ]
                 }
             ]
         }
