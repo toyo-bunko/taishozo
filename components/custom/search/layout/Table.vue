@@ -7,7 +7,7 @@
       class="my-2"
     >
       <tr>
-        <th :colspan="isAlt ? 8 : 7">
+        <th :colspan="isAlt ? 10 : 7">
           {{ '基本情報' }}
         </th>
         <th colspan="4">
@@ -28,6 +28,8 @@
           }}</a>
         </th>
         <th v-show="isAlt">{{ '経典別名' }}</th>
+        <th v-show="isAlt">{{ '巻数' }}</th>
+        <th v-show="isAlt">{{ '訳著者' }}</th>
         <th>{{ '収録巻次' }}</th>
         <th>{{ '部門' }}</th>
         <th>{{ '配本' }}</th>
@@ -61,6 +63,14 @@
 
         <td v-show="isAlt" width="10%">
           {{ $utils.formatArrayValue(item['基-経典別名']) }}
+        </td>
+
+        <td v-show="isAlt" width="5%">
+          {{ $utils.formatArrayValue(item['基-巻数']) }}
+        </td>
+
+        <td v-show="isAlt" width="10%">
+          {{ $utils.formatArrayValue(item['基-訳著者']) }}
         </td>
 
         <td width="2%">
