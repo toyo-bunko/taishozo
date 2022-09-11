@@ -61,17 +61,21 @@
           >
         </td>
 
-        <td v-show="isAlt" width="10%">
-          {{ $utils.formatArrayValue(item['基-経典別名']) }}
-        </td>
+        <td
+          v-show="isAlt"
+          width="10%"
+          v-html="highlight($utils.formatArrayValue(item['基-経典別名']))"
+        ></td>
 
         <td v-show="isAlt" width="5%">
           {{ $utils.formatArrayValue(item['基-巻数']) }}
         </td>
 
-        <td v-show="isAlt" width="10%">
-          {{ $utils.formatArrayValue(item['基-訳著者']) }}
-        </td>
+        <td
+          v-show="isAlt"
+          width="10%"
+          v-html="highlight($utils.formatArrayValue(item['基-訳著者']))"
+        ></td>
 
         <td width="2%">
           {{ $utils.formatArrayValue(item['基-収録巻次']) }}

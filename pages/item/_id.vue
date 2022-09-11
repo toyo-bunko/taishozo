@@ -133,7 +133,9 @@
                 <template
                   v-if="apiResult['ex:酉目'] && apiResult['ex:酉目'].length > 0"
                 >
-                  <a :href="getUrl(apiResult['ex:酉目'])" target="_blank"
+                  <a
+                    :href="apiResult['ex:酉目'][0]['ex:url'][0]"
+                    target="_blank"
                     >{{ format(apiResult['ex:脚注'][0]['ex:テキスト']) }}
                     <v-icon color="primary" small>mdi-exit-to-app</v-icon></a
                   >
@@ -143,6 +145,7 @@
                 </template>
 
                 <template v-if="apiResult['ex:酉蓮社本IIIコレクション']">
+                  <v-chip color="error">9/11 [A]ここのURLは今後修正</v-chip>
                   <v-tooltip
                     v-for="(obj, index2) in apiResult[
                       'ex:酉蓮社本IIIコレクション'
@@ -172,19 +175,6 @@
                     <span>{{ obj['ex:経典名'] }}</span>
                   </v-tooltip>
                 </template>
-                <!--
-                <template>
-                  <a
-                    :href="
-                      'http://www.kanzaki.com/works/2016/pub/image-annotator?u=https://d1av1vcgsldque.cloudfront.net/iiif/' +
-                      id.slice(1) +
-                      '/manifest.json'
-                    "
-                    target="_blank"
-                    >{{ apiResult['ex:脚注'][0]['ex:テキスト'] }}</a
-                  >
-                </template>
-                -->
               </td>
               <td class="pl-1 text-left">
                 {{ format(apiResult['ex:脚注'][0]['ex:備考']) }}
@@ -200,15 +190,6 @@
             </tr>
             <template v-for="n of 5">
               <template v-if="n == 1">
-                <!-- 
-                <tr v-for="n2 of 3" :key="'l1_' + n + n2">
-                  <td v-if="n2 == 1" :rowspan="kFields.length + 3">
-                    {{ 'テキスト' + n }}<br />{{ '（勘同目録）' }}
-                  </td>
-                  <td>-</td>
-                  <td colspan="2">-</td>
-                </tr>
-                -->
                 <tr :key="'r1_' + n">
                   <td :rowspan="kFields.length + 3">
                     {{ 'テキスト' + n }}<br />{{ '（勘同目録）' }}
@@ -220,15 +201,17 @@
                     <td colspan="2">
                       <a
                         :href="
-                          'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=' +
-                          kando +
+                          baseUrl +
+                          '/mirador?manifest=' +
+                          apiResult['ex:勘同目録IIIFコレクション'][0][
+                            'ex:url'
+                          ][0] +
                           '&pos=' +
-                          (apiResult['ex:勘同目録IIIFコレクション'][0][
-                            'ex:ページ'
-                          ] -
-                            152)
+                          apiResult['ex:勘同目録IIIFコレクション'][0][
+                            'ex:pos'
+                          ][0]
                         "
-                        target="勘同目録IIIFコレクション"
+                        target="_blank"
                       >
                         {{
                           apiResult['ex:勘同目録IIIFコレクション'][0][
@@ -431,6 +414,8 @@ import ResultOption from '~/components/display/ResultOption.vue'
   },
 })
 export default class Search extends Vue {
+  baseUrl = process.env.BASE_URL
+
   kFields: string[] = [
     '標準名称',
     '巻',
@@ -448,8 +433,6 @@ export default class Search extends Vue {
       title: this.$t('詳細情報') + ': ' + this.title,
     }
   }
-
-  kando: any = process.env.BASE_URL + '/iiif/kandomokuroku/manifest.json'
 
   hFields: string[] = ['国', '所蔵者']
 
@@ -515,6 +498,7 @@ export default class Search extends Vue {
     return 'http://getpocket.com/edit?url=' + this.url
   }
 
+  /*
   uRenja: any = process.env['u-renja']
 
   getUrl(arr: any[]) {
@@ -526,6 +510,7 @@ export default class Search extends Vue {
 
     return uRenja + '/search/?' + params.substring(1)
   }
+  */
 
   get bh(): any[] {
     return [

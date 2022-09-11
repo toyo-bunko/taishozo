@@ -47,13 +47,18 @@
             "ex:kmID": [
                 "km0643"
             ],
+            "ex:pos": [
+                129
+            ],
             "ex:toページ": [
                 281
             ],
             "ex:to段": [
                 "a"
             ],
-            "ex:url": "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json&pos=$XXX",
+            "ex:url": [
+                "https://static.toyobunko-lab.jp/taishozo/iiif/kandomokuroku/manifest.json"
+            ],
             "ex:ページ": [
                 280
             ],
@@ -159,7 +164,9 @@
             "ex:to枝番": [
                 3
             ],
-            "ex:url": "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1361",
+            "ex:url": [
+                "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=400"
+            ],
             "ex:枝番": [
                 1
             ],
