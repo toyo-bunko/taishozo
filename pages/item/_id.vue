@@ -145,7 +145,7 @@
                 </template>
 
                 <template v-if="apiResult['ex:酉蓮社本IIIコレクション']">
-                  <v-chip color="error">9/11 [A]ここのURLは今後修正</v-chip>
+                  <v-chip color="error">9/11 [A]酉蓮社本のURLは今後修正</v-chip>
                   <v-tooltip
                     v-for="(obj, index2) in apiResult[
                       'ex:酉蓮社本IIIコレクション'
@@ -168,11 +168,39 @@
                         <img
                           width="30px"
                           class="mr-1"
-                          src="https://pbs.twimg.com/profile_images/596366309601845248/2uaPY5NH.png"
+                          :src="baseUrl + '/img/iiif-logo.webp'"
                         />
                       </a>
                     </template>
                     <span>{{ obj['ex:経典名'] }}</span>
+                  </v-tooltip>
+                </template>
+
+                <template v-if="apiResult['ex:底本校本URL']">
+                  <v-tooltip
+                    v-for="(obj, index2) in apiResult['ex:底本校本URL']"
+                    :key="index2"
+                    bottom
+                  >
+                    <template #activator="{ on, attrs }">
+                      <a
+                        v-bind="attrs"
+                        :href="obj['ex:URL'][0]"
+                        target="_blank"
+                        v-on="on"
+                      >
+                        <img
+                          width="30px"
+                          class="mr-1"
+                          :src="baseUrl + '/img/iiif-logo.webp'"
+                        />
+                      </a>
+                    </template>
+                    <span
+                      >{{ format(obj['ex:資料群名']) }}<br />{{
+                        format(obj['ex:經典名稱'])
+                      }}</span
+                    >
                   </v-tooltip>
                 </template>
               </td>
@@ -467,23 +495,6 @@ export default class Search extends Vue {
     }
   }
 
-  /*
-  get satUrl(): string {
-    const data = this.data
-    return (
-      'https://21dzk.l.u-tokyo.ac.jp/SAT2018/' +
-      data['基本情報-経典番号'] +
-      '_.' +
-      ('00' + data['SAT頭出し用']['開始巻']).slice(-2) +
-      '.' +
-      ('0000' + data['SAT頭出し用']['ページ']).slice(-4) +
-      data['SAT頭出し用']['段'] +
-      ('00' + data['SAT頭出し用']['行']).slice(-2) +
-      '.html'
-    )
-  }
-  */
-
   get twitterUrl() {
     return (
       'https://twitter.com/intent/tweet?url=' + this.url + '&text=' + this.title
@@ -497,20 +508,6 @@ export default class Search extends Vue {
   get pocketUrl() {
     return 'http://getpocket.com/edit?url=' + this.url
   }
-
-  /*
-  uRenja: any = process.env['u-renja']
-
-  getUrl(arr: any[]) {
-    let params: string = ''
-    for (let i = 0; i < arr.length; i++) {
-      params += '&fc-通番=' + arr[i]['ex:通番']
-    }
-    const uRenja = this.uRenja
-
-    return uRenja + '/search/?' + params.substring(1)
-  }
-  */
 
   get bh(): any[] {
     return [
