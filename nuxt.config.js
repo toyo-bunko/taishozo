@@ -629,4 +629,30 @@ module.exports = {
     // eslint-disable-next-line
     extend(config, ctx) {}
   },
+
+  generate: {
+    fallback: true,
+    routes() {
+      return routes2()
+    },
+  },
+}
+
+function routes2() {
+  const pages = []
+
+  const items = JSON.parse(fs.readFileSync('static/index2.json'))
+  for (const item of items) {
+    const id = item.objectID
+
+    pages.push({
+      route: `/item/${id}`,
+    })
+
+    pages.push({
+      route: `/en/item/${id}`,
+    })
+  }
+
+  return pages
 }
