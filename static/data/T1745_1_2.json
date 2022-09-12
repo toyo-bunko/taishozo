@@ -1,0 +1,103 @@
+{
+    "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
+    "@id": "data:T1745_1_2.json",
+    "ex:sat": [
+        {
+            "@id": "data:T1745_1_2.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1745_1_2_.37.0091a01.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:T1745_1_2.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": [
+                "校本無"
+            ],
+            "ex:❼": [],
+            "ex:❼備考": [],
+            "ex:底本/校本": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:T1745_1_2.json#勘同目録IIIFコレクション",
+            "ex:kmID": [
+                "km1777"
+            ],
+            "ex:pos": [
+                307
+            ],
+            "ex:toページ": [
+                459
+            ],
+            "ex:to段": [
+                "a"
+            ],
+            "ex:url": [
+                "https://static.toyobunko-lab.jp/taishozo/api/iiif/kandomokuroku/manifest.json"
+            ],
+            "ex:ページ": [
+                459
+            ],
+            "ex:段": [
+                "a"
+            ]
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:T1745_1_2.json#基本情報",
+            "ex:No.": "T1745_1_2",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1745_1_2.json",
+                    "ex:出版年月日": [
+                        19261015
+                    ],
+                    "ex:収録巻次": [
+                        37
+                    ],
+                    "ex:巻数": [
+                        2
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
+                    "ex:経典別名": [
+                        "大經淨影疏,大經義疏,大無量壽經疏"
+                    ],
+                    "ex:経典名": [
+                        "無量壽經義疏"
+                    ],
+                    "ex:経典番号": [
+                        "T1745"
+                    ],
+                    "ex:訳著者": [
+                        "隋釋慧遠撰"
+                    ],
+                    "ex:訳著者1-4": [
+                        "釋慧遠"
+                    ],
+                    "ex:部門": [
+                        "経疏部5"
+                    ],
+                    "ex:配本": [
+                        30
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:底本校本URL": [],
+    "ex:脚注": [
+        {
+            "@id": "data:T1745_1_2.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

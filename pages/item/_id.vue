@@ -145,7 +145,7 @@
                 </template>
 
                 <template v-if="apiResult['ex:酉蓮社本IIIコレクション']">
-                  <v-chip color="error">9/11 [A]酉蓮社本のURLは今後修正</v-chip>
+                  <!-- <v-chip color="error">9/11 [A]酉蓮社本のURLは今後修正</v-chip> -->
                   <v-tooltip
                     v-for="(obj, index2) in apiResult[
                       'ex:酉蓮社本IIIコレクション'
@@ -154,14 +154,21 @@
                     bottom
                   >
                     <template #activator="{ on, attrs }">
+                      <!-- {{ obj['ex:url'] }} -->
                       <a
                         v-bind="attrs"
-                        :href="
+                        :href2="
                           'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://d1av1vcgsldque.cloudfront.net/iiif/' +
                           Number(id) +
                           '/manifest.json&pos=' +
                           (index2 == 1 ? 5 : obj['ex:from'])
                         "
+                        :href="`${baseUrl}/mirador/?manifest=${obj[
+                          'ex:url'
+                        ].replace(
+                          'static.toyobunko-lab.jp/u-renja',
+                          'dev-urenja.netlify.app'
+                        )}`"
                         target="_blank"
                         v-on="on"
                       >
@@ -172,7 +179,7 @@
                         />
                       </a>
                     </template>
-                    <span>{{ obj['ex:経典名'] }}</span>
+                    <span>{{ format(obj['ex:経典名']) }}</span>
                   </v-tooltip>
                 </template>
 

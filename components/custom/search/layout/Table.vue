@@ -162,15 +162,24 @@
             >
               <v-tooltip v-if="item2" :key="'t_' + index2" bottom>
                 <template #activator="{ on, attrs }">
-                  <a v-bind="attrs" :href="item2.url" target="_blank" v-on="on">
+                  <a
+                    v-bind="attrs"
+                    :href2="item2.url"
+                    :href="`${baseUrl}/mirador/?manifest=${item2.url.replace(
+                      'static.toyobunko-lab.jp/u-renja',
+                      'dev-urenja.netlify.app'
+                    )}`"
+                    target="_blank"
+                    v-on="on"
+                  >
                     <img
-                      width="24px"
+                      width="30px"
                       class="ma-1"
-                      src="https://pbs.twimg.com/profile_images/596366309601845248/2uaPY5NH.png"
+                      :src="baseUrl + '/img/iiif-logo.webp'"
                     />
                   </a>
                 </template>
-                <span>{{ item2.label }}</span>
+                <span>{{ $utils.formatArrayValue(item2.label) }}</span>
               </v-tooltip>
             </template>
           </template>

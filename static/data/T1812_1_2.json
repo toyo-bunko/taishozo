@@ -1,0 +1,103 @@
+{
+    "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
+    "@id": "data:T1812_1_2.json",
+    "ex:sat": [
+        {
+            "@id": "data:T1812_1_2.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1812_1_2_.40.0580b02.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:T1812_1_2.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": [
+                "校本無"
+            ],
+            "ex:❼": [],
+            "ex:❼備考": [],
+            "ex:底本/校本": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:T1812_1_2.json#勘同目録IIIFコレクション",
+            "ex:kmID": [
+                "km1844"
+            ],
+            "ex:pos": [
+                317
+            ],
+            "ex:toページ": [
+                469
+            ],
+            "ex:to段": [
+                "a"
+            ],
+            "ex:url": [
+                "https://static.toyobunko-lab.jp/taishozo/api/iiif/kandomokuroku/manifest.json"
+            ],
+            "ex:ページ": [
+                469
+            ],
+            "ex:段": [
+                "a"
+            ]
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:T1812_1_2.json#基本情報",
+            "ex:No.": "T1812_1_2",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1812_1_2.json",
+                    "ex:出版年月日": [
+                        19270615
+                    ],
+                    "ex:収録巻次": [
+                        40
+                    ],
+                    "ex:巻数": [
+                        3
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
+                    "ex:経典別名": [
+                        "菩薩戒經疏,菩薩戒疏,梵網經疏,戒疏刪補,天台菩薩戒明曠疏,明曠疏"
+                    ],
+                    "ex:経典名": [
+                        "天台菩薩戒疏"
+                    ],
+                    "ex:経典番号": [
+                        "T1812"
+                    ],
+                    "ex:訳著者": [
+                        "唐釋明曠刪補"
+                    ],
+                    "ex:訳著者1-4": [
+                        "釋明曠"
+                    ],
+                    "ex:部門": [
+                        "律疏部全/論疏部1"
+                    ],
+                    "ex:配本": [
+                        38
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:底本校本URL": [],
+    "ex:脚注": [
+        {
+            "@id": "data:T1812_1_2.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}

@@ -1,0 +1,103 @@
+{
+    "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
+    "@id": "data:T1849_1_2.json",
+    "ex:sat": [
+        {
+            "@id": "data:T1849_1_2.json#SAT頭出し用",
+            "ex:url": "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1849_1_2_.44.0409b23.html"
+        }
+    ],
+    "ex:勘同目録": [
+        {
+            "@id": "data:T1849_1_2.json#勘同目録",
+            "ex:texts": [],
+            "ex:❹": [
+                "校本無"
+            ],
+            "ex:❼": [],
+            "ex:❼備考": [],
+            "ex:底本/校本": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:勘同目録IIIFコレクション": [
+        {
+            "@id": "data:T1849_1_2.json#勘同目録IIIFコレクション",
+            "ex:kmID": [
+                "km1881"
+            ],
+            "ex:pos": [
+                324
+            ],
+            "ex:toページ": [
+                476
+            ],
+            "ex:to段": [
+                "b"
+            ],
+            "ex:url": [
+                "https://static.toyobunko-lab.jp/taishozo/api/iiif/kandomokuroku/manifest.json"
+            ],
+            "ex:ページ": [
+                476
+            ],
+            "ex:段": [
+                "b"
+            ]
+        }
+    ],
+    "ex:基本情報": [
+        {
+            "@id": "data:T1849_1_2.json#基本情報",
+            "ex:No.": "T1849_1_2",
+            "ex:経典": [
+                {
+                    "@id": "keiten:T1849_1_2.json",
+                    "ex:出版年月日": [
+                        19270715
+                    ],
+                    "ex:収録巻次": [
+                        44
+                    ],
+                    "ex:巻数": [
+                        1
+                    ],
+                    "ex:枝番": [
+                        1
+                    ],
+                    "ex:経典別名": [
+                        "大乘起信論古迹記,起信論古迹記,内義略探記"
+                    ],
+                    "ex:経典名": [
+                        "大乘起信論内義略探記"
+                    ],
+                    "ex:経典番号": [
+                        "T1849"
+                    ],
+                    "ex:訳著者": [
+                        "新羅釋太賢作"
+                    ],
+                    "ex:訳著者1-4": [
+                        "釋太賢"
+                    ],
+                    "ex:部門": [
+                        "論疏部5/諸宗部1"
+                    ],
+                    "ex:配本": [
+                        39
+                    ]
+                }
+            ]
+        }
+    ],
+    "ex:底本校本URL": [],
+    "ex:脚注": [
+        {
+            "@id": "data:T1849_1_2.json#脚注",
+            "ex:texts": [],
+            "ex:所蔵者": []
+        }
+    ],
+    "ex:酉目": [],
+    "ex:酉蓮社本IIIコレクション": []
+}
