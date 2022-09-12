@@ -9,8 +9,8 @@
         </v-breadcrumbs>
       </v-container>
     </v-sheet>
-    <v-container class="my-5">
-      <h2>{{ $t('search') }}</h2>
+    <v-container class="my-5" fluid>
+      <!-- <h2>{{ $t('search') }}</h2> -->
 
       <template v-if="loading">
         <div class="text-center">
