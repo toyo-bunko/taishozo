@@ -632,9 +632,11 @@ module.exports = {
 
   generate: {
     fallback: true,
+    /*
     routes() {
       return routes2()
     },
+    */
   },
 }
 
