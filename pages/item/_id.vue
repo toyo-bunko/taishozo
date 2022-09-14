@@ -210,6 +210,18 @@
                     >
                   </v-tooltip>
                 </template>
+
+                <!--
+
+                <template v-if="apiResult.images">
+                  <IIIFIcon
+                    v-for="(item2, key2) in apiResult.images"
+                    :key="key2"
+                    :item="item2"
+                  ></IIIFIcon>
+                </template>
+
+                -->
               </td>
               <td class="pl-1 text-left">
                 {{ format(apiResult['ex:脚注'][0]['ex:備考']) }}
@@ -500,6 +512,8 @@ export default class Search extends Vue {
 
     const apiResult_ = await import(`~/static/data/${itemId}.json`)
     const apiResult = apiResult_.default
+
+    // console.log({ apiResult })
 
     return {
       id: itemId,

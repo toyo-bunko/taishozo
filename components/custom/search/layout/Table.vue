@@ -154,21 +154,21 @@
 
           <!-- -->
 
-          <template v-if="item['酉蓮社本IIIFコレクション'].length > 0">
+          <template v-if="item.images.length > 0">
             <br />
 
-            <template
-              v-for="(item2, index2) in item['酉蓮社本IIIFコレクション']"
-            >
-              <v-tooltip v-if="item2" :key="'t_' + index2" bottom>
+            <template v-for="(item2, index2) in item.images">
+              <v-tooltip v-if="item2 && item2.url" :key="'t_' + index2" bottom>
                 <template #activator="{ on, attrs }">
                   <a
                     v-bind="attrs"
                     :href2="item2.url"
-                    :href="`${baseUrl}/mirador/?manifest=${item2.url.replace(
-                      'static.toyobunko-lab.jp/u-renja',
-                      'dev-urenja.netlify.app'
-                    )}`"
+                    :href="`${baseUrl}/mirador/?manifest=${$utils
+                      .formatArrayValue(item2.url)
+                      .replace(
+                        'static.toyobunko-lab.jp/u-renja',
+                        'dev-urenja.netlify.app'
+                      )}`"
                     target="_blank"
                     v-on="on"
                   >
@@ -179,7 +179,11 @@
                     />
                   </a>
                 </template>
-                <span>{{ $utils.formatArrayValue(item2.label) }}</span>
+                <span
+                  v-html="
+                    $utils.formatArrayValue(item2.label).replace('\n', '<br/>')
+                  "
+                ></span>
               </v-tooltip>
             </template>
           </template>

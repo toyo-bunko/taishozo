@@ -179,7 +179,7 @@ const manifestIcon = 'img/icons/icon-512.png'
 
 env.bc = false
 
-env.index = 'index2.json'
+env.index = 'index.json'
 
 env.aggs = {
   '基-経典番号': {
@@ -643,7 +643,7 @@ module.exports = {
 function routes2() {
   const pages = []
 
-  const items = JSON.parse(fs.readFileSync('static/index2.json'))
+  const items = JSON.parse(fs.readFileSync('static/index.json'))
   for (const item of items) {
     const id = item.objectID
 
