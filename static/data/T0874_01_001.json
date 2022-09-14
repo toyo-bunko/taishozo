@@ -197,7 +197,7 @@
             "ex:to": [
                 47
             ],
-            "ex:url": "https://static.toyobunko-lab.jp/u-renja/api/iiif/items/1361-1/manifest.json",
+            "ex:url": "https://static.toyobunko-lab.jp/u-renja/mirador?manifest=https://static.toyobunko-lab.jp/u-renja/api/iiif/items/1361-1/manifest.json",
             "ex:画像フォルダ": [
                 "u-renja1361"
             ],

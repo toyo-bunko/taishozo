@@ -185,7 +185,7 @@
             "ex:to": [
                 "026_07_0122"
             ],
-            "ex:url": "https://static.toyobunko-lab.jp/u-renja/api/iiif/items/76-1/manifest.json",
+            "ex:url": "https://static.toyobunko-lab.jp/u-renja/mirador?manifest=https://static.toyobunko-lab.jp/u-renja/api/iiif/items/76-1/manifest.json",
             "ex:画像フォルダ": [
                 "026_07"
             ],

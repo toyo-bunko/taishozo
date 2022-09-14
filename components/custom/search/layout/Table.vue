@@ -163,7 +163,7 @@
                   <a
                     v-bind="attrs"
                     :href2="item2.url"
-                    :href="`${baseUrl}/mirador/?manifest=${$utils
+                    :href="`${$utils
                       .formatArrayValue(item2.url)
                       .replace(
                         'static.toyobunko-lab.jp/u-renja',
