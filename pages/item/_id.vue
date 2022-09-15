@@ -284,7 +284,11 @@
                   </td>
                   <td>底本推定</td>
                   <td class="pl-1 text-left" colspan="2">
-                    {{ apiResult['ex:脚注'][0]['ex:底本推定'] }}
+                    {{
+                      format(
+                        apiResult['ex:脚注'][0]['ex:texts'][0]['ex:底本推定']
+                      )
+                    }}
                   </td>
                 </tr>
                 <tr :key="'r10_' + n">
@@ -292,7 +296,11 @@
                   <td bgcolor="#B0BEC5" colspan="2"></td>
                   <td>略号使用</td>
                   <td class="pl-1 text-left" colspan="2">
-                    {{ apiResult['ex:脚注'][0]['ex:略号の使用'] }}
+                    {{
+                      format(
+                        apiResult['ex:脚注'][0]['ex:texts'][0]['ex:略号の使用']
+                      )
+                    }}
                   </td>
                 </tr>
                 <tr :key="'r11_' + n">
@@ -300,7 +308,11 @@
                   <td bgcolor="#B0BEC5" colspan="2"></td>
                   <td>略号解説</td>
                   <td class="pl-1 text-left" colspan="2">
-                    {{ apiResult['ex:脚注'][0]['ex:略号解説'] }}
+                    {{
+                      format(
+                        apiResult['ex:脚注'][0]['ex:texts'][0]['ex:略号解説']
+                      )
+                    }}
                   </td>
                 </tr>
               </template>
