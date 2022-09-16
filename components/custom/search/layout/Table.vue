@@ -165,10 +165,8 @@
                     :href2="item2.url"
                     :href="`${$utils
                       .formatArrayValue(item2.url)
-                      .replace(
-                        'static.toyobunko-lab.jp/u-renja',
-                        'dev-urenja.netlify.app'
-                      )}`"
+                      .split('static.toyobunko-lab.jp/u-renja')
+                      .join('dev-urenja.netlify.app')}`"
                     target="_blank"
                     v-on="on"
                   >
