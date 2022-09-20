@@ -123,7 +123,7 @@
     ],
     "ex:底本校本URL": [
         {
-            "@id": "data:T0397_01_006-1.json#底本・校本URL",
+            "@id": "data:T0397_01_006-001.json#底本・校本URL",
             "ex:URL": [
                 "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-960&page=2"
             ],
@@ -135,7 +135,7 @@
             ]
         },
         {
-            "@id": "data:T0397_01_006-2.json#底本・校本URL",
+            "@id": "data:T0397_01_006-002.json#底本・校本URL",
             "ex:URL": [
                 "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-994&page=3"
             ],
@@ -147,7 +147,7 @@
             ]
         },
         {
-            "@id": "data:T0397_01_006-3.json#底本・校本URL",
+            "@id": "data:T0397_01_006-003.json#底本・校本URL",
             "ex:URL": [
                 "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-1004&page=2"
             ],
@@ -159,7 +159,7 @@
             ]
         },
         {
-            "@id": "data:T0397_01_006-4.json#底本・校本URL",
+            "@id": "data:T0397_01_006-004.json#底本・校本URL",
             "ex:URL": [
                 "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-1034&page=2"
             ],
@@ -171,7 +171,7 @@
             ]
         },
         {
-            "@id": "data:T0397_01_006-5.json#底本・校本URL",
+            "@id": "data:T0397_01_006-005.json#底本・校本URL",
             "ex:URL": [
                 "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-1076&page=3"
             ],
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "@id": "data:T0397_01_006-6.json#底本・校本URL",
+            "@id": "data:T0397_01_006-006.json#底本・校本URL",
             "ex:URL": [
                 "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-2052&page=3"
             ],

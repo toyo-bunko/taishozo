@@ -126,7 +126,7 @@
     ],
     "ex:底本校本URL": [
         {
-            "@id": "data:T1881_01_001-1.json#底本・校本URL",
+            "@id": "data:T1881_01_001-001.json#底本・校本URL",
             "ex:URL": [
                 "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-6245&page=2"
             ],

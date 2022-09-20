@@ -113,7 +113,7 @@
     ],
     "ex:底本校本URL": [
         {
-            "@id": "data:T0278_01_004-1.json#底本・校本URL",
+            "@id": "data:T0278_01_004-001.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/028/028_01/3"
             ],
@@ -125,43 +125,7 @@
             ]
         },
         {
-            "@id": "data:T0278_01_004-10.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/029/029_04/2"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經60卷 (卷46～卷50)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0278_01_004-11.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/029/029_05/2"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經60卷 (卷51～卷55)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0278_01_004-12.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/029/029_06/2"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經60卷 (卷56～卷60)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0278_01_004-2.json#底本・校本URL",
+            "@id": "data:T0278_01_004-002.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/028/028_02/2"
             ],
@@ -173,7 +137,7 @@
             ]
         },
         {
-            "@id": "data:T0278_01_004-3.json#底本・校本URL",
+            "@id": "data:T0278_01_004-003.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/028/028_03/2"
             ],
@@ -185,7 +149,7 @@
             ]
         },
         {
-            "@id": "data:T0278_01_004-4.json#底本・校本URL",
+            "@id": "data:T0278_01_004-004.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/028/028_04/2"
             ],
@@ -197,7 +161,7 @@
             ]
         },
         {
-            "@id": "data:T0278_01_004-5.json#底本・校本URL",
+            "@id": "data:T0278_01_004-005.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/028/028_05/2"
             ],
@@ -209,7 +173,7 @@
             ]
         },
         {
-            "@id": "data:T0278_01_004-6.json#底本・校本URL",
+            "@id": "data:T0278_01_004-006.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/028/028_06/2"
             ],
@@ -221,7 +185,7 @@
             ]
         },
         {
-            "@id": "data:T0278_01_004-7.json#底本・校本URL",
+            "@id": "data:T0278_01_004-007.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/029/029_01/2"
             ],
@@ -233,7 +197,7 @@
             ]
         },
         {
-            "@id": "data:T0278_01_004-8.json#底本・校本URL",
+            "@id": "data:T0278_01_004-008.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/029/029_02/2"
             ],
@@ -245,12 +209,48 @@
             ]
         },
         {
-            "@id": "data:T0278_01_004-9.json#底本・校本URL",
+            "@id": "data:T0278_01_004-009.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/029/029_03/2"
             ],
             "ex:經典名稱": [
                 "大方廣佛華嚴經60卷 (卷41～卷45)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0278_01_004-010.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/029/029_04/2"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經60卷 (卷46～卷50)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0278_01_004-011.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/029/029_05/2"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經60卷 (卷51～卷55)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0278_01_004-012.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/029/029_06/2"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經60卷 (卷56～卷60)"
             ],
             "ex:資料群名": [
                 "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"

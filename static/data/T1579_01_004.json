@@ -114,7 +114,7 @@
     ],
     "ex:底本校本URL": [
         {
-            "@id": "data:T1579_01_004-1.json#底本・校本URL",
+            "@id": "data:T1579_01_004-001.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_01/3"
             ],
@@ -126,127 +126,7 @@
             ]
         },
         {
-            "@id": "data:T1579_01_004-10.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_10/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷46～卷50)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-11.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_01/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷51～卷55)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-12.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_02/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷56～卷60)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-13.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_03/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷61～卷65)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-14.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_04/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷66～卷70)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-15.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_05/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷71～卷75)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-16.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_06/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷76～卷80)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-17.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_07/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷81～卷85)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-18.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_08/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷86～卷90)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-19.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_09/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷91～卷95)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-2.json#底本・校本URL",
+            "@id": "data:T1579_01_004-002.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_02/2"
             ],
@@ -258,19 +138,7 @@
             ]
         },
         {
-            "@id": "data:T1579_01_004-20.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_10/2"
-            ],
-            "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷96～卷100)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T1579_01_004-3.json#底本・校本URL",
+            "@id": "data:T1579_01_004-003.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_03/2"
             ],
@@ -282,7 +150,7 @@
             ]
         },
         {
-            "@id": "data:T1579_01_004-4.json#底本・校本URL",
+            "@id": "data:T1579_01_004-004.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_04/2"
             ],
@@ -294,7 +162,7 @@
             ]
         },
         {
-            "@id": "data:T1579_01_004-5.json#底本・校本URL",
+            "@id": "data:T1579_01_004-005.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_05/2"
             ],
@@ -306,7 +174,7 @@
             ]
         },
         {
-            "@id": "data:T1579_01_004-6.json#底本・校本URL",
+            "@id": "data:T1579_01_004-006.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_06/2"
             ],
@@ -318,7 +186,7 @@
             ]
         },
         {
-            "@id": "data:T1579_01_004-7.json#底本・校本URL",
+            "@id": "data:T1579_01_004-007.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_07/2"
             ],
@@ -330,7 +198,7 @@
             ]
         },
         {
-            "@id": "data:T1579_01_004-8.json#底本・校本URL",
+            "@id": "data:T1579_01_004-008.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_08/2"
             ],
@@ -342,12 +210,144 @@
             ]
         },
         {
-            "@id": "data:T1579_01_004-9.json#底本・校本URL",
+            "@id": "data:T1579_01_004-009.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_09/2"
             ],
             "ex:經典名稱": [
                 "瑜伽師地論100卷 (卷41～卷45)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-010.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_10/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷46～卷50)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-011.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_01/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷51～卷55)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-012.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_02/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷56～卷60)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-013.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_03/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷61～卷65)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-014.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_04/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷66～卷70)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-015.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_05/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷71～卷75)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-016.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_06/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷76～卷80)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-017.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_07/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷81～卷85)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-018.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_08/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷86～卷90)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-019.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_09/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷91～卷95)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T1579_01_004-020.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_10/2"
+            ],
+            "ex:經典名稱": [
+                "瑜伽師地論100卷 (卷96～卷100)"
             ],
             "ex:資料群名": [
                 "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"

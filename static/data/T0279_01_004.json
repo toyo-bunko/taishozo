@@ -113,7 +113,7 @@
     ],
     "ex:底本校本URL": [
         {
-            "@id": "data:T0279_01_004-1.json#底本・校本URL",
+            "@id": "data:T0279_01_004-001.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/030/030_01/3"
             ],
@@ -125,103 +125,7 @@
             ]
         },
         {
-            "@id": "data:T0279_01_004-10.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_02/2"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經80卷 (卷46～卷50)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0279_01_004-11.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_03/2"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經80卷 (卷51～卷55)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0279_01_004-12.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_04/2"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經80卷 (卷56～卷60)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0279_01_004-13.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_05/2"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經80卷 (卷61～卷65)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0279_01_004-14.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_06/2"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經80卷 (卷66～卷70)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0279_01_004-15.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_07/2"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經80卷 (卷71～卷75)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0279_01_004-16.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_08/2"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經80卷 (卷76～卷80)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0279_01_004-17.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_08/119"
-            ],
-            "ex:經典名稱": [
-                "大方廣佛華嚴經80卷 (卷40（四十華厳の混入）)"
-            ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
-        },
-        {
-            "@id": "data:T0279_01_004-2.json#底本・校本URL",
+            "@id": "data:T0279_01_004-002.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/030/030_02/2"
             ],
@@ -233,7 +137,7 @@
             ]
         },
         {
-            "@id": "data:T0279_01_004-3.json#底本・校本URL",
+            "@id": "data:T0279_01_004-003.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/030/030_03/2"
             ],
@@ -245,7 +149,7 @@
             ]
         },
         {
-            "@id": "data:T0279_01_004-4.json#底本・校本URL",
+            "@id": "data:T0279_01_004-004.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/030/030_04/2"
             ],
@@ -257,7 +161,7 @@
             ]
         },
         {
-            "@id": "data:T0279_01_004-5.json#底本・校本URL",
+            "@id": "data:T0279_01_004-005.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/030/030_05/2"
             ],
@@ -269,7 +173,7 @@
             ]
         },
         {
-            "@id": "data:T0279_01_004-6.json#底本・校本URL",
+            "@id": "data:T0279_01_004-006.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/030/030_06/2"
             ],
@@ -281,7 +185,7 @@
             ]
         },
         {
-            "@id": "data:T0279_01_004-7.json#底本・校本URL",
+            "@id": "data:T0279_01_004-007.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/030/030_07/2"
             ],
@@ -293,7 +197,7 @@
             ]
         },
         {
-            "@id": "data:T0279_01_004-8.json#底本・校本URL",
+            "@id": "data:T0279_01_004-008.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/030/030_08/2"
             ],
@@ -305,12 +209,108 @@
             ]
         },
         {
-            "@id": "data:T0279_01_004-9.json#底本・校本URL",
+            "@id": "data:T0279_01_004-009.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_01/2"
             ],
             "ex:經典名稱": [
                 "大方廣佛華嚴經80卷 (卷41～卷45)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0279_01_004-010.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_02/2"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經80卷 (卷46～卷50)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0279_01_004-011.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_03/2"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經80卷 (卷51～卷55)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0279_01_004-012.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_04/2"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經80卷 (卷56～卷60)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0279_01_004-013.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_05/2"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經80卷 (卷61～卷65)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0279_01_004-014.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_06/2"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經80卷 (卷66～卷70)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0279_01_004-015.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_07/2"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經80卷 (卷71～卷75)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0279_01_004-016.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_08/2"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經80卷 (卷76～卷80)"
+            ],
+            "ex:資料群名": [
+                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
+            ]
+        },
+        {
+            "@id": "data:T0279_01_004-017.json#底本・校本URL",
+            "ex:URL": [
+                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/031/031_08/119"
+            ],
+            "ex:經典名稱": [
+                "大方廣佛華嚴經80卷 (卷40（四十華厳の混入）)"
             ],
             "ex:資料群名": [
                 "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"

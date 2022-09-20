@@ -113,7 +113,7 @@
     ],
     "ex:底本校本URL": [
         {
-            "@id": "data:T0374_01_004-1.json#底本・校本URL",
+            "@id": "data:T0374_01_004-001.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/034/034_01/3"
             ],
@@ -125,7 +125,7 @@
             ]
         },
         {
-            "@id": "data:T0374_01_004-2.json#底本・校本URL",
+            "@id": "data:T0374_01_004-002.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/034/034_02/2"
             ],
@@ -137,7 +137,7 @@
             ]
         },
         {
-            "@id": "data:T0374_01_004-3.json#底本・校本URL",
+            "@id": "data:T0374_01_004-003.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/034/034_03/2"
             ],
@@ -149,7 +149,7 @@
             ]
         },
         {
-            "@id": "data:T0374_01_004-4.json#底本・校本URL",
+            "@id": "data:T0374_01_004-004.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/034/034_04/2"
             ],
@@ -161,7 +161,7 @@
             ]
         },
         {
-            "@id": "data:T0374_01_004-5.json#底本・校本URL",
+            "@id": "data:T0374_01_004-005.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/034/034_05/2"
             ],
@@ -173,7 +173,7 @@
             ]
         },
         {
-            "@id": "data:T0374_01_004-6.json#底本・校本URL",
+            "@id": "data:T0374_01_004-006.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/034/034_06/2"
             ],
@@ -185,7 +185,7 @@
             ]
         },
         {
-            "@id": "data:T0374_01_004-7.json#底本・校本URL",
+            "@id": "data:T0374_01_004-007.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/034/034_07/2"
             ],
@@ -197,7 +197,7 @@
             ]
         },
         {
-            "@id": "data:T0374_01_004-8.json#底本・校本URL",
+            "@id": "data:T0374_01_004-008.json#底本・校本URL",
             "ex:URL": [
                 "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/034/034_08/2"
             ],
