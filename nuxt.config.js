@@ -53,7 +53,8 @@ const env = {
   SIMILAR_IMAGES_FLAG,
 }
 
-env['u-renja'] = 'https://static.toyobunko-lab.jp/u-renja'
+// env['u-renja'] = 'https://static.toyobunko-lab.jp/u-renja'
+env['u-renja'] = 'https://dev-urenja.netlify.app'
 
 const environment = process.env.NODE_ENV || 'development'
 const envSettings = require(`./env/${environment}.js`)

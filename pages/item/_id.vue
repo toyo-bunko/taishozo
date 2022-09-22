@@ -157,18 +157,9 @@
                       <!-- {{ obj['ex:url'] }} -->
                       <a
                         v-bind="attrs"
-                        :href2="
-                          'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://d1av1vcgsldque.cloudfront.net/iiif/' +
-                          Number(id) +
-                          '/manifest.json&pos=' +
-                          (index2 == 1 ? 5 : obj['ex:from'])
-                        "
-                        :href="`${baseUrl}/mirador/?manifest=${obj[
-                          'ex:url'
-                        ].replace(
-                          'static.toyobunko-lab.jp/u-renja',
-                          'dev-urenja.netlify.app'
-                        )}`"
+                        :href="`${obj['ex:url']
+                          .split('https://static.toyobunko-lab.jp/u-renja')
+                          .join(urenja)}`"
                         target="_blank"
                         v-on="on"
                       >
@@ -496,6 +487,8 @@ export default class Search extends Vue {
   hFields: string[] = ['国', '所蔵者']
 
   apiResult: any = null
+
+  urenja: any = process.env['u-renja']
 
   uri: string = ''
   url: string = ''
