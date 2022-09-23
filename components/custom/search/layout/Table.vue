@@ -143,7 +143,11 @@
               <a
                 v-if="value"
                 :key="key2"
-                :href="value"
+                :href="
+                  value[0]
+                    .split('https://static.toyobunko-lab.jp/u-renja')
+                    .join(urenja)
+                "
                 target="_blank"
                 class="ma-1"
               >
@@ -166,7 +170,7 @@
                     :href="`${$utils
                       .formatArrayValue(item2.url)
                       .split('static.toyobunko-lab.jp/u-renja')
-                      .join('dev-urenja.netlify.app')}`"
+                      .join(urenja)}`"
                     target="_blank"
                     v-on="on"
                   >
@@ -198,11 +202,6 @@
             :to="
               localePath({
                 name: 'item-id',
-                params2: {
-                  id: ('00000' + $utils.formatArrayValue(item['No.'])).slice(
-                    -5
-                  ),
-                },
                 params: {
                   id: $utils.formatArrayValue(item['objectID']),
                 },
@@ -229,6 +228,8 @@ export default class FullTextSearch extends Vue {
   baseUrl: any = process.env.BASE_URL
   @Prop({})
   items!: any[]
+
+  urenja: any = process.env['u-renja']
 
   isAlt: boolean = false
 
