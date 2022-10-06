@@ -169,7 +169,7 @@
                     :href2="item2.url"
                     :href="`${$utils
                       .formatArrayValue(item2.url)
-                      .split('static.toyobunko-lab.jp/u-renja')
+                      .split('https://static.toyobunko-lab.jp/u-renja')
                       .join(urenja)}`"
                     target="_blank"
                     v-on="on"
