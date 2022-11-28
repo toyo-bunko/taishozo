@@ -4,7 +4,9 @@
       <v-container>
         <v-row>
           <v-col v-for="(item2, key) in map" :key="key" cols="6" :md="3">
-            <h3>{{ $t(key) }}</h3>
+            <h3>
+              {{ key === 'about_' ? $t('piranesi_db') : $t(key) }}
+            </h3>
 
             <div v-for="(item, key2) in item2" :key="key2" class="mt-2">
               <template v-if="item.to">

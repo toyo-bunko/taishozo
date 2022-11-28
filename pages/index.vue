@@ -15,9 +15,9 @@
     <v-container class="my-10">
       <div class="mb-5 pb-5 text-center">
         <h2>{{ $t(siteName) }}</h2>
-        <p class="py-5" v-html="siteDesc"></p>
+        <p class="py-5" v-html="$t(siteDesc)"></p>
 
-        <p>以下からお試しください。</p>
+        <p>{{ $t('以下からお試しください。') }}</p>
 
         <v-btn
           class="ma-1"

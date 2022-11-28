@@ -25,7 +25,7 @@
       <v-toolbar-title>
         <nuxt-link
           :to="localePath({ name: 'index' })"
-          style="color: inherit; text-decoration: inherit;"
+          style="color: inherit; text-decoration: inherit"
         >
           {{ $t('piranesi_db') }}
         </nuxt-link>
@@ -49,7 +49,7 @@
       </template>
 
       <v-menu offset-y>
-        <template v-slot:activator="{ on }">
+        <template #activator="{ on }">
           <v-btn depressed btn v-on="on">
             <v-icon class="mr-2">mdi-translate</v-icon>
           </v-btn>
@@ -90,7 +90,8 @@ export default class Header extends Vue {
     },
     {
       label: 'legend',
-      href: this.baseUrl + '/底本・校本DB凡例.pdf',
+      // href: this.baseUrl + '/底本・校本DB凡例.pdf',
+      to: this.localePath({ name: 'page-slug', params: { slug: 'legend' } }),
       icon: 'mdi-information',
     },
     {
@@ -100,8 +101,7 @@ export default class Header extends Vue {
     },
     {
       label: 'inquiry',
-      href:
-        'https://docs.google.com/forms/d/e/1FAIpQLSd1gYA3qgLN2qQKn4o5vuzbma3Dgtoj_u555SVNuIgM4CSc-g/viewform?usp=sf_link',
+      href: 'https://docs.google.com/forms/d/e/1FAIpQLSd1gYA3qgLN2qQKn4o5vuzbma3Dgtoj_u555SVNuIgM4CSc-g/viewform?usp=sf_link',
       icon: 'mdi-contacts',
     },
   ]

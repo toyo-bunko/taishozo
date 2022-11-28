@@ -65,13 +65,20 @@ for (const key in envSettings) {
 env.menu = [
   {
     label: 'legend',
-    href:
+    to: {
+      name: 'page-slug',
+      params: {
+        slug: 'legend',
+      },
+    },
+    href_:
       env.BASE_URL +
       '/%E5%BA%95%E6%9C%AC%E3%83%BB%E6%A0%A1%E6%9C%ACDB%E5%87%A1%E4%BE%8B.pdf',
 
     type: 'about_',
     weight: 0,
   },
+  /*
   {
     label: 'update',
     to: {
@@ -86,6 +93,7 @@ env.menu = [
     weight: 1,
     // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
   },
+  */
   {
     label: 'inquiry',
     href: 'https://docs.google.com/forms/d/e/1FAIpQLSd1gYA3qgLN2qQKn4o5vuzbma3Dgtoj_u555SVNuIgM4CSc-g/viewform?usp=sf_link',

@@ -89,7 +89,7 @@
     "works" : "works",
     
     "search_subject_directory" : "Search Subject",
-    "piranesi_db" : "『大正新脩大蔵経』底本・校本データベース",
+    "piranesi_db" : "The Original and Collated Texts Database of the Taisho Shinshu Daizokyo",
     "volume_index" : "Volume Index",
     "related_information" : "Related Information",
     "detailed_information" : "Detailed Information",
@@ -241,5 +241,9 @@
     "show all": "Show All",
     "results" : "results",
     "none": "None",
-    "東洋文庫": "Toyo Bunko"
+    "『大正新脩大蔵経』底本・校本データベース": "The Original and Collated Texts Database of the Taisho Shinshu Daizokyo",
+    "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経目録データベース": "The Database of the Jiaxing Edition Buddhist Canon Catalog possessed by Yurenja (former Zojo-ji Ho'onzo)",
+    "東洋文庫": "Toyo Bunko",
+    "『大正新脩大蔵経』底本・校本データベースへようこそ": "Welcome to the Original and Collated Texts Database of the Taisho Shinshu Daizokyo",
+    "以下からお試しください。": "Please click on the search button to try it out!"
   }
