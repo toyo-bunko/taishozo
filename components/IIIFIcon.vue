@@ -3,12 +3,14 @@
     <template #activator="{ on, attrs }">
       <a
         v-bind="attrs"
-        :href="`${$utils
-          .formatArrayValue(item2.url)
+        :href="`${
+          $utils.formatArrayValue(item2.url)
+          /*
           .replace(
             'static.toyobunko-lab.jp/u-renja',
             'dev-urenja.netlify.app'
-          )}`"
+        )*/
+        }`"
         target="_blank"
         v-on="on"
       >
