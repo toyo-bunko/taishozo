@@ -17,7 +17,7 @@
             <tr v-for="(item, key) in items" :key="key">
               <td>{{ item.label }}</td>
               <td>
-                <a :href="item.value">{{ item.value }}</a>
+                <a :href="item.value" target="_blank">{{ item.value }}</a>
               </td>
             </tr>
           </tbody>
@@ -64,7 +64,7 @@ export default class Page extends Vue {
     {
       label: '酉蓮社本（IIIFコレクション）',
       value:
-        'https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://static.toyobunko-lab.jp/u-renja/iiif2/collection/top.json',
+        'https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://static.toyobunko-lab.jp/u-renja/api/iiif/collection/top.json',
     },
     {
       label: '『大正新脩大蔵経勘同目録』（IIIFマニフェスト）',
