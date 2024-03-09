@@ -1,8 +1,4 @@
-# test
-
-sls deploy --stage dev --cdnPath https://dev-umesao.cultural.jp
-
-> My top-notch Nuxt.js project
+# 『大正新脩大蔵経』底本・校本データベース
 
 ## Build Setup
 
