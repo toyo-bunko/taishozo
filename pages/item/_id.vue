@@ -253,6 +253,10 @@
                       >
                         {{
                           apiResult['ex:勘同目録IIIFコレクション'][0][
+                            'ex:kmID'
+                          ] +
+                          ' ' +
+                          apiResult['ex:勘同目録IIIFコレクション'][0][
                             'ex:ページ'
                           ] +
                           apiResult['ex:勘同目録IIIFコレクション'][0]['ex:段'] +
