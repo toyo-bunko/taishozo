@@ -327,7 +327,11 @@ export class Utils {
       return ''
     }
     if (arr.length === 1) {
-      return arr[0]
+      const label = arr[0]
+      if (label === 'None') {
+        return ''
+      }
+      return label
     } else {
       const value: string = arr.join(delimiter)
       return value
@@ -442,7 +446,10 @@ export class Utils {
     // 全角を半角に変換
     // 空の配列を削除
     // eslint-disable-next-line
-    return keyword.replace(/　/g, ' ').split(' ').filter(item => item !== "")
+    return keyword // eslint-disable-next-line
+      .replace(/　/g, ' ')
+      .split(' ')
+      .filter((item) => item !== '')
   }
 
   createFacetQuery(arr: any[]): { [key: string]: string } {
@@ -529,6 +536,20 @@ export class Utils {
       prefix = lang === 'ja' ? '上位' : 'Top '
     }
     return prefix + size.toLocaleString() + suffix
+  }
+
+  format(data: string[] | string | undefined) {
+    if (!data) {
+      return ''
+    }
+    if (data === 'None') {
+      return ''
+    }
+    if (Array.isArray(data)) {
+      return data.join(', ')
+    } else {
+      return data
+    }
   }
 }
 

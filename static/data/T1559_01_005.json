@@ -1,6 +1,64 @@
 {
     "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:T1559_01_005.json",
+    "data": {
+        "id": "T1559_01_005",
+        "relationships": {
+            "基本情報 + SAT頭出し用 + 勘同目録IIIFコレクション": {
+                "data": {
+                    "ID": "T1559_01",
+                    "SAT頭出し用：ページ": 161,
+                    "SAT頭出し用：枝番+ABC": null,
+                    "SAT頭出し用：段": "a",
+                    "SAT頭出し用：画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/?manifest=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/1559_29_manifest.json&canvas=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/canvas/29_0161.json",
+                    "SAT頭出し用：経典番号-ABC": "T1559",
+                    "SAT頭出し用：行": 1,
+                    "SAT頭出し用：開始巻": 29,
+                    "佛經目錄規範資料庫：作訳者1": "真諦",
+                    "佛經目錄規範資料庫：作訳者2": "世親",
+                    "佛經目錄規範資料庫：作訳者3": null,
+                    "佛經目錄規範資料庫：作訳者URL1": "A000962",
+                    "佛經目錄規範資料庫：作訳者URL2": "A000148",
+                    "佛經目錄規範資料庫：作訳者URL3": null,
+                    "佛經目錄規範資料庫：規範碼": "CA0000060",
+                    "勘同目録IIIFコレクション：kmID": "km1590",
+                    "勘同目録IIIFコレクション：toページ": 420,
+                    "勘同目録IIIFコレクション：to段": "b",
+                    "勘同目録IIIFコレクション：ページ": 420,
+                    "勘同目録IIIFコレクション：段": "b",
+                    "勘同目録：❶名称〔巴〕": null,
+                    "勘同目録：❶名称〔支〕": "A-p'i-ta-mo-kiu-chö-che-louen",
+                    "勘同目録：❶名称〔日〕": "A-bi-datsu-ma-ku-sha-shaku-ron",
+                    "勘同目録：❶名称〔梵〕": "Abhidharmakośa(vyākhyā)-śastra",
+                    "勘同目録：❶名称〔西藏名〕": null,
+                    "勘同目録：❶名称：異名略名": null,
+                    "勘同目録：❷著訳者名、著訳年代": "陳（天嘉四－光大元 A.D. 563-567） 真諦譯",
+                    "勘同目録：❸Nj": 1269,
+                    "勘同目録：❸元": "疲守",
+                    "勘同目録：❸卍": "二十四．五－六",
+                    "勘同目録：❸宋": "疲守",
+                    "勘同目録：❸明": "禽至畫",
+                    "勘同目録：❸縮": "冬一－二",
+                    "勘同目録：❸麗": "心至神",
+                    "勘同目録：巻数": 22,
+                    "勘同目録：巻数注記": null,
+                    "勘同目録：書名": "阿毘達磨倶舍釋論",
+                    "基本情報：出版年月日": 19260215,
+                    "基本情報：収録巻次": 29,
+                    "基本情報：巻数": 22,
+                    "基本情報：枝番": 1,
+                    "基本情報：経典別名": "倶舍釋論,舊倶舍",
+                    "基本情報：経典名": "阿毘達磨倶舍釋論",
+                    "基本情報：経典番号": "T1559",
+                    "基本情報：訳著者": "婆藪盤豆造　陳釋真諦譯",
+                    "基本情報：訳著者1-4": "婆藪盤豆|釋真諦",
+                    "基本情報：部門": "毘曇部4",
+                    "基本情報：配本": 22
+                }
+            }
+        },
+        "type": "item"
+    },
     "ex:sat": [
         {
             "@id": "data:T1559_01_005.json#SAT頭出し用",
@@ -13,40 +71,22 @@
             "ex:texts": [
                 {
                     "@id": "data:T1559_01_005-1.json#テキスト",
-                    "ex:刊写形態": [
-                        "刊"
-                    ],
-                    "ex:国": [
-                        "中国"
-                    ],
-                    "ex:年": [
-                        "1104"
-                    ],
-                    "ex:時代": [
-                        "宋"
-                    ],
-                    "ex:標準名称": [
-                        "宮本"
-                    ]
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1104",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宮本"
                 }
             ],
-            "ex:❹": [
-                "宮本"
-            ],
-            "ex:❼": [],
-            "ex:❼備考": [],
-            "ex:底本/校本": [
-                "校本"
-            ],
+            "ex:❹": "宮本",
+            "ex:❼": "None",
+            "ex:❼備考": "None",
+            "ex:底本/校本": "校本",
             "ex:所蔵者": [
                 {
                     "@id": "data:T1559_01_005-1.json#所蔵者",
-                    "ex:国": [
-                        "日本"
-                    ],
-                    "ex:所蔵者": [
-                        "宮内庁書陵部"
-                    ]
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
                 }
             ]
         }
@@ -54,27 +94,17 @@
     "ex:勘同目録IIIFコレクション": [
         {
             "@id": "data:T1559_01.json#勘同目録IIIFコレクション",
-            "ex:kmID": [
-                "km1590"
-            ],
+            "ex:kmID": "km1590",
             "ex:pos": [
                 268
             ],
-            "ex:toページ": [
-                420
-            ],
-            "ex:to段": [
-                "b"
-            ],
+            "ex:toページ": "420",
+            "ex:to段": "b",
             "ex:url": [
                 "https://static.toyobunko-lab.jp/taishozo/api/iiif/kandomokuroku/manifest.json"
             ],
-            "ex:ページ": [
-                420
-            ],
-            "ex:段": [
-                "b"
-            ]
+            "ex:ページ": "420",
+            "ex:段": "b"
         }
     ],
     "ex:基本情報": [
@@ -84,40 +114,17 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1559_01.json",
-                    "ex:出版年月日": [
-                        19260215
-                    ],
-                    "ex:収録巻次": [
-                        29
-                    ],
-                    "ex:巻数": [
-                        22
-                    ],
-                    "ex:枝番": [
-                        1
-                    ],
-                    "ex:経典別名": [
-                        "倶舍釋論,舊倶舍"
-                    ],
-                    "ex:経典名": [
-                        "阿毘達磨倶舍釋論"
-                    ],
-                    "ex:経典番号": [
-                        "T1559"
-                    ],
-                    "ex:訳著者": [
-                        "婆藪盤豆造　陳釋真諦譯"
-                    ],
-                    "ex:訳著者1-4": [
-                        "婆藪盤豆",
-                        "釋真諦"
-                    ],
-                    "ex:部門": [
-                        "毘曇部4"
-                    ],
-                    "ex:配本": [
-                        22
-                    ]
+                    "ex:出版年月日": "19260215",
+                    "ex:収録巻次": "29",
+                    "ex:巻数": "22",
+                    "ex:枝番": "1",
+                    "ex:経典別名": "倶舍釋論,舊倶舍",
+                    "ex:経典名": "阿毘達磨倶舍釋論",
+                    "ex:経典番号": "T1559",
+                    "ex:訳著者": "婆藪盤豆造　陳釋真諦譯",
+                    "ex:訳著者1-4": "婆藪盤豆|釋真諦",
+                    "ex:部門": "毘曇部4",
+                    "ex:配本": "22"
                 }
             ]
         }
@@ -125,15 +132,233 @@
     "ex:底本校本URL": [
         {
             "@id": "data:T1559_01_005-001.json#底本・校本URL",
-            "ex:URL": [
-                "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-4215&page=2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4215&page=2",
             "ex:經典名稱": [
-                "阿毗達磨俱舎釋論22卷"
+                "阿 (序)"
             ],
-            "ex:資料群名": [
-                "宮内庁書陵部蔵宋版大蔵経"
-            ]
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-002.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4215&page=5",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-003.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4216&page=3",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-004.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4217&page=3",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-005.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4218&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-006.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4219&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-007.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4220&page=3",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-008.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4221&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-009.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4222&page=3",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-010.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4223&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-011.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4224&page=3",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-012.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4226&page=3",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-013.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4227&page=3",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-014.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4228&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-015.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4229&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-016.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4230&page=3",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-017.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4231&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-018.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4232&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-019.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4233&page=3",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-020.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4234&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-021.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4235&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-022.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4236&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1559_01_005-023.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0969",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-4237&page=2",
+            "ex:經典名稱": [
+                "阿 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
         }
     ],
     "ex:脚注": [
@@ -142,60 +367,32 @@
             "ex:texts": [
                 {
                     "@id": "data:T1559_01_005-1.json#テキスト",
-                    "ex:刊写形態": [
-                        "刊"
-                    ],
-                    "ex:刊写者": [],
-                    "ex:国": [
-                        "中国"
-                    ],
-                    "ex:巻": [
-                        "巻18欠"
-                    ],
-                    "ex:年": [
-                        "1104"
-                    ],
-                    "ex:底本推定": [],
-                    "ex:時代": [
-                        "宋"
-                    ],
-                    "ex:標準名称": [
-                        "宮本"
-                    ],
-                    "ex:略号の使用": [
-                        "専号使用"
-                    ],
-                    "ex:略号解説": [
-                        "〈宮〉宮内省圖書寮本（舊宋本）（The Old Sung Edition〔A. D. 1104-1148〕belonging to the Library of the Imperial Household）"
-                    ],
-                    "ex:関与形態": [],
-                    "ex:関与者": [],
-                    "ex:～年": [
-                        "1148"
-                    ]
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "None",
+                    "ex:国": "中国",
+                    "ex:巻": "巻18欠",
+                    "ex:年": "1104",
+                    "ex:底本推定": "None",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宮本",
+                    "ex:略号の使用": "専号使用",
+                    "ex:略号解説": "〈宮〉宮内省圖書寮本（舊宋本）（The Old Sung Edition〔A. D. 1104-1148〕belonging to the Library of the Imperial Household）",
+                    "ex:関与形態": "None",
+                    "ex:関与者": "None",
+                    "ex:～年": "1148"
                 }
             ],
-            "ex:テキスト": [
-                "〈宮〉"
-            ],
-            "ex:備考": [
-                "（巻18）p.278〈7〉此卷宮本缺"
-            ],
-            "ex:底本/校本": [
-                "校本"
-            ],
+            "ex:テキスト": "〈宮〉",
+            "ex:備考": "（巻18）p.278〈7〉此卷宮本缺",
+            "ex:底本/校本": "校本",
             "ex:所蔵者": [
                 {
                     "@id": "data:T1559_01_005-1.json#所蔵者",
-                    "ex:国": [
-                        "日本"
-                    ],
-                    "ex:所蔵者": [
-                        "宮内庁書陵部"
-                    ]
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
                 }
             ],
-            "ex:新添": []
+            "ex:新添": "None"
         }
     ],
     "ex:酉目": [],

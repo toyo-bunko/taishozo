@@ -16,7 +16,7 @@
         <th colspan="4">
           {{ '脚注' }}
         </th>
-        <th rowspan="2">詳細情報</th>
+        <th rowspan="2">詳細<br />情報</th>
       </tr>
       <tr>
         <th>{{ '経典番号' }}</th>
@@ -53,12 +53,10 @@
           {{ $utils.formatArrayValue(item['基-枝番']) }}
         </td>
         <td width="10%" class="pl-1 text-left">
-          <a :href="item.sat_uri" target="_blank"
-            ><span
-              v-html="highlight($utils.formatArrayValue(item['基-経典名']))"
-            />
-            <v-icon small color="primary">mdi-exit-to-app</v-icon></a
-          >
+          <PagesSearchKeiten
+            :label="item['基-経典名']"
+            :highlight="highlight"
+          ></PagesSearchKeiten>
         </td>
 
         <td
@@ -218,10 +216,12 @@
 <script lang="ts">
 import { Prop, Vue, Component } from 'nuxt-property-decorator'
 import ResultOption from '~/components/display/ResultOption.vue'
+import PagesSearchKeiten from '~/components/pages/search/Keiten.vue'
 
 @Component({
   components: {
     ResultOption,
+    PagesSearchKeiten,
   },
 })
 export default class FullTextSearch extends Vue {

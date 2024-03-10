@@ -1,6 +1,64 @@
 {
     "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:T1602_01_005.json",
+    "data": {
+        "id": "T1602_01_005",
+        "relationships": {
+            "基本情報 + SAT頭出し用 + 勘同目録IIIFコレクション": {
+                "data": {
+                    "ID": "T1602_01",
+                    "SAT頭出し用：ページ": 480,
+                    "SAT頭出し用：枝番+ABC": null,
+                    "SAT頭出し用：段": "b",
+                    "SAT頭出し用：画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/?manifest=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/1602_31_manifest.json&canvas=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/canvas/31_0480.json",
+                    "SAT頭出し用：経典番号-ABC": "T1602",
+                    "SAT頭出し用：行": 8,
+                    "SAT頭出し用：開始巻": 31,
+                    "佛經目錄規範資料庫：作訳者1": "無著",
+                    "佛經目錄規範資料庫：作訳者2": "玄奘",
+                    "佛經目錄規範資料庫：作訳者3": null,
+                    "佛經目錄規範資料庫：作訳者URL1": "A001318",
+                    "佛經目錄規範資料庫：作訳者URL2": "A000294",
+                    "佛經目錄規範資料庫：作訳者URL3": null,
+                    "佛經目錄規範資料庫：規範碼": "CA0003553",
+                    "勘同目録IIIFコレクション：kmID": "km1633",
+                    "勘同目録IIIFコレクション：toページ": 433,
+                    "勘同目録IIIFコレクション：to段": "a",
+                    "勘同目録IIIFコレクション：ページ": 432,
+                    "勘同目録IIIFコレクション：段": "c",
+                    "勘同目録：❶名称〔巴〕": null,
+                    "勘同目録：❶名称〔支〕": "Hien-yang-cheng-kiao-louen",
+                    "勘同目録：❶名称〔日〕": "Ken-yō-shō-gyō-ron",
+                    "勘同目録：❶名称〔梵〕": null,
+                    "勘同目録：❶名称〔西藏名〕": null,
+                    "勘同目録：❶名称：異名略名": null,
+                    "勘同目録：❷著訳者名、著訳年代": "唐（貞觀一九－二○ A.D. 645-646） 玄奘譯",
+                    "勘同目録：❸Nj": 1177,
+                    "勘同目録：❸元": "尺璧",
+                    "勘同目録：❸卍": "二十一．三",
+                    "勘同目録：❸宋": "尺璧",
+                    "勘同目録：❸明": "分切",
+                    "勘同目録：❸縮": "來七",
+                    "勘同目録：❸麗": "慶尺",
+                    "勘同目録：巻数": 20,
+                    "勘同目録：巻数注記": null,
+                    "勘同目録：書名": "顯揚聖教論",
+                    "基本情報：出版年月日": 19251215,
+                    "基本情報：収録巻次": 31,
+                    "基本情報：巻数": 20,
+                    "基本情報：枝番": 1,
+                    "基本情報：経典別名": "總苞衆義論,顯揚論",
+                    "基本情報：経典名": "顯揚聖教論",
+                    "基本情報：経典番号": "T1602",
+                    "基本情報：訳著者": "無著菩薩造　唐釋玄奘譯",
+                    "基本情報：訳著者1-4": "無著菩薩|釋玄奘",
+                    "基本情報：部門": "瑜伽部下",
+                    "基本情報：配本": 20
+                }
+            }
+        },
+        "type": "item"
+    },
     "ex:sat": [
         {
             "@id": "data:T1602_01_005.json#SAT頭出し用",
@@ -13,40 +71,22 @@
             "ex:texts": [
                 {
                     "@id": "data:T1602_01_005-1.json#テキスト",
-                    "ex:刊写形態": [
-                        "刊"
-                    ],
-                    "ex:国": [
-                        "中国"
-                    ],
-                    "ex:年": [
-                        "1104"
-                    ],
-                    "ex:時代": [
-                        "宋"
-                    ],
-                    "ex:標準名称": [
-                        "宮本"
-                    ]
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1104",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宮本"
                 }
             ],
-            "ex:❹": [
-                "宮本"
-            ],
-            "ex:❼": [],
-            "ex:❼備考": [],
-            "ex:底本/校本": [
-                "校本"
-            ],
+            "ex:❹": "宮本",
+            "ex:❼": "None",
+            "ex:❼備考": "None",
+            "ex:底本/校本": "校本",
             "ex:所蔵者": [
                 {
                     "@id": "data:T1602_01_005-1.json#所蔵者",
-                    "ex:国": [
-                        "日本"
-                    ],
-                    "ex:所蔵者": [
-                        "宮内庁書陵部"
-                    ]
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
                 }
             ]
         }
@@ -54,27 +94,17 @@
     "ex:勘同目録IIIFコレクション": [
         {
             "@id": "data:T1602_01.json#勘同目録IIIFコレクション",
-            "ex:kmID": [
-                "km1633"
-            ],
+            "ex:kmID": "km1633",
             "ex:pos": [
-                281
+                280
             ],
-            "ex:toページ": [
-                433
-            ],
-            "ex:to段": [
-                "a"
-            ],
+            "ex:toページ": "433",
+            "ex:to段": "a",
             "ex:url": [
                 "https://static.toyobunko-lab.jp/taishozo/api/iiif/kandomokuroku/manifest.json"
             ],
-            "ex:ページ": [
-                432
-            ],
-            "ex:段": [
-                "c"
-            ]
+            "ex:ページ": "432",
+            "ex:段": "c"
         }
     ],
     "ex:基本情報": [
@@ -84,40 +114,17 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1602_01.json",
-                    "ex:出版年月日": [
-                        19251215
-                    ],
-                    "ex:収録巻次": [
-                        31
-                    ],
-                    "ex:巻数": [
-                        20
-                    ],
-                    "ex:枝番": [
-                        1
-                    ],
-                    "ex:経典別名": [
-                        "總苞衆義論,顯揚論"
-                    ],
-                    "ex:経典名": [
-                        "顯揚聖教論"
-                    ],
-                    "ex:経典番号": [
-                        "T1602"
-                    ],
-                    "ex:訳著者": [
-                        "無著菩薩造　唐釋玄奘譯"
-                    ],
-                    "ex:訳著者1-4": [
-                        "無著菩薩",
-                        "釋玄奘"
-                    ],
-                    "ex:部門": [
-                        "瑜伽部下"
-                    ],
-                    "ex:配本": [
-                        20
-                    ]
+                    "ex:出版年月日": "19251215",
+                    "ex:収録巻次": "31",
+                    "ex:巻数": "20",
+                    "ex:枝番": "1",
+                    "ex:経典別名": "總苞衆義論,顯揚論",
+                    "ex:経典名": "顯揚聖教論",
+                    "ex:経典番号": "T1602",
+                    "ex:訳著者": "無著菩薩造　唐釋玄奘譯",
+                    "ex:訳著者1-4": "無著菩薩|釋玄奘",
+                    "ex:部門": "瑜伽部下",
+                    "ex:配本": "20"
                 }
             ]
         }
@@ -125,15 +132,223 @@
     "ex:底本校本URL": [
         {
             "@id": "data:T1602_01_005-001.json#底本・校本URL",
-            "ex:URL": [
-                "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-2497&page=2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2497&page=2",
             "ex:經典名稱": [
-                "顯揚聖教論20卷"
+                "顯 (唐)"
             ],
-            "ex:資料群名": [
-                "宮内庁書陵部蔵宋版大蔵経"
-            ]
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-002.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2497&page=4",
+            "ex:經典名稱": [
+                "顯 (唐)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-003.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2497&page=6",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-004.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2498&page=3",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-005.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2499&page=2",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-006.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2500&page=3",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-007.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2501&page=3",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-008.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2502&page=2",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-009.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2503&page=2",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-010.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2504&page=3",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-011.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2505&page=2",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-012.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2506&page=3",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-013.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2508&page=2",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-014.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2509&page=3",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-015.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2510&page=2",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-016.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2511&page=3",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-017.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2512&page=3",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-018.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2513&page=2",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-019.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2514&page=3",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-020.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2515&page=2",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-021.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2516&page=2",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1602_01_005-022.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0587",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-2517&page=3",
+            "ex:經典名稱": [
+                "顯 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
         }
     ],
     "ex:脚注": [
@@ -142,56 +357,32 @@
             "ex:texts": [
                 {
                     "@id": "data:T1602_01_005-1.json#テキスト",
-                    "ex:刊写形態": [
-                        "刊"
-                    ],
-                    "ex:刊写者": [],
-                    "ex:国": [
-                        "中国"
-                    ],
-                    "ex:巻": [],
-                    "ex:年": [
-                        "1104"
-                    ],
-                    "ex:底本推定": [],
-                    "ex:時代": [
-                        "宋"
-                    ],
-                    "ex:標準名称": [
-                        "宮本"
-                    ],
-                    "ex:略号の使用": [
-                        "専号使用"
-                    ],
-                    "ex:略号解説": [
-                        "〈宮〉宮内省圖書寮本（舊宋本）（The Old Sung Edition〔A. D. 1104-1148〕belonging to the Library of the Imperial Household）"
-                    ],
-                    "ex:関与形態": [],
-                    "ex:関与者": [],
-                    "ex:～年": [
-                        "1148"
-                    ]
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "None",
+                    "ex:国": "中国",
+                    "ex:巻": "None",
+                    "ex:年": "1104",
+                    "ex:底本推定": "None",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宮本",
+                    "ex:略号の使用": "専号使用",
+                    "ex:略号解説": "〈宮〉宮内省圖書寮本（舊宋本）（The Old Sung Edition〔A. D. 1104-1148〕belonging to the Library of the Imperial Household）",
+                    "ex:関与形態": "None",
+                    "ex:関与者": "None",
+                    "ex:～年": "1148"
                 }
             ],
-            "ex:テキスト": [
-                "〈宮〉"
-            ],
-            "ex:備考": [],
-            "ex:底本/校本": [
-                "校本"
-            ],
+            "ex:テキスト": "〈宮〉",
+            "ex:備考": "None",
+            "ex:底本/校本": "校本",
             "ex:所蔵者": [
                 {
                     "@id": "data:T1602_01_005-1.json#所蔵者",
-                    "ex:国": [
-                        "日本"
-                    ],
-                    "ex:所蔵者": [
-                        "宮内庁書陵部"
-                    ]
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
                 }
             ],
-            "ex:新添": []
+            "ex:新添": "None"
         }
     ],
     "ex:酉目": [],

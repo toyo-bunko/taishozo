@@ -1,6 +1,64 @@
 {
     "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:T1579_01_004.json",
+    "data": {
+        "id": "T1579_01_004",
+        "relationships": {
+            "基本情報 + SAT頭出し用 + 勘同目録IIIFコレクション": {
+                "data": {
+                    "ID": "T1579_01",
+                    "SAT頭出し用：ページ": 279,
+                    "SAT頭出し用：枝番+ABC": null,
+                    "SAT頭出し用：段": "a",
+                    "SAT頭出し用：画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/?manifest=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/1579_30_manifest.json&canvas=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/canvas/30_0279.json",
+                    "SAT頭出し用：経典番号-ABC": "T1579",
+                    "SAT頭出し用：行": 1,
+                    "SAT頭出し用：開始巻": 30,
+                    "佛經目錄規範資料庫：作訳者1": "彌勒菩薩",
+                    "佛經目錄規範資料庫：作訳者2": "玄奘",
+                    "佛經目錄規範資料庫：作訳者3": null,
+                    "佛經目錄規範資料庫：作訳者URL1": "A001428",
+                    "佛經目錄規範資料庫：作訳者URL2": "A000294",
+                    "佛經目錄規範資料庫：作訳者URL3": null,
+                    "佛經目錄規範資料庫：規範碼": "CA0003829",
+                    "勘同目録IIIFコレクション：kmID": "km1610",
+                    "勘同目録IIIFコレクション：toページ": 426,
+                    "勘同目録IIIFコレクション：to段": "a",
+                    "勘同目録IIIFコレクション：ページ": 424,
+                    "勘同目録IIIFコレクション：段": "c",
+                    "勘同目録：❶名称〔巴〕": null,
+                    "勘同目録：❶名称〔支〕": "Yu-k'ie-che-ti-louen",
+                    "勘同目録：❶名称〔日〕": "Yu-ga-shi-ji-ron",
+                    "勘同目録：❶名称〔梵〕": "Yogācāryabhūmi-śāstra",
+                    "勘同目録：❶名称〔西藏名〕": "rnal-ḥbyor spyod-paḥi sa 〔Skt. Yogācāryabhūmi〕",
+                    "勘同目録：❶名称：異名略名": null,
+                    "勘同目録：❷著訳者名、著訳年代": "唐（貞觀二○－二二 A.D. 646-648） 玄奘譯",
+                    "勘同目録：❸Nj": 1170,
+                    "勘同目録：❸元": "習至慶",
+                    "勘同目録：❸卍": "二十．五－九",
+                    "勘同目録：❸宋": "習至慶",
+                    "勘同目録：❸明": "猶至氣",
+                    "勘同目録：❸縮": "來一－五",
+                    "勘同目録：❸麗": "堂至善",
+                    "勘同目録：巻数": 100,
+                    "勘同目録：巻数注記": null,
+                    "勘同目録：書名": "瑜伽師地論",
+                    "基本情報：出版年月日": 19271015,
+                    "基本情報：収録巻次": 30,
+                    "基本情報：巻数": 100,
+                    "基本情報：枝番": 1,
+                    "基本情報：経典別名": "瑜伽論",
+                    "基本情報：経典名": "瑜伽師地論",
+                    "基本情報：経典番号": "T1579",
+                    "基本情報：訳著者": "彌勒菩薩説　唐釋玄奘譯",
+                    "基本情報：訳著者1-4": "彌勒菩薩|釋玄奘",
+                    "基本情報：部門": "中観部全/瑜伽部上",
+                    "基本情報：配本": 42
+                }
+            }
+        },
+        "type": "item"
+    },
     "ex:sat": [
         {
             "@id": "data:T1579_01_004.json#SAT頭出し用",
@@ -13,58 +71,34 @@
             "ex:texts": [
                 {
                     "@id": "data:T1579_01_004-1.json#テキスト",
-                    "ex:刊写形態": [
-                        "刊"
-                    ],
-                    "ex:国": [
-                        "中国"
-                    ],
-                    "ex:年": [
-                        "1601"
-                    ],
-                    "ex:時代": [
-                        "明"
-                    ],
-                    "ex:標準名称": [
-                        "明本"
-                    ]
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1601",
+                    "ex:時代": "明",
+                    "ex:標準名称": "明本"
                 }
             ],
-            "ex:❹": [
-                "明本"
-            ],
-            "ex:❼": [],
-            "ex:❼備考": [],
-            "ex:底本/校本": [
-                "校本"
-            ],
+            "ex:❹": "明本",
+            "ex:❼": "None",
+            "ex:❼備考": "None",
+            "ex:底本/校本": "校本",
             "ex:所蔵者": []
         }
     ],
     "ex:勘同目録IIIFコレクション": [
         {
             "@id": "data:T1579_01.json#勘同目録IIIFコレクション",
-            "ex:kmID": [
-                "km1610"
-            ],
+            "ex:kmID": "km1610",
             "ex:pos": [
-                274
+                272
             ],
-            "ex:toページ": [
-                426
-            ],
-            "ex:to段": [
-                "a"
-            ],
+            "ex:toページ": "426",
+            "ex:to段": "a",
             "ex:url": [
                 "https://static.toyobunko-lab.jp/taishozo/api/iiif/kandomokuroku/manifest.json"
             ],
-            "ex:ページ": [
-                424
-            ],
-            "ex:段": [
-                "c"
-            ]
+            "ex:ページ": "424",
+            "ex:段": "c"
         }
     ],
     "ex:基本情報": [
@@ -74,40 +108,17 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1579_01.json",
-                    "ex:出版年月日": [
-                        19271015
-                    ],
-                    "ex:収録巻次": [
-                        30
-                    ],
-                    "ex:巻数": [
-                        100
-                    ],
-                    "ex:枝番": [
-                        1
-                    ],
-                    "ex:経典別名": [
-                        "瑜伽論"
-                    ],
-                    "ex:経典名": [
-                        "瑜伽師地論"
-                    ],
-                    "ex:経典番号": [
-                        "T1579"
-                    ],
-                    "ex:訳著者": [
-                        "彌勒菩薩説　唐釋玄奘譯"
-                    ],
-                    "ex:訳著者1-4": [
-                        "彌勒菩薩",
-                        "釋玄奘"
-                    ],
-                    "ex:部門": [
-                        "中観部全/瑜伽部上"
-                    ],
-                    "ex:配本": [
-                        42
-                    ]
+                    "ex:出版年月日": "19271015",
+                    "ex:収録巻次": "30",
+                    "ex:巻数": "100",
+                    "ex:枝番": "1",
+                    "ex:経典別名": "瑜伽論",
+                    "ex:経典名": "瑜伽師地論",
+                    "ex:経典番号": "T1579",
+                    "ex:訳著者": "彌勒菩薩説　唐釋玄奘譯",
+                    "ex:訳著者1-4": "彌勒菩薩|釋玄奘",
+                    "ex:部門": "中観部全/瑜伽部上",
+                    "ex:配本": "42"
                 }
             ]
         }
@@ -115,243 +126,203 @@
     "ex:底本校本URL": [
         {
             "@id": "data:T1579_01_004-001.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_01/3"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_01/3",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (目録・序・卷1～卷5)"
+                "瑜 (目)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-002.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_02/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_02/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷6～卷10)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-003.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_03/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_03/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷11～卷15)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-004.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_04/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_04/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷16～卷20)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-005.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_05/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_05/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷21～卷25)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-006.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_06/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_06/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷26～卷30)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-007.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_07/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_07/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷31～卷35)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-008.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_08/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_08/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷36～卷40)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-009.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_09/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_09/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷41～卷45)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-010.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_10/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/103/103_10/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷46～卷50)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-011.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_01/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_01/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷51～卷55)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-012.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_02/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_02/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷56～卷60)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-013.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_03/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_03/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷61～卷65)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-014.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_04/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_04/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷66～卷70)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-015.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_05/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_05/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷71～卷75)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-016.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_06/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_06/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷76～卷80)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-017.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_07/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_07/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷81～卷85)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-018.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_08/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_08/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷86～卷90)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-019.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_09/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_09/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷91～卷95)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         },
         {
             "@id": "data:T1579_01_004-020.json#底本・校本URL",
-            "ex:URL": [
-                "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_10/2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "None",
+            "ex:画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/104/104_10/2",
             "ex:經典名稱": [
-                "瑜伽師地論100卷 (卷96～卷100)"
+                "瑜 (卷)"
             ],
-            "ex:資料群名": [
-                "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
-            ]
+            "ex:資料群名": "酉蓮社（旧増上寺報恩蔵）蔵嘉興版大蔵経"
         }
     ],
     "ex:脚注": [
@@ -360,64 +331,38 @@
             "ex:texts": [
                 {
                     "@id": "data:T1579_01_004-1.json#テキスト",
-                    "ex:刊写形態": [
-                        "刊"
-                    ],
-                    "ex:刊写者": [],
-                    "ex:国": [
-                        "中国"
-                    ],
-                    "ex:巻": [],
-                    "ex:年": [
-                        "1601"
-                    ],
-                    "ex:底本推定": [],
-                    "ex:時代": [
-                        "明"
-                    ],
-                    "ex:標準名称": [
-                        "明本"
-                    ],
-                    "ex:略号の使用": [
-                        "専号使用"
-                    ],
-                    "ex:略号解説": [
-                        "〈明〉明本（The ‘Ming Edition’ A. D. 1601）"
-                    ],
-                    "ex:関与形態": [],
-                    "ex:関与者": [],
-                    "ex:～年": []
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "None",
+                    "ex:国": "中国",
+                    "ex:巻": "None",
+                    "ex:年": "1601",
+                    "ex:底本推定": "None",
+                    "ex:時代": "明",
+                    "ex:標準名称": "明本",
+                    "ex:略号の使用": "専号使用",
+                    "ex:略号解説": "〈明〉明本（The ‘Ming Edition’ A. D. 1601）",
+                    "ex:関与形態": "None",
+                    "ex:関与者": "None",
+                    "ex:～年": "None"
                 }
             ],
-            "ex:テキスト": [
-                "〈明〉"
-            ],
-            "ex:備考": [],
-            "ex:底本/校本": [
-                "校本"
-            ],
+            "ex:テキスト": "〈明〉",
+            "ex:備考": "None",
+            "ex:底本/校本": "校本",
             "ex:所蔵者": [],
-            "ex:新添": []
+            "ex:新添": "None"
         }
     ],
     "ex:酉目": [
         {
             "@id": "data:T1579_01_004-1.json#酉目",
-            "ex:to枝番": [
-                102
-            ],
+            "ex:to枝番": "102",
             "ex:url": [
                 "https://static.toyobunko-lab.jp/u-renja/search/?main[refinementList][通番]=1175"
             ],
-            "ex:枝番": [
-                1
-            ],
-            "ex:經典番號": [
-                "U1164"
-            ],
-            "ex:通番": [
-                1175
-            ]
+            "ex:枝番": "1",
+            "ex:經典番號": "U1164",
+            "ex:通番": "1175"
         }
     ],
     "ex:酉蓮社本IIIコレクション": []

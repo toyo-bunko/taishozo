@@ -1,6 +1,64 @@
 {
     "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:T1428_01_005.json",
+    "data": {
+        "id": "T1428_01_005",
+        "relationships": {
+            "基本情報 + SAT頭出し用 + 勘同目録IIIFコレクション": {
+                "data": {
+                    "ID": "T1428_01",
+                    "SAT頭出し用：ページ": 567,
+                    "SAT頭出し用：枝番+ABC": null,
+                    "SAT頭出し用：段": "a",
+                    "SAT頭出し用：画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/?manifest=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/1428_22_manifest.json&canvas=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/canvas/22_0567.json",
+                    "SAT頭出し用：経典番号-ABC": "T1428",
+                    "SAT頭出し用：行": 1,
+                    "SAT頭出し用：開始巻": 22,
+                    "佛經目錄規範資料庫：作訳者1": "佛陀耶舍",
+                    "佛經目錄規範資料庫：作訳者2": "竺佛念",
+                    "佛經目錄規範資料庫：作訳者3": null,
+                    "佛經目錄規範資料庫：作訳者URL1": "A000439",
+                    "佛經目錄規範資料庫：作訳者URL2": "A000435",
+                    "佛經目錄規範資料庫：作訳者URL3": null,
+                    "佛經目錄規範資料庫：規範碼": "CA0002819",
+                    "勘同目録IIIFコレクション：kmID": "km1459",
+                    "勘同目録IIIFコレクション：toページ": 388,
+                    "勘同目録IIIFコレクション：to段": "b",
+                    "勘同目録IIIFコレクション：ページ": 387,
+                    "勘同目録IIIFコレクション：段": "b",
+                    "勘同目録：❶名称〔巴〕": null,
+                    "勘同目録：❶名称〔支〕": "Sseu-fen-liu",
+                    "勘同目録：❶名称〔日〕": "Shi-bu-ritsu",
+                    "勘同目録：❶名称〔梵〕": null,
+                    "勘同目録：❶名称〔西藏名〕": null,
+                    "勘同目録：❶名称：異名略名": "曇無德律",
+                    "勘同目録：❷著訳者名、著訳年代": "姚秦（弘始一○ A.D. 408） 佛陀耶舍共竺佛念等譯",
+                    "勘同目録：❸Nj": 1117,
+                    "勘同目録：❸元": "下至隨",
+                    "勘同目録：❸卍": "十七．八－十八．一",
+                    "勘同目録：❸宋": "下至隨",
+                    "勘同目録：❸明": "業至無",
+                    "勘同目録：❸縮": "列三－六",
+                    "勘同目録：❸麗": "和至婦",
+                    "勘同目録：巻数": 60,
+                    "勘同目録：巻数注記": null,
+                    "勘同目録：書名": "四分律",
+                    "基本情報：出版年月日": 19260415,
+                    "基本情報：収録巻次": 22,
+                    "基本情報：巻数": 60,
+                    "基本情報：枝番": 1,
+                    "基本情報：経典別名": "四分藏律,曇無德律",
+                    "基本情報：経典名": "四分律",
+                    "基本情報：経典番号": "T1428",
+                    "基本情報：訳著者": "後秦佛陀耶舍・竺佛念等譯",
+                    "基本情報：訳著者1-4": "佛陀耶舍|竺佛念",
+                    "基本情報：部門": "律部1",
+                    "基本情報：配本": 24
+                }
+            }
+        },
+        "type": "item"
+    },
     "ex:sat": [
         {
             "@id": "data:T1428_01_005.json#SAT頭出し用",
@@ -13,40 +71,22 @@
             "ex:texts": [
                 {
                     "@id": "data:T1428_01_005-1.json#テキスト",
-                    "ex:刊写形態": [
-                        "刊"
-                    ],
-                    "ex:国": [
-                        "中国"
-                    ],
-                    "ex:年": [
-                        "1104"
-                    ],
-                    "ex:時代": [
-                        "宋"
-                    ],
-                    "ex:標準名称": [
-                        "宮本"
-                    ]
+                    "ex:刊写形態": "刊",
+                    "ex:国": "中国",
+                    "ex:年": "1104",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宮本"
                 }
             ],
-            "ex:❹": [
-                "宮本"
-            ],
-            "ex:❼": [],
-            "ex:❼備考": [],
-            "ex:底本/校本": [
-                "校本"
-            ],
+            "ex:❹": "宮本",
+            "ex:❼": "None",
+            "ex:❼備考": "None",
+            "ex:底本/校本": "校本",
             "ex:所蔵者": [
                 {
                     "@id": "data:T1428_01_005-1.json#所蔵者",
-                    "ex:国": [
-                        "日本"
-                    ],
-                    "ex:所蔵者": [
-                        "宮内庁書陵部"
-                    ]
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
                 }
             ]
         }
@@ -54,27 +94,17 @@
     "ex:勘同目録IIIFコレクション": [
         {
             "@id": "data:T1428_01.json#勘同目録IIIFコレクション",
-            "ex:kmID": [
-                "km1459"
-            ],
+            "ex:kmID": "km1459",
             "ex:pos": [
-                236
+                235
             ],
-            "ex:toページ": [
-                388
-            ],
-            "ex:to段": [
-                "b"
-            ],
+            "ex:toページ": "388",
+            "ex:to段": "b",
             "ex:url": [
                 "https://static.toyobunko-lab.jp/taishozo/api/iiif/kandomokuroku/manifest.json"
             ],
-            "ex:ページ": [
-                387
-            ],
-            "ex:段": [
-                "b"
-            ]
+            "ex:ページ": "387",
+            "ex:段": "b"
         }
     ],
     "ex:基本情報": [
@@ -84,40 +114,17 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1428_01.json",
-                    "ex:出版年月日": [
-                        19260415
-                    ],
-                    "ex:収録巻次": [
-                        22
-                    ],
-                    "ex:巻数": [
-                        60
-                    ],
-                    "ex:枝番": [
-                        1
-                    ],
-                    "ex:経典別名": [
-                        "四分藏律,曇無德律"
-                    ],
-                    "ex:経典名": [
-                        "四分律"
-                    ],
-                    "ex:経典番号": [
-                        "T1428"
-                    ],
-                    "ex:訳著者": [
-                        "後秦佛陀耶舍・竺佛念等譯"
-                    ],
-                    "ex:訳著者1-4": [
-                        "佛陀耶舍",
-                        "竺佛念"
-                    ],
-                    "ex:部門": [
-                        "律部1"
-                    ],
-                    "ex:配本": [
-                        24
-                    ]
+                    "ex:出版年月日": "19260415",
+                    "ex:収録巻次": "22",
+                    "ex:巻数": "60",
+                    "ex:枝番": "1",
+                    "ex:経典別名": "四分藏律,曇無德律",
+                    "ex:経典名": "四分律",
+                    "ex:経典番号": "T1428",
+                    "ex:訳著者": "後秦佛陀耶舍・竺佛念等譯",
+                    "ex:訳著者1-4": "佛陀耶舍|竺佛念",
+                    "ex:部門": "律部1",
+                    "ex:配本": "24"
                 }
             ]
         }
@@ -125,15 +132,603 @@
     "ex:底本校本URL": [
         {
             "@id": "data:T1428_01_005-001.json#底本・校本URL",
-            "ex:URL": [
-                "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-3564&page=2"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3564&page=2",
             "ex:經典名稱": [
-                "四分律蔵60卷"
+                "四 (卷)"
             ],
-            "ex:資料群名": [
-                "宮内庁書陵部蔵宋版大蔵経"
-            ]
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-002.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3565&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-003.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3566&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-004.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3567&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-005.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3568&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-006.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3569&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-007.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3570&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-008.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3571&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-009.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3572&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-010.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3573&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-011.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3575&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-012.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3576&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-013.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3577&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-014.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3578&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-015.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3579&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-016.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3580&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-017.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3581&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-018.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3582&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-019.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3583&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-020.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3584&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-021.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3586&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-022.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3587&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-023.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3588&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-024.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3589&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-025.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3590&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-026.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3591&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-027.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3592&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-028.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3593&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-029.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3594&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-030.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3595&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-031.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3597&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-032.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3598&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-033.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3599&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-034.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3600&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-035.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3601&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-036.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3602&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-037.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3603&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-038.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3604&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-039.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3605&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-040.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3606&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-041.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3608&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-042.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3609&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-043.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3610&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-044.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3611&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-045.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3612&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-046.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3613&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-047.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3614&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-048.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3615&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-049.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3617&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-050.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3618&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-051.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3620&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-052.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3621&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-053.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3622&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-054.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3623&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-055.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3624&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-056.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3625&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-057.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3626&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-058.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3627&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-059.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3628&page=3",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1428_01_005-060.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_0911",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-3629&page=2",
+            "ex:經典名稱": [
+                "四 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
         }
     ],
     "ex:脚注": [
@@ -142,56 +737,32 @@
             "ex:texts": [
                 {
                     "@id": "data:T1428_01_005-1.json#テキスト",
-                    "ex:刊写形態": [
-                        "刊"
-                    ],
-                    "ex:刊写者": [],
-                    "ex:国": [
-                        "中国"
-                    ],
-                    "ex:巻": [],
-                    "ex:年": [
-                        "1104"
-                    ],
-                    "ex:底本推定": [],
-                    "ex:時代": [
-                        "宋"
-                    ],
-                    "ex:標準名称": [
-                        "宮本"
-                    ],
-                    "ex:略号の使用": [
-                        "専号使用"
-                    ],
-                    "ex:略号解説": [
-                        "〈宮〉宮内省圖書寮本（舊宋本）（The Old Sung Edition〔A. D. 1104-1148〕belonging to the Library of the Imperial Household）"
-                    ],
-                    "ex:関与形態": [],
-                    "ex:関与者": [],
-                    "ex:～年": [
-                        "1148"
-                    ]
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "None",
+                    "ex:国": "中国",
+                    "ex:巻": "None",
+                    "ex:年": "1104",
+                    "ex:底本推定": "None",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宮本",
+                    "ex:略号の使用": "専号使用",
+                    "ex:略号解説": "〈宮〉宮内省圖書寮本（舊宋本）（The Old Sung Edition〔A. D. 1104-1148〕belonging to the Library of the Imperial Household）",
+                    "ex:関与形態": "None",
+                    "ex:関与者": "None",
+                    "ex:～年": "1148"
                 }
             ],
-            "ex:テキスト": [
-                "〈宮〉"
-            ],
-            "ex:備考": [],
-            "ex:底本/校本": [
-                "校本"
-            ],
+            "ex:テキスト": "〈宮〉",
+            "ex:備考": "None",
+            "ex:底本/校本": "校本",
             "ex:所蔵者": [
                 {
                     "@id": "data:T1428_01_005-1.json#所蔵者",
-                    "ex:国": [
-                        "日本"
-                    ],
-                    "ex:所蔵者": [
-                        "宮内庁書陵部"
-                    ]
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
                 }
             ],
-            "ex:新添": []
+            "ex:新添": "None"
         }
     ],
     "ex:酉目": [],

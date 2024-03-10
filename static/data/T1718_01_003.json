@@ -1,6 +1,64 @@
 {
     "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:T1718_01_003.json",
+    "data": {
+        "id": "T1718_01_003",
+        "relationships": {
+            "基本情報 + SAT頭出し用 + 勘同目録IIIFコレクション": {
+                "data": {
+                    "ID": "T1718_01",
+                    "SAT頭出し用：ページ": 1,
+                    "SAT頭出し用：枝番+ABC": null,
+                    "SAT頭出し用：段": "a",
+                    "SAT頭出し用：画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/?manifest=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/1718_34_manifest.json&canvas=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/canvas/34_0001.json",
+                    "SAT頭出し用：経典番号-ABC": "T1718",
+                    "SAT頭出し用：行": 1,
+                    "SAT頭出し用：開始巻": 34,
+                    "佛經目錄規範資料庫：作訳者1": "智顗",
+                    "佛經目錄規範資料庫：作訳者2": null,
+                    "佛經目錄規範資料庫：作訳者3": null,
+                    "佛經目錄規範資料庫：作訳者URL1": "A001301",
+                    "佛經目錄規範資料庫：作訳者URL2": null,
+                    "佛經目錄規範資料庫：作訳者URL3": null,
+                    "佛經目錄規範資料庫：規範碼": "CA0002227",
+                    "勘同目録IIIFコレクション：kmID": "km1750",
+                    "勘同目録IIIFコレクション：toページ": 453,
+                    "勘同目録IIIFコレクション：to段": "b",
+                    "勘同目録IIIFコレクション：ページ": 453,
+                    "勘同目録IIIFコレクション：段": "a",
+                    "勘同目録：❶名称〔巴〕": null,
+                    "勘同目録：❶名称〔支〕": "Miao-fa-lien-houa-king-wen-kiu",
+                    "勘同目録：❶名称〔日〕": "Myō-hō-ren-ge-kyō-mon-gu",
+                    "勘同目録：❶名称〔梵〕": null,
+                    "勘同目録：❶名称〔西藏名〕": null,
+                    "勘同目録：❶名称：異名略名": "法華文句,文句",
+                    "勘同目録：❷著訳者名、著訳年代": "隋（梁大同四－開皇一七 A.D. 538-597） 智顗説 ",
+                    "勘同目録：❸Nj": 1536,
+                    "勘同目録：❸元": null,
+                    "勘同目録：❸卍": null,
+                    "勘同目録：❸宋": null,
+                    "勘同目録：❸明": "寔寧",
+                    "勘同目録：❸縮": "調一",
+                    "勘同目録：❸麗": null,
+                    "勘同目録：巻数": 10,
+                    "勘同目録：巻数注記": null,
+                    "勘同目録：書名": "妙法蓮華經文句",
+                    "基本情報：出版年月日": 19260915,
+                    "基本情報：収録巻次": 34,
+                    "基本情報：巻数": 10,
+                    "基本情報：枝番": 1,
+                    "基本情報：経典別名": "法華文句,文句",
+                    "基本情報：経典名": "妙法蓮華經文句",
+                    "基本情報：経典番号": "T1718",
+                    "基本情報：訳著者": "隋釋智顗説",
+                    "基本情報：訳著者1-4": "釋智顗",
+                    "基本情報：部門": "経疏部2",
+                    "基本情報：配本": 29
+                }
+            }
+        },
+        "type": "item"
+    },
     "ex:sat": [
         {
             "@id": "data:T1718_01_003.json#SAT頭出し用",
@@ -11,37 +69,27 @@
         {
             "@id": "data:T1718_01_003.json#勘同目録",
             "ex:texts": [],
-            "ex:❹": [],
-            "ex:❼": [],
-            "ex:❼備考": [],
-            "ex:底本/校本": [],
+            "ex:❹": "None",
+            "ex:❼": "None",
+            "ex:❼備考": "None",
+            "ex:底本/校本": "None",
             "ex:所蔵者": []
         }
     ],
     "ex:勘同目録IIIFコレクション": [
         {
             "@id": "data:T1718_01.json#勘同目録IIIFコレクション",
-            "ex:kmID": [
-                "km1750"
-            ],
+            "ex:kmID": "km1750",
             "ex:pos": [
                 301
             ],
-            "ex:toページ": [
-                453
-            ],
-            "ex:to段": [
-                "b"
-            ],
+            "ex:toページ": "453",
+            "ex:to段": "b",
             "ex:url": [
                 "https://static.toyobunko-lab.jp/taishozo/api/iiif/kandomokuroku/manifest.json"
             ],
-            "ex:ページ": [
-                453
-            ],
-            "ex:段": [
-                "a"
-            ]
+            "ex:ページ": "453",
+            "ex:段": "a"
         }
     ],
     "ex:基本情報": [
@@ -51,39 +99,17 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T1718_01.json",
-                    "ex:出版年月日": [
-                        19260915
-                    ],
-                    "ex:収録巻次": [
-                        34
-                    ],
-                    "ex:巻数": [
-                        10
-                    ],
-                    "ex:枝番": [
-                        1
-                    ],
-                    "ex:経典別名": [
-                        "法華文句,文句"
-                    ],
-                    "ex:経典名": [
-                        "妙法蓮華經文句"
-                    ],
-                    "ex:経典番号": [
-                        "T1718"
-                    ],
-                    "ex:訳著者": [
-                        "隋釋智顗説"
-                    ],
-                    "ex:訳著者1-4": [
-                        "釋智顗"
-                    ],
-                    "ex:部門": [
-                        "経疏部2"
-                    ],
-                    "ex:配本": [
-                        29
-                    ]
+                    "ex:出版年月日": "19260915",
+                    "ex:収録巻次": "34",
+                    "ex:巻数": "10",
+                    "ex:枝番": "1",
+                    "ex:経典別名": "法華文句,文句",
+                    "ex:経典名": "妙法蓮華經文句",
+                    "ex:経典番号": "T1718",
+                    "ex:訳著者": "隋釋智顗説",
+                    "ex:訳著者1-4": "釋智顗",
+                    "ex:部門": "経疏部2",
+                    "ex:配本": "29"
                 }
             ]
         }
@@ -91,15 +117,103 @@
     "ex:底本校本URL": [
         {
             "@id": "data:T1718_01_003-001.json#底本・校本URL",
-            "ex:URL": [
-                "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-6037&page=3"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1438",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-6037&page=3",
             "ex:經典名稱": [
-                "妙法蓮華經文句10卷"
+                "妙 (卷)"
             ],
-            "ex:資料群名": [
-                "宮内庁書陵部蔵宋版大蔵経"
-            ]
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1718_01_003-002.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1438",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-6038&page=2",
+            "ex:經典名稱": [
+                "妙 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1718_01_003-003.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1438",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-6039&page=2",
+            "ex:經典名稱": [
+                "妙 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1718_01_003-004.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1438",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-6040&page=2",
+            "ex:經典名稱": [
+                "妙 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1718_01_003-005.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1438",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-6041&page=2",
+            "ex:經典名稱": [
+                "妙 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1718_01_003-006.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1438",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-6042&page=2",
+            "ex:經典名稱": [
+                "妙 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1718_01_003-007.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1438",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-6043&page=2",
+            "ex:經典名稱": [
+                "妙 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1718_01_003-008.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1438",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-6044&page=3",
+            "ex:經典名稱": [
+                "妙 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1718_01_003-009.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1438",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-6045&page=2",
+            "ex:經典名稱": [
+                "妙 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T1718_01_003-010.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1438",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-6046&page=4",
+            "ex:經典名稱": [
+                "妙 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
         }
     ],
     "ex:脚注": [
@@ -108,54 +222,32 @@
             "ex:texts": [
                 {
                     "@id": "data:T1718_01_003-1.json#テキスト",
-                    "ex:刊写形態": [
-                        "刊"
-                    ],
-                    "ex:刊写者": [],
-                    "ex:国": [
-                        "中国"
-                    ],
-                    "ex:巻": [],
-                    "ex:年": [
-                        "960"
-                    ],
-                    "ex:底本推定": [],
-                    "ex:時代": [
-                        "宋"
-                    ],
-                    "ex:標準名称": [
-                        "宮本"
-                    ],
-                    "ex:略号の使用": [],
-                    "ex:略号解説": [],
-                    "ex:関与形態": [
-                        "壬寅施財"
-                    ],
-                    "ex:関与者": [],
-                    "ex:～年": [
-                        "1279"
-                    ]
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "None",
+                    "ex:国": "中国",
+                    "ex:巻": "None",
+                    "ex:年": "960",
+                    "ex:底本推定": "None",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宮本",
+                    "ex:略号の使用": "None",
+                    "ex:略号解説": "None",
+                    "ex:関与形態": "壬寅施財",
+                    "ex:関与者": "None",
+                    "ex:～年": "1279"
                 }
             ],
-            "ex:テキスト": [
-                "宮本"
-            ],
-            "ex:備考": [],
-            "ex:底本/校本": [
-                "未収"
-            ],
+            "ex:テキスト": "宮本",
+            "ex:備考": "None",
+            "ex:底本/校本": "未収",
             "ex:所蔵者": [
                 {
                     "@id": "data:T1718_01_003-1.json#所蔵者",
-                    "ex:国": [
-                        "日本"
-                    ],
-                    "ex:所蔵者": [
-                        "宮内庁書陵部"
-                    ]
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
                 }
             ],
-            "ex:新添": []
+            "ex:新添": "None"
         }
     ],
     "ex:酉目": [],

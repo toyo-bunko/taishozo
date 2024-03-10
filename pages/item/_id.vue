@@ -4,88 +4,7 @@
       <h2 class="text-center my-5">
         {{ $t('詳細情報') }}
       </h2>
-      <table
-        border="1"
-        style="border-collapse: collapse"
-        width="100%"
-        class="my-2"
-      >
-        <tr>
-          <th colspan="7">
-            <h2>{{ '基本情報' }}</h2>
-          </th>
-        </tr>
-        <tr>
-          <th>{{ '経典番号' }}</th>
-          <th>{{ '枝番' }}</th>
-          <th>{{ '経典名' }}</th>
-          <th>{{ '収録巻次' }}</th>
-          <th>{{ '部門' }}</th>
-          <th>{{ '配本' }}</th>
-          <th>{{ '出版年月日' }}</th>
-        </tr>
-        <tr class="text-center">
-          <td>
-            {{
-              format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:経典番号'])
-            }}
-          </td>
-          <td>
-            {{ format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:枝番']) }}
-          </td>
-          <td class="pl-1 text-left">
-            <a :href="apiResult['ex:sat'][0]['ex:url']" target="_blank"
-              >{{
-                format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:経典名'])
-              }}
-              <v-icon color="primary" small>mdi-exit-to-app</v-icon></a
-            >
-          </td>
-          <td>
-            {{
-              format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:収録巻次'])
-            }}
-          </td>
-          <td class="pl-1 text-left">
-            {{ format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:部門']) }}
-          </td>
-          <td>
-            {{
-              format(
-                apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:配本']
-              ) /*.join(', ')*/
-            }}
-          </td>
-          <td>
-            {{
-              format(
-                apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:出版年月日']
-              ) /*.join(
-                ', '
-              )*/
-            }}
-          </td>
-        </tr>
-        <!-- 2行目 -->
-        <tr>
-          <th colspan="4">{{ '経典別名' }}</th>
-          <th>{{ '巻数' }}</th>
-          <th colspan="2">{{ '訳著者' }}</th>
-        </tr>
-        <tr class="text-center">
-          <td colspan="4">
-            {{
-              format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:経典別名'])
-            }}
-          </td>
-          <td>
-            {{ format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:巻数']) }}
-          </td>
-          <td colspan="2">
-            {{ format(apiResult['ex:基本情報'][0]['ex:経典'][0]['ex:訳著者']) }}
-          </td>
-        </tr>
-      </table>
+      <PagesItemKihon :api-result="apiResult"></PagesItemKihon>
 
       <v-row class="text-center">
         <v-col sm="12">
@@ -115,19 +34,23 @@
               <th width="12%">{{ '備考' }}</th>
             </tr>
             <tr class="text-center">
-              <td>{{ format(apiResult['ex:勘同目録'][0]['ex:底本/校本']) }}</td>
-              <td class="pl-1 text-left">
-                {{ format(apiResult['ex:勘同目録'][0]['ex:❹']) }}
+              <td>
+                {{ $utils.format(apiResult['ex:勘同目録'][0]['ex:底本/校本']) }}
               </td>
               <td class="pl-1 text-left">
-                {{ format(apiResult['ex:勘同目録'][0]['ex:❼']) }}
+                {{ $utils.format(apiResult['ex:勘同目録'][0]['ex:❹']) }}
               </td>
               <td class="pl-1 text-left">
-                {{ format(apiResult['ex:勘同目録'][0]['ex:❼備考']) }}
+                {{ $utils.format(apiResult['ex:勘同目録'][0]['ex:❼']) }}
               </td>
-              <td>{{ format(apiResult['ex:脚注'][0]['ex:底本/校本']) }}</td>
               <td class="pl-1 text-left">
-                {{ format(apiResult['ex:脚注'][0]['ex:新添']) }}
+                {{ $utils.format(apiResult['ex:勘同目録'][0]['ex:❼備考']) }}
+              </td>
+              <td>
+                {{ $utils.format(apiResult['ex:脚注'][0]['ex:底本/校本']) }}
+              </td>
+              <td class="pl-1 text-left">
+                {{ $utils.format(apiResult['ex:脚注'][0]['ex:新添']) }}
               </td>
               <td class="pl-1 text-left">
                 <template
@@ -136,12 +59,14 @@
                   <a
                     :href="apiResult['ex:酉目'][0]['ex:url'][0]"
                     target="_blank"
-                    >{{ format(apiResult['ex:脚注'][0]['ex:テキスト']) }}
+                    >{{
+                      $utils.format(apiResult['ex:脚注'][0]['ex:テキスト'])
+                    }}
                     <v-icon color="primary" small>mdi-exit-to-app</v-icon></a
                   >
                 </template>
                 <template v-else>
-                  {{ format(apiResult['ex:脚注'][0]['ex:テキスト']) }}
+                  {{ $utils.format(apiResult['ex:脚注'][0]['ex:テキスト']) }}
                 </template>
 
                 <template v-if="apiResult['ex:酉蓮社本IIIコレクション']">
@@ -170,7 +95,7 @@
                         />
                       </a>
                     </template>
-                    <span>{{ format(obj['ex:経典名']) }}</span>
+                    <span>{{ $utils.format(obj['ex:経典名']) }}</span>
                   </v-tooltip>
                 </template>
 
@@ -181,9 +106,10 @@
                     bottom
                   >
                     <template #activator="{ on, attrs }">
+                      <!-- [0] -->
                       <a
                         v-bind="attrs"
-                        :href="obj['ex:URL'][0]"
+                        :href="obj['ex:画像URL']"
                         target="_blank"
                         v-on="on"
                       >
@@ -195,8 +121,8 @@
                       </a>
                     </template>
                     <span
-                      >{{ format(obj['ex:資料群名']) }}<br />{{
-                        format(obj['ex:經典名稱'])
+                      >{{ $utils.format(obj['ex:資料群名']) }}<br />{{
+                        $utils.format(obj['ex:經典名稱'])
                       }}</span
                     >
                   </v-tooltip>
@@ -215,7 +141,7 @@
                 -->
               </td>
               <td class="pl-1 text-left">
-                {{ format(apiResult['ex:脚注'][0]['ex:備考']) }}
+                {{ $utils.format(apiResult['ex:脚注'][0]['ex:備考']) }}
               </td>
             </tr>
             <tr>
@@ -237,37 +163,34 @@
                   >
                     <td>勘同目録所在</td>
                     <td colspan="2">
-                      <a
-                        :href="
-                          baseUrl +
-                          '/mirador?manifest=' +
+                      <PagesItemKandoMokurokuSyozai
+                        :url="
                           apiResult['ex:勘同目録IIIFコレクション'][0][
                             'ex:url'
-                          ][0] +
-                          '&pos=' +
+                          ][0]
+                        "
+                        :pos="
                           apiResult['ex:勘同目録IIIFコレクション'][0][
                             'ex:pos'
                           ][0]
                         "
-                        target="_blank"
-                      >
-                        {{
-                          apiResult['ex:勘同目録IIIFコレクション'][0][
-                            'ex:kmID'
-                          ] +
-                          ' ' +
+                        :page-start="
                           apiResult['ex:勘同目録IIIFコレクション'][0][
                             'ex:ページ'
-                          ] +
-                          apiResult['ex:勘同目録IIIFコレクション'][0]['ex:段'] +
-                          '~' +
+                          ]
+                        "
+                        :page-start-dan="
+                          apiResult['ex:勘同目録IIIFコレクション'][0]['ex:段']
+                        "
+                        :page-end="
                           apiResult['ex:勘同目録IIIFコレクション'][0][
                             'ex:toページ'
-                          ] +
+                          ]
+                        "
+                        :page-end-dan="
                           apiResult['ex:勘同目録IIIFコレクション'][0]['ex:to段']
-                        }}
-                        <v-icon color="primary" small>mdi-exit-to-app</v-icon>
-                      </a>
+                        "
+                      />
                     </td>
                   </template>
                   <template v-else>
@@ -280,7 +203,7 @@
                   <td>底本推定</td>
                   <td class="pl-1 text-left" colspan="2">
                     {{
-                      format(
+                      $utils.format(
                         apiResult['ex:脚注'][0]['ex:texts'][0]['ex:底本推定']
                       )
                     }}
@@ -292,7 +215,7 @@
                   <td>略号使用</td>
                   <td class="pl-1 text-left" colspan="2">
                     {{
-                      format(
+                      $utils.format(
                         apiResult['ex:脚注'][0]['ex:texts'][0]['ex:略号の使用']
                       )
                     }}
@@ -304,7 +227,7 @@
                   <td>略号解説</td>
                   <td class="pl-1 text-left" colspan="2">
                     {{
-                      format(
+                      $utils.format(
                         apiResult['ex:脚注'][0]['ex:texts'][0]['ex:略号解説']
                       )
                     }}
@@ -323,7 +246,7 @@
                 <td class="pl-1 text-left" colspan="2">
                   {{
                     apiResult['ex:勘同目録'][0]['ex:texts'][n - 1]
-                      ? format(
+                      ? $utils.format(
                           apiResult['ex:勘同目録'][0]['ex:texts'][n - 1][
                             'ex:' + field
                           ]
@@ -335,7 +258,7 @@
                     apiResult['ex:勘同目録'][0]['ex:texts'][n - 1] &&
                     apiResult['ex:勘同目録'][0]['ex:texts'][n - 1]['ex:～年']
                       ? ' - ' +
-                        format(
+                        $utils.format(
                           apiResult['ex:勘同目録'][0]['ex:texts'][n - 1][
                             'ex:～年'
                           ]
@@ -363,7 +286,7 @@
                 >
                   {{
                     apiResult['ex:脚注'][0]['ex:texts'][n - 1]
-                      ? format(
+                      ? $utils.format(
                           apiResult['ex:脚注'][0]['ex:texts'][n - 1][
                             'ex:' + field
                           ]
@@ -387,7 +310,7 @@
                 <td class="pl-1 text-left" colspan="2">
                   {{
                     apiResult['ex:勘同目録'][0]['ex:所蔵者'][n - 1]
-                      ? format(
+                      ? $utils.format(
                           apiResult['ex:勘同目録'][0]['ex:所蔵者'][n - 1][
                             'ex:' + field
                           ]
@@ -403,7 +326,7 @@
                 <td class="pl-1 text-left" colspan="2">
                   {{
                     apiResult['ex:脚注'][0]['ex:所蔵者'][n - 1]
-                      ? format(
+                      ? $utils.format(
                           apiResult['ex:脚注'][0]['ex:所蔵者'][n - 1][
                             'ex:' + field
                           ]
@@ -459,16 +382,45 @@ import { Vue, Component } from 'nuxt-property-decorator'
 import Content from '~/components/layouts/Content.vue'
 // import ShareButtons from '~/components/common/ShareButtons.vue'
 import ResultOption from '~/components/display/ResultOption.vue'
+import PagesItemKandoMokurokuSyozai from '~/components/pages/item/KandoMokurokuSyozai.vue'
+import PagesItemSat from '~/components/pages/item/Sat.vue'
+import PagesSearchKeiten from '~/components/pages/search/Keiten.vue'
+import PagesItemKihon from '~/components/pages/item/Kihon.vue'
 
 @Component({
   components: {
     ResultOption,
     // ShareButtons,
     Content,
+    PagesItemKandoMokurokuSyozai,
+    PagesItemSat,
+    PagesSearchKeiten,
+    PagesItemKihon,
   },
 })
 export default class Search extends Vue {
   baseUrl = process.env.BASE_URL
+
+  colsKihon: string[] = [
+    '経典番号',
+    '枝番',
+    '経典名',
+    '収録巻次',
+    '部門',
+    '配本',
+    '出版年月日',
+    'SAT大蔵経DB',
+  ]
+
+  /*
+          <th>{{ '枝番' }}</th>
+          <th>{{ '経典名' }}</th>
+          <th>{{ '収録巻次' }}</th>
+          <th>{{ '部門' }}</th>
+          <th>{{ '配本' }}</th>
+          <th>{{ '出版年月日' }}</th>
+          <th>{{ 'SAT大蔵経DB' }}</th>
+          */
 
   kFields: string[] = [
     '標準名称',
@@ -506,7 +458,7 @@ export default class Search extends Vue {
     const uri = process.env.BASE_URL + '/data/' + itemId + '.json'
 
     /*
-    
+
     const apiResult = await context.$axios
       .get(uri)
       .then((response: any) => {
@@ -565,14 +517,6 @@ export default class Search extends Vue {
         text: this.title,
       },
     ]
-  }
-
-  format(data: any) {
-    if (Array.isArray(data)) {
-      return data.join(', ')
-    } else {
-      return data
-    }
   }
 }
 </script>

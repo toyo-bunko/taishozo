@@ -1,6 +1,64 @@
 {
     "@context": "https://static.toyobunko-lab.jp/taishozo/context.json",
     "@id": "data:T2076_01_003.json",
+    "data": {
+        "id": "T2076_01_003",
+        "relationships": {
+            "基本情報 + SAT頭出し用 + 勘同目録IIIFコレクション": {
+                "data": {
+                    "ID": "T2076_01",
+                    "SAT頭出し用：ページ": 196,
+                    "SAT頭出し用：枝番+ABC": null,
+                    "SAT頭出し用：段": "b",
+                    "SAT頭出し用：画像URL": "https://dzkimgs.l.u-tokyo.ac.jp/yurenja_kkz/?manifest=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/2076_51_manifest.json&canvas=https://dzkimgs.l.u-tokyo.ac.jp/iiif/taisho/manifests/canvas/51_0196.json",
+                    "SAT頭出し用：経典番号-ABC": "T2076",
+                    "SAT頭出し用：行": 9,
+                    "SAT頭出し用：開始巻": 51,
+                    "佛經目錄規範資料庫：作訳者1": "道原",
+                    "佛經目錄規範資料庫：作訳者2": null,
+                    "佛經目錄規範資料庫：作訳者3": null,
+                    "佛經目錄規範資料庫：作訳者URL1": "A001523",
+                    "佛經目錄規範資料庫：作訳者URL2": null,
+                    "佛經目錄規範資料庫：作訳者URL3": null,
+                    "佛經目錄規範資料庫：規範碼": "CA0001818",
+                    "勘同目録IIIFコレクション：kmID": "km2117",
+                    "勘同目録IIIFコレクション：toページ": 572,
+                    "勘同目録IIIFコレクション：to段": "a",
+                    "勘同目録IIIFコレクション：ページ": 556,
+                    "勘同目録IIIFコレクション：段": "a",
+                    "勘同目録：❶名称〔巴〕": null,
+                    "勘同目録：❶名称〔支〕": "King-tö-tch'ouan-teng-lou",
+                    "勘同目録：❶名称〔日〕": "Kei-toku-den-tō-roku",
+                    "勘同目録：❶名称〔梵〕": null,
+                    "勘同目録：❶名称〔西藏名〕": null,
+                    "勘同目録：❶名称：異名略名": "傳燈録",
+                    "勘同目録：❷著訳者名、著訳年代": "宋（景德元 A.D. 1004） 道原纂",
+                    "勘同目録：❸Nj": 1524,
+                    "勘同目録：❸元": "振至世",
+                    "勘同目録：❸卍": "三十．九－十",
+                    "勘同目録：❸宋": null,
+                    "勘同目録：❸明": "合至弱",
+                    "勘同目録：❸縮": "雲五－六",
+                    "勘同目録：❸麗": null,
+                    "勘同目録：巻数": 30,
+                    "勘同目録：巻数注記": null,
+                    "勘同目録：書名": "景德傳燈録",
+                    "基本情報：出版年月日": 19280315,
+                    "基本情報：収録巻次": 51,
+                    "基本情報：巻数": 30,
+                    "基本情報：枝番": 1,
+                    "基本情報：経典別名": "傳燈録",
+                    "基本情報：経典名": "景德傳燈録",
+                    "基本情報：経典番号": "T2076",
+                    "基本情報：訳著者": "宋釋道原纂",
+                    "基本情報：訳著者1-4": "釋道原",
+                    "基本情報：部門": "史伝部3",
+                    "基本情報：配本": 47
+                }
+            }
+        },
+        "type": "item"
+    },
     "ex:sat": [
         {
             "@id": "data:T2076_01_003.json#SAT頭出し用",
@@ -11,37 +69,27 @@
         {
             "@id": "data:T2076_01_003.json#勘同目録",
             "ex:texts": [],
-            "ex:❹": [],
-            "ex:❼": [],
-            "ex:❼備考": [],
-            "ex:底本/校本": [],
+            "ex:❹": "None",
+            "ex:❼": "None",
+            "ex:❼備考": "None",
+            "ex:底本/校本": "None",
             "ex:所蔵者": []
         }
     ],
     "ex:勘同目録IIIFコレクション": [
         {
             "@id": "data:T2076_01.json#勘同目録IIIFコレクション",
-            "ex:kmID": [
-                "km2117"
-            ],
+            "ex:kmID": "km2117",
             "ex:pos": [
-                420
+                404
             ],
-            "ex:toページ": [
-                572
-            ],
-            "ex:to段": [
-                "a"
-            ],
+            "ex:toページ": "572",
+            "ex:to段": "a",
             "ex:url": [
                 "https://static.toyobunko-lab.jp/taishozo/api/iiif/kandomokuroku/manifest.json"
             ],
-            "ex:ページ": [
-                556
-            ],
-            "ex:段": [
-                "a"
-            ]
+            "ex:ページ": "556",
+            "ex:段": "a"
         }
     ],
     "ex:基本情報": [
@@ -51,39 +99,17 @@
             "ex:経典": [
                 {
                     "@id": "keiten:T2076_01.json",
-                    "ex:出版年月日": [
-                        19280315
-                    ],
-                    "ex:収録巻次": [
-                        51
-                    ],
-                    "ex:巻数": [
-                        30
-                    ],
-                    "ex:枝番": [
-                        1
-                    ],
-                    "ex:経典別名": [
-                        "傳燈録"
-                    ],
-                    "ex:経典名": [
-                        "景德傳燈録"
-                    ],
-                    "ex:経典番号": [
-                        "T2076"
-                    ],
-                    "ex:訳著者": [
-                        "宋釋道原纂"
-                    ],
-                    "ex:訳著者1-4": [
-                        "釋道原"
-                    ],
-                    "ex:部門": [
-                        "史伝部3"
-                    ],
-                    "ex:配本": [
-                        47
-                    ]
+                    "ex:出版年月日": "19280315",
+                    "ex:収録巻次": "51",
+                    "ex:巻数": "30",
+                    "ex:枝番": "1",
+                    "ex:経典別名": "傳燈録",
+                    "ex:経典名": "景德傳燈録",
+                    "ex:経典番号": "T2076",
+                    "ex:訳著者": "宋釋道原纂",
+                    "ex:訳著者1-4": "釋道原",
+                    "ex:部門": "史伝部3",
+                    "ex:配本": "47"
                 }
             ]
         }
@@ -91,15 +117,303 @@
     "ex:底本校本URL": [
         {
             "@id": "data:T2076_01_003-001.json#底本・校本URL",
-            "ex:URL": [
-                "https://db2.sido.keio.ac.jp/kanseki/T_bib_frame.php?id=007075-5432&page=3"
-            ],
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5432&page=3",
             "ex:經典名稱": [
-                "景德傳燈録30卷"
+                "景 (卷)"
             ],
-            "ex:資料群名": [
-                "宮内庁書陵部蔵宋版大蔵経"
-            ]
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-002.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5433&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-003.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5434&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-004.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5435&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-005.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5436&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-006.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5437&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-007.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5438&page=3",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-008.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5439&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-009.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5440&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-010.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5441&page=3",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-011.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5442&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-012.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5443&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-013.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5444&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-014.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5445&page=3",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-015.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5446&page=3",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-016.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5447&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-017.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5448&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-018.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5449&page=3",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-019.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5450&page=3",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-020.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5451&page=3",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-021.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5453&page=4",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-022.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5454&page=4",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-023.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5455&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-024.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5456&page=4",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-025.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5457&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-026.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5458&page=3",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-027.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5459&page=4",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-028.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5460&page=2",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-029.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5461&page=3",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
+        },
+        {
+            "@id": "data:T2076_01_003-030.json#底本・校本URL",
+            "ex:TEIURL": "None",
+            "ex:書誌URL": "https://db2.sido.keio.ac.jp/kanseki/bib_detail?bibid=007075_1281",
+            "ex:画像URL": "https://db2.sido.keio.ac.jp/kanseki/bib_frame?id=007075-5462&page=3",
+            "ex:經典名稱": [
+                "景 (卷)"
+            ],
+            "ex:資料群名": "宮内庁書陵部蔵宋版大蔵経"
         }
     ],
     "ex:脚注": [
@@ -108,63 +422,37 @@
             "ex:texts": [
                 {
                     "@id": "data:T2076_01_003-1.json#テキスト",
-                    "ex:刊写形態": [
-                        "刊"
-                    ],
-                    "ex:刊写者": [
-                        "福州開元禪寺"
-                    ],
-                    "ex:国": [
-                        "中国"
-                    ],
-                    "ex:巻": [],
-                    "ex:年": [
-                        "960"
-                    ],
-                    "ex:底本推定": [],
-                    "ex:時代": [
-                        "宋"
-                    ],
-                    "ex:標準名称": [
-                        "宮本"
-                    ],
-                    "ex:略号の使用": [],
-                    "ex:略号解説": [],
-                    "ex:関与形態": [],
-                    "ex:関与者": [],
-                    "ex:～年": [
-                        "1279"
-                    ]
+                    "ex:刊写形態": "刊",
+                    "ex:刊写者": "福州開元禪寺",
+                    "ex:国": "中国",
+                    "ex:巻": "None",
+                    "ex:年": "960",
+                    "ex:底本推定": "None",
+                    "ex:時代": "宋",
+                    "ex:標準名称": "宮本",
+                    "ex:略号の使用": "None",
+                    "ex:略号解説": "None",
+                    "ex:関与形態": "None",
+                    "ex:関与者": "None",
+                    "ex:～年": "1279"
                 }
             ],
-            "ex:テキスト": [
-                "宮本"
-            ],
-            "ex:備考": [],
-            "ex:底本/校本": [
-                "未収"
-            ],
+            "ex:テキスト": "宮本",
+            "ex:備考": "None",
+            "ex:底本/校本": "未収",
             "ex:所蔵者": [
                 {
                     "@id": "data:T2076_01_003-1.json#所蔵者",
-                    "ex:国": [
-                        "日本"
-                    ],
-                    "ex:所蔵者": [
-                        "法華山寺"
-                    ]
+                    "ex:国": "日本",
+                    "ex:所蔵者": "法華山寺"
                 },
                 {
                     "@id": "data:T2076_01_003-2.json#所蔵者",
-                    "ex:国": [
-                        "日本"
-                    ],
-                    "ex:所蔵者": [
-                        "宮内庁書陵部"
-                    ]
+                    "ex:国": "日本",
+                    "ex:所蔵者": "宮内庁書陵部"
                 }
             ],
-            "ex:新添": []
+            "ex:新添": "None"
         }
     ],
     "ex:酉目": [],
