@@ -160,13 +160,23 @@
             <br />
 
             <template v-for="(item2, index2) in item.images">
-              <v-tooltip v-if="item2 && item2.url" :key="'t_' + index2" bottom>
+              <PagesSearchIconIiif
+                v-if="item2 && item2['画像URL']"
+                :key="'t_' + index2"
+                :url="item2['画像URL']"
+                :label="item2.label"
+              ></PagesSearchIconIiif>
+              <!--
+              <v-tooltip
+                v-if="item2 && item2['画像URL']"
+                :key="'t_' + index2"
+                bottom
+              >
                 <template #activator="{ on, attrs }">
                   <a
                     v-bind="attrs"
-                    :href2="item2.url"
                     :href="`${$utils
-                      .formatArrayValue(item2.url)
+                      .formatArrayValue(item2['画像URL'])
                       .split('https://static.toyobunko-lab.jp/u-renja')
                       .join(urenja)}`"
                     target="_blank"
@@ -185,6 +195,7 @@
                   "
                 ></span>
               </v-tooltip>
+              -->
             </template>
           </template>
         </td>
@@ -217,11 +228,13 @@
 import { Prop, Vue, Component } from 'nuxt-property-decorator'
 import ResultOption from '~/components/display/ResultOption.vue'
 import PagesSearchKeiten from '~/components/pages/search/Keiten.vue'
+import PagesSearchIconIiif from '~/components/pages/search/icon/Iiif.vue'
 
 @Component({
   components: {
     ResultOption,
     PagesSearchKeiten,
+    PagesSearchIconIiif,
   },
 })
 export default class FullTextSearch extends Vue {

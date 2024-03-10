@@ -225,11 +225,11 @@ export default class KandoMokurokuSyozai extends Vue {
     ].data
   }
 
-  rowAdd: string = ['❸麗', '❸宋', '❸元', '❸明', '❸縮', '❸卍', '❸Nj']
+  rowAdd: string[] = ['❸麗', '❸宋', '❸元', '❸明', '❸縮', '❸卍', '❸Nj']
 
-  rowLast: string = ['規範碼', '高麗藏經號', '作訳者1', '作訳者2', '作訳者3']
+  rowLast: string[] = ['規範碼', '高麗藏經號', '作訳者1', '作訳者2', '作訳者3']
 
-  rowHide: string = [
+  rowHide: string[] = [
     '❶名称〔日〕',
     '❶名称〔支〕',
     '❶名称〔梵〕',
