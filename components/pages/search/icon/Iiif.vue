@@ -1,7 +1,8 @@
 <template>
   <v-tooltip bottom>
     <template #activator="{ on, attrs }">
-      <a
+      <v-btn
+        icon
         v-bind="attrs"
         :href="$utils.formatArrayValue(convertedUrl)"
         target="_blank"
@@ -10,10 +11,9 @@
         <img
           :width="width"
           :height="height"
-          class="ma-1"
           :src="baseUrl + '/img/iiif-logo.webp'"
         />
-      </a>
+      </v-btn>
     </template>
     <span v-html="$utils.formatArrayValue(label).replace('\n', '<br/>')"></span>
   </v-tooltip>
@@ -42,7 +42,7 @@ export default class KandoMokurokuSyozai extends Vue {
 
   get convertedUrl() {
     return this.$utils
-      .formatArrayValue(this.url)
+      .formatArrayValue([this.url])
       .split('https://static.toyobunko-lab.jp/u-renja')
       .join(this.urenja)
   }

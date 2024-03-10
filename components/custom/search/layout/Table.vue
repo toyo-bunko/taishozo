@@ -138,64 +138,32 @@
 
           <template v-if="item['酉目'].length > 0">
             <template v-for="(value, key2) in item['酉目']">
-              <a
+              <v-btn
                 v-if="value"
                 :key="key2"
+                icon
                 :href="
                   value[0]
                     .split('https://static.toyobunko-lab.jp/u-renja')
                     .join(urenja)
                 "
                 target="_blank"
-                class="ma-1"
               >
                 <v-icon color="primary">mdi-link-variant</v-icon>
-              </a>
+              </v-btn>
             </template>
           </template>
 
-          <!-- -->
-
           <template v-if="item.images.length > 0">
-            <br />
-
-            <template v-for="(item2, index2) in item.images">
+            <template v-for="(item2, index2) in item.images.slice(0, 1)">
               <PagesSearchIconIiif
                 v-if="item2 && item2['画像URL']"
                 :key="'t_' + index2"
                 :url="item2['画像URL']"
                 :label="item2.label"
+                :width="24"
+                :height="24"
               ></PagesSearchIconIiif>
-              <!--
-              <v-tooltip
-                v-if="item2 && item2['画像URL']"
-                :key="'t_' + index2"
-                bottom
-              >
-                <template #activator="{ on, attrs }">
-                  <a
-                    v-bind="attrs"
-                    :href="`${$utils
-                      .formatArrayValue(item2['画像URL'])
-                      .split('https://static.toyobunko-lab.jp/u-renja')
-                      .join(urenja)}`"
-                    target="_blank"
-                    v-on="on"
-                  >
-                    <img
-                      width="30px"
-                      class="ma-1"
-                      :src="baseUrl + '/img/iiif-logo.webp'"
-                    />
-                  </a>
-                </template>
-                <span
-                  v-html="
-                    $utils.formatArrayValue(item2.label).replace('\n', '<br/>')
-                  "
-                ></span>
-              </v-tooltip>
-              -->
             </template>
           </template>
         </td>
