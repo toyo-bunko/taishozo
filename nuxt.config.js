@@ -39,7 +39,6 @@ const env = {
 }
 
 env['u-renja'] = 'https://static.toyobunko-lab.jp/u-renja'
-// env['u-renja'] = 'https://dev-urenja.netlify.app'
 
 const environment = process.env.NODE_ENV || 'development'
 const envSettings = require(`./env/${environment}.js`)
@@ -63,22 +62,6 @@ env.menu = [
     type: 'about_',
     weight: 0,
   },
-  /*
-  {
-    label: 'update',
-    to: {
-      name: 'page-slug',
-      params: {
-        slug: 'update',
-      },
-    },
-    icon: 'mdi-information',
-    top: true,
-    type: 'about_',
-    weight: 1,
-    // description: 'このサイトは、ＷＥＢ上で正保琉球国絵図の画像を公開するとともに、絵図に描き込まれた情報を分析するために構築されたデジタルアーカイブです。',
-  },
-  */
   {
     label: 'inquiry',
     href: 'https://docs.google.com/forms/d/e/1FAIpQLSd1gYA3qgLN2qQKn4o5vuzbma3Dgtoj_u555SVNuIgM4CSc-g/viewform?usp=sf_link',
@@ -143,10 +126,10 @@ env.menu = [
 const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
-        router: {
-          base: '/taishozo/',
-        },
-      }
+      router: {
+        base: '/taishozo/',
+      },
+    }
     : {}
 
 // path
@@ -445,73 +428,6 @@ module.exports = {
         sizes: '180x180',
         href: iconImages + 'apple-touch-icon.png',
       },
-      /*
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      */
-      // pwa splash screens
-      // Doc: https://appsco.pe/developer/splash-screens
-      /*
-      {
-        href: splashscreens + 'iphone5_splash.png',
-        media:
-          '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)',
-        rel: 'apple-touch-startup-image'
-      },
-      {
-        href: splashscreens + 'iphone6_splash.png',
-        media:
-          '(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)',
-        rel: 'apple-touch-startup-image'
-      },
-      {
-        href: splashscreens + 'iphoneplus_splash.png',
-        media:
-          '(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)',
-        rel: 'apple-touch-startup-image'
-      },
-      {
-        href: splashscreens + 'iphonex_splash.png',
-        media:
-          '(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)',
-        rel: 'apple-touch-startup-image'
-      },
-      {
-        href: splashscreens + 'iphonexr_splash.png',
-        media:
-          '(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)',
-        rel: 'apple-touch-startup-image'
-      },
-      {
-        href: splashscreens + 'iphonexsmax_splash.png',
-        media:
-          '(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)',
-        rel: 'apple-touch-startup-image'
-      },
-      {
-        href: splashscreens + 'ipad_splash.png',
-        media:
-          '(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)',
-        rel: 'apple-touch-startup-image'
-      },
-      {
-        href: splashscreens + 'ipadpro1_splash.png',
-        media:
-          '(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)',
-        rel: 'apple-touch-startup-image'
-      },
-      {
-        href: splashscreens + 'ipadpro3_splash.png',
-        media:
-          '(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)',
-        rel: 'apple-touch-startup-image'
-      },
-      {
-        href: splashscreens + 'ipadpro2_splash.png',
-        media:
-          '(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)',
-        rel: 'apple-touch-startup-image'
-      },
-      */
       {
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css',
@@ -611,6 +527,7 @@ module.exports = {
    ** Build configuration
    */
   build: {
+    analyze: false,
     babel: {
       plugins: [
         ['@babel/plugin-proposal-decorators', { legacy: true }],
@@ -621,34 +538,10 @@ module.exports = {
      ** You can extend webpack config here
      */
     // eslint-disable-next-line
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   },
 
   generate: {
     fallback: true,
-    /*
-    routes() {
-      return routes2()
-    },
-    */
   },
-}
-
-function routes2() {
-  const pages = []
-
-  const items = JSON.parse(fs.readFileSync('static/index.json'))
-  for (const item of items) {
-    const id = item.objectID
-
-    pages.push({
-      route: `/item/${id}`,
-    })
-
-    pages.push({
-      route: `/en/item/${id}`,
-    })
-  }
-
-  return pages
 }
