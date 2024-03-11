@@ -422,12 +422,6 @@ export class Utils {
     return cardItem
   }
 
-  getProjectFooter(lang: string) {
-    const value =
-      lang === 'ja' ? process.env.projectFooterJa : process.env.projectFooterEn
-    return value
-  }
-
   getProjectName(lang: string) {
     const value =
       lang === 'ja' ? process.env.projectNameJa : process.env.projectNameEn

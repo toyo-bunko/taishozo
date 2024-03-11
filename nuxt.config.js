@@ -1,30 +1,21 @@
 const fs = require('fs')
-// const webpack = require('webpack')
 require('dotenv').config()
 const {
   API_BASE_URL,
-  // BASE_URL,
-  // CDN_URL,
   projectNameJa,
   projectNameEn,
-
-  projectFooterJa,
-  projectFooterEn,
 
   projectDescriptionJa,
   projectDescriptionEn,
   projectKeywords,
   ELASTIC_SEARCH_HOST,
   ELASTIC_SEARCH_MAIN_INDEX,
-  IIIF_VIEWER_SHOW_FLAG,
-  CURATION_VIEW_SHOW_FLAG,
   FACETS_FLAGS,
   FACETS_LABELS,
   SORT_LABELS,
   SEARCH_LABELS,
   GOOGLE_ANALYTICS_ID,
   SHORT_NAME,
-  SIMILAR_IMAGES_FLAG,
 } = process.env
 
 const env = {
@@ -34,23 +25,17 @@ const env = {
   projectNameJa,
   projectNameEn,
 
-  projectFooterJa,
-  projectFooterEn,
-
   projectDescriptionJa,
   projectDescriptionEn,
   projectKeywords,
   ELASTIC_SEARCH_HOST,
   ELASTIC_SEARCH_MAIN_INDEX,
-  IIIF_VIEWER_SHOW_FLAG,
-  CURATION_VIEW_SHOW_FLAG,
   FACETS_FLAGS,
   FACETS_LABELS,
   SORT_LABELS,
   SEARCH_LABELS,
   GOOGLE_ANALYTICS_ID,
   SHORT_NAME,
-  SIMILAR_IMAGES_FLAG,
 }
 
 env['u-renja'] = 'https://static.toyobunko-lab.jp/u-renja'
