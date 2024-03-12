@@ -195,12 +195,14 @@ import { Vue, Prop, Component } from 'nuxt-property-decorator'
 import PagesItemSat from '~/components/pages/item/Sat.vue'
 import PagesSearchKeiten from '~/components/pages/search/Keiten.vue'
 import CommonIconShowHide from '~/components/common/icon/ShowHide.vue'
+import PagesItemKandoMokurokuSyozai from '~/components/pages/item/KandoMokurokuSyozai.vue'
 
 @Component({
   components: {
     PagesItemSat,
     PagesSearchKeiten,
     CommonIconShowHide,
+    PagesItemKandoMokurokuSyozai,
   },
 })
 export default class KandoMokurokuSyozai extends Vue {

@@ -52,7 +52,6 @@
 import { Vue, Component } from 'nuxt-property-decorator'
 import Content from '~/components/layouts/Content.vue'
 import ResultOption from '~/components/display/ResultOption.vue'
-import PagesItemKandoMokurokuSyozai from '~/components/pages/item/KandoMokurokuSyozai.vue'
 import PagesItemSat from '~/components/pages/item/Sat.vue'
 import PagesSearchKeiten from '~/components/pages/search/Keiten.vue'
 import PagesItemKihon from '~/components/pages/item/Kihon.vue'
@@ -63,7 +62,6 @@ import PagesItemNote from '~/components/pages/item/Note.vue'
   components: {
     ResultOption,
     Content,
-    PagesItemKandoMokurokuSyozai,
     PagesItemSat,
     PagesSearchKeiten,
     PagesItemKihon,

@@ -150,7 +150,7 @@
       <th
         v-for="(head, i) in rowLast"
         :key="`rowLast-${i}`"
-        :colspan="i === 0 || i === 1 ? 2 : 1"
+        :colspan="isDouble(rowLast[i]) ? 2 : 1"
       >
         {{ head }}
       </th>
@@ -160,7 +160,7 @@
       <td
         v-for="(head, i) in rowLast"
         :key="`rowLast-${i}`"
-        :colspan="i === 0 || i === 1 ? 2 : 1"
+        :colspan="isDouble(rowLast[i]) ? 2 : 1"
       >
         <template v-if="i === 0">
           <a
@@ -227,7 +227,7 @@ export default class KandoMokurokuSyozai extends Vue {
 
   rowAdd: string[] = ['❸麗', '❸宋', '❸元', '❸明', '❸縮', '❸卍', '❸Nj']
 
-  rowLast: string[] = ['規範碼', '高麗藏經號', '作訳者1', '作訳者2', '作訳者3']
+  rowLast: string[] = ['規範碼', '作訳者1', '作訳者2', '作訳者3'] // '高麗藏經號',
 
   rowHide: string[] = [
     '❶名称〔日〕',
@@ -242,5 +242,9 @@ export default class KandoMokurokuSyozai extends Vue {
 
   @Prop({ required: true })
   apiResult!: any
+
+  isDouble(value: string) {
+    return ['規範碼', '作訳者1', '作訳者2'].includes(value)
+  }
 }
 </script>
