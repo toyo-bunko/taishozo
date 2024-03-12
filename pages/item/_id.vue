@@ -1,6 +1,6 @@
 <template>
   <Content :items="bh">
-    <v-container v-if="apiResult">
+    <v-container v-if="apiResult" fluid>
       <h2 class="text-center my-5">
         {{ $t('詳細情報') }}
       </h2>

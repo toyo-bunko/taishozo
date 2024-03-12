@@ -109,7 +109,7 @@
         {{ $utils.format(kihon['勘同目録：書名']) }}
       </td>
       <td>
-        {{ $utils.format(kihon['勘同目録：巻数']) }}
+        <PagesItemKihonVol :item="kihon"></PagesItemKihonVol>
       </td>
       <td colspan="3">
         {{ $utils.format(kihon['勘同目録：❷著訳者名、著訳年代']) }}
@@ -197,12 +197,14 @@ import { Vue, Prop, Component } from 'nuxt-property-decorator'
 import PagesItemSat from '~/components/pages/item/Sat.vue'
 import PagesSearchKeiten from '~/components/pages/search/Keiten.vue'
 import CommonIconShowHide from '~/components/common/icon/ShowHide.vue'
+import PagesItemKihonVol from '~/components/pages/item/KihonVol.vue'
 
 @Component({
   components: {
     PagesItemSat,
     PagesSearchKeiten,
     CommonIconShowHide,
+    PagesItemKihonVol,
   },
 })
 export default class KandoMokurokuSyozai extends Vue {
