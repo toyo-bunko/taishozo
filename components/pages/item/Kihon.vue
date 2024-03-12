@@ -162,7 +162,7 @@
         :key="`rowLast-${i}`"
         :colspan="isDouble(rowLast[i]) ? 2 : 1"
       >
-        <template v-if="i === 0">
+        <template v-if="rowLast[i] === '規範碼'">
           <a
             :href="`https://authority.dila.edu.tw/catalog/?fromInner=${$utils.format(
               kihon[`佛經目錄規範資料庫：${head}`]
@@ -171,9 +171,6 @@
           >
             {{ $utils.format(kihon[`佛經目錄規範資料庫：${head}`]) }}
           </a>
-        </template>
-        <template v-else-if="i === 1">
-          {{ $utils.format(kihon[`佛經目錄規範資料庫：${head}`]) }}
         </template>
         <template v-else>
           <a
