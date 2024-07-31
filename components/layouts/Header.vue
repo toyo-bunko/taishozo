@@ -65,6 +65,10 @@
         </v-list>
       </v-menu>
     </v-app-bar>
+
+    <v-alert rounded="0" border="left" type="warning" class="mb-0">
+      本データベースは、<strong>改修中</strong>です。ご不便をおかけしますが、ご了承ください。
+    </v-alert>
   </div>
 </template>
 
